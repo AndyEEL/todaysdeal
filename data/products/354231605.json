@@ -1,0 +1,82 @@
+{
+  "product_id": "354231605",
+  "deal_type": "스페셜딜",
+  "product_name": "종가 행복이온 포기김치 10kg, 1개",
+  "brand": "채널500036672",
+  "category": "식품/음료",
+  "first_seen_date": "2026-04-15",
+  "last_seen_date": "2026-04-15",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 61900,
+  "latest_original_price": 69800,
+  "latest_discount_rate": 11,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png",
+  "latest_rank": 35,
+  "product_url": "https://smartstore.naver.com/main/products/354231605",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 11.0,
+  "max_discount_rate": 11,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "354231605",
+      "product_name": "종가 행복이온 포기김치 10kg, 1개",
+      "brand": "채널500036672",
+      "category": "식품/음료",
+      "original_price": 69800,
+      "sale_price": 61900,
+      "discount_rate": 11,
+      "product_url": "https://smartstore.naver.com/main/products/354231605",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/354231605",
+      "image_url": "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png"
+      ],
+      "rank_or_position": 35,
+      "review_score": 4.75,
+      "review_count": 69128,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-15",
+      "original_price": 69800,
+      "sale_price": 61900,
+      "discount_rate": 11
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-15",
+      "image_url": "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-15",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

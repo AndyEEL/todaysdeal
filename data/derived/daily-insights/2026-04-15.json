@@ -1,0 +1,2493 @@
+{
+  "generated_at": "2026-04-15T20:37:28.128439",
+  "snapshot_date": "2026-04-15",
+  "previous_date": null,
+  "product_count": 44,
+  "product_count_diff": null,
+  "new_count": 44,
+  "removed_count": 0,
+  "price_changed_count": 0,
+  "status_counts": {
+    "entering": 44,
+    "price_changed": 0,
+    "active": 0,
+    "exited": 0
+  },
+  "top_entering_brand": [
+    "채널101037405",
+    1
+  ],
+  "top_exiting_brand": null,
+  "price_reverted_after_exit_ratio": null,
+  "price_held_after_exit_ratio": null,
+  "new_products": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "10421288994",
+      "product_name": "자동소화 국산 고용량 멀티탭 에어컨 건조기 전용 누전차단 안전 접지 웨이브 4구 50cm",
+      "brand": "채널101037405",
+      "category": "기타",
+      "original_price": 45000,
+      "sale_price": 26820,
+      "discount_rate": 40,
+      "product_url": "https://smartstore.naver.com/main/products/10421288994",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10421288994",
+      "image_url": "https://shop-phinf.pstatic.net/20260109_147/1767926583640X5ov1_JPEG/6270125130263631_1304672693.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260109_147/1767926583640X5ov1_JPEG/6270125130263631_1304672693.jpg"
+      ],
+      "rank_or_position": 43,
+      "review_score": 4.9,
+      "review_count": 816,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "10797604811",
+      "product_name": "우르오스 페이스워시 (남자 폼클렌징) 100ml, 2개",
+      "brand": "채널102454744",
+      "category": "뷰티/헬스",
+      "original_price": 26400,
+      "sale_price": 20500,
+      "discount_rate": 22,
+      "product_url": "https://smartstore.naver.com/main/products/10797604811",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10797604811",
+      "image_url": "https://shop-phinf.pstatic.net/20250110_113/173646855025942uhQ_JPEG/34656168281191655_985827464.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250110_113/173646855025942uhQ_JPEG/34656168281191655_985827464.jpg"
+      ],
+      "rank_or_position": 36,
+      "review_score": 4.85,
+      "review_count": 11528,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11461583804",
+      "product_name": "(공식몰) 화이니카 치탄플러스 분말치약 20g, 2개",
+      "brand": "채널101885140",
+      "category": "기타",
+      "original_price": 88200,
+      "sale_price": 67900,
+      "discount_rate": 23,
+      "product_url": "https://smartstore.naver.com/main/products/11461583804",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11461583804",
+      "image_url": "https://shop-phinf.pstatic.net/20260415_62/1776223379035n0e7F_JPEG/110356306166751731_2054441986.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260415_62/1776223379035n0e7F_JPEG/110356306166751731_2054441986.jpg"
+      ],
+      "rank_or_position": 33,
+      "review_score": 4.64,
+      "review_count": 751,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11576894833",
+      "product_name": "[스페셜 구성] 코코지 하우스와 올케어 성장 패키지",
+      "brand": "스페셜 구성",
+      "category": "기타",
+      "original_price": 278300,
+      "sale_price": 198900,
+      "discount_rate": 28,
+      "product_url": "https://smartstore.naver.com/main/products/11576894833",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11576894833",
+      "image_url": "https://shop-phinf.pstatic.net/20260305_200/17726904469866e8wv_PNG/106823294773952986_478181545.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260305_200/17726904469866e8wv_PNG/106823294773952986_478181545.png"
+      ],
+      "rank_or_position": 42,
+      "review_score": 4.9,
+      "review_count": 2074,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11630861814",
+      "product_name": "유황한돈 냉장 삼겹살 목살 1kg 오겹살 캠핑 등갈비 갈매기살 가브리살 항정살",
+      "brand": "채널102600124",
+      "category": "식품/음료",
+      "original_price": 35900,
+      "sale_price": 20900,
+      "discount_rate": 41,
+      "product_url": "https://smartstore.naver.com/main/products/11630861814",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11630861814",
+      "image_url": "https://shop-phinf.pstatic.net/20250324_191/1742797420283pPr2x_JPEG/15331864570494404_1596710579.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250324_191/1742797420283pPr2x_JPEG/15331864570494404_1596710579.jpg"
+      ],
+      "rank_or_position": 19,
+      "review_score": 4.83,
+      "review_count": 20756,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11778085390",
+      "product_name": "[3개월분] gutsys 것시스 이지 픽 프로바이오틱스 분말형 유산균 30포, 3개",
+      "brand": "3개월분",
+      "category": "기타",
+      "original_price": 87000,
+      "sale_price": 18900,
+      "discount_rate": 78,
+      "product_url": "https://smartstore.naver.com/main/products/11778085390",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11778085390",
+      "image_url": "https://shop-phinf.pstatic.net/20260403_30/1775191218589lCl6U_JPEG/58806593563346712_28404027.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260403_30/1775191218589lCl6U_JPEG/58806593563346712_28404027.jpg"
+      ],
+      "rank_or_position": 25,
+      "review_score": 4.85,
+      "review_count": 427,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11895422204",
+      "product_name": "[오늘끝딜] 자연담 먹는샘물 500ml, 40개",
+      "brand": "오늘끝딜",
+      "category": "식품/음료",
+      "original_price": 13600,
+      "sale_price": 8200,
+      "discount_rate": 39,
+      "product_url": "https://smartstore.naver.com/main/products/11895422204",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11895422204",
+      "image_url": "https://shop-phinf.pstatic.net/20251023_5/1761193436735t3mH3_JPEG/10263187797379923_1303275887.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251023_5/1761193436735t3mH3_JPEG/10263187797379923_1303275887.jpg"
+      ],
+      "rank_or_position": 9,
+      "review_score": 4.88,
+      "review_count": 4120,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12137786879",
+      "product_name": "[최대혜택가 37만] 삼성 LH43BEFHLGFXKR 107.9cm(43인치) 크리스탈 UHD 4K 1등급 비즈니스 TV 스탠드형 LH43BEF",
+      "brand": "최대혜택가 37만",
+      "category": "기타",
+      "original_price": 559000,
+      "sale_price": 459000,
+      "discount_rate": 17,
+      "product_url": "https://smartstore.naver.com/main/products/12137786879",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12137786879",
+      "image_url": "https://shop-phinf.pstatic.net/20251217_239/1765941086016IrkiL_JPEG/43354168128379356_2133311168.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251217_239/1765941086016IrkiL_JPEG/43354168128379356_2133311168.jpg"
+      ],
+      "rank_or_position": 44,
+      "review_score": 4.92,
+      "review_count": 1555,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12237533946",
+      "product_name": "국내산 깻잎으로 만든 전라도식 깻잎김치 500g",
+      "brand": "채널500255345",
+      "category": "식품/음료",
+      "original_price": 18000,
+      "sale_price": 9900,
+      "discount_rate": 45,
+      "product_url": "https://smartstore.naver.com/main/products/12237533946",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12237533946",
+      "image_url": "https://shop-phinf.pstatic.net/20250812_243/1754981270964rip1Y_JPEG/47798639976362411_928270483.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250812_243/1754981270964rip1Y_JPEG/47798639976362411_928270483.jpg"
+      ],
+      "rank_or_position": 10,
+      "review_score": 4.78,
+      "review_count": 2917,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12299324340",
+      "product_name": "[할리스] 바닐라 딜라이트 로우슈거 450mlx6병+시그니처 아메리카노 450mlx6병",
+      "brand": "할리스",
+      "category": "기타",
+      "original_price": 38400,
+      "sale_price": 14900,
+      "discount_rate": 61,
+      "product_url": "https://smartstore.naver.com/main/products/12299324340",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12299324340",
+      "image_url": "https://shop-phinf.pstatic.net/20260225_141/17719880273122ATPg_JPEG/10523995302550062_1700896322.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260225_141/17719880273122ATPg_JPEG/10523995302550062_1700896322.jpg"
+      ],
+      "rank_or_position": 11,
+      "review_score": 4.86,
+      "review_count": 415,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12532703693",
+      "product_name": "[김수사] 간장/양념 꽃게장 2종 (택1)",
+      "brand": "김수사",
+      "category": "기타",
+      "original_price": 10,
+      "sale_price": 10,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/12532703693",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12532703693",
+      "image_url": "https://shop-phinf.pstatic.net/20251013_294/17603153623976OHrs_JPEG/47519022208280032_350563614.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251013_294/17603153623976OHrs_JPEG/47519022208280032_350563614.jpg"
+      ],
+      "rank_or_position": 4,
+      "review_score": 4.62,
+      "review_count": 171,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12544116135",
+      "product_name": "청정골 지리산수 무라벨 생수 500ml, 80개",
+      "brand": "채널101437685",
+      "category": "식품/음료",
+      "original_price": 27600,
+      "sale_price": 16290,
+      "discount_rate": 40,
+      "product_url": "https://smartstore.naver.com/main/products/12544116135",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12544116135",
+      "image_url": "https://shop-phinf.pstatic.net/20251015_157/1760510413966WOaLl_PNG/6467487779527408_1915066035.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251015_157/1760510413966WOaLl_PNG/6467487779527408_1915066035.png"
+      ],
+      "rank_or_position": 34,
+      "review_score": 4.88,
+      "review_count": 792,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12808256836",
+      "product_name": "[정착육] 다채롭게 활용하는 큐브 수입 삼겹살 1kg",
+      "brand": "정착육",
+      "category": "식품/음료",
+      "original_price": 16990,
+      "sale_price": 16990,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/12808256836",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12808256836",
+      "image_url": "https://shop-phinf.pstatic.net/20251211_158/1765417700314j3ym2_JPEG/41035726790325630_1341013539.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251211_158/1765417700314j3ym2_JPEG/41035726790325630_1341013539.jpg"
+      ],
+      "rank_or_position": 1,
+      "review_score": 4.78,
+      "review_count": 190,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12930024471",
+      "product_name": "이클립스 포도향 34g x8개",
+      "brand": "채널500146800",
+      "category": "기타",
+      "original_price": 18400,
+      "sale_price": 18400,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/12930024471",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12930024471",
+      "image_url": "https://shop-phinf.pstatic.net/20260106_33/17676741356421y7Yy_JPEG/17012561806748073_1913084967.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260106_33/17676741356421y7Yy_JPEG/17012561806748073_1913084967.jpg"
+      ],
+      "rank_or_position": 5,
+      "review_score": 4.94,
+      "review_count": 1174,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13141389638",
+      "product_name": "NEW 스팀쿡 마스터+ 듀얼스팀 오븐 에어프라이어 20L AV20F11WG (소이 코튼)",
+      "brand": "채널100458264",
+      "category": "기타",
+      "original_price": 469000,
+      "sale_price": 369000,
+      "discount_rate": 21,
+      "product_url": "https://smartstore.naver.com/main/products/13141389638",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13141389638",
+      "image_url": "https://shop-phinf.pstatic.net/20260223_137/1771810523736requs_PNG/18551927816736990_649212829.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260223_137/1771810523736requs_PNG/18551927816736990_649212829.png"
+      ],
+      "rank_or_position": 38,
+      "review_score": 4.9,
+      "review_count": 440,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13171526335",
+      "product_name": "24K 순금키링 0.02g 액막이 클로버 미니골드바 순금선물",
+      "brand": "채널100327929",
+      "category": "기타",
+      "original_price": 29000,
+      "sale_price": 23900,
+      "discount_rate": 17,
+      "product_url": "https://smartstore.naver.com/main/products/13171526335",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13171526335",
+      "image_url": "https://shop-phinf.pstatic.net/20260226_20/1772084056642SXoYA_JPEG/106216905746732739_1175149808.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260226_20/1772084056642SXoYA_JPEG/106216905746732739_1175149808.jpg"
+      ],
+      "rank_or_position": 32,
+      "review_score": 5.0,
+      "review_count": 40,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13221729644",
+      "product_name": "깨끗한 세척사과 껍질째 먹는 오존수 세척 사과",
+      "brand": "채널102497144",
+      "category": "기타",
+      "original_price": 30900,
+      "sale_price": 11900,
+      "discount_rate": 61,
+      "product_url": "https://smartstore.naver.com/main/products/13221729644",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13221729644",
+      "image_url": "https://shop-phinf.pstatic.net/20260309_111/1773020238486y0VBz_JPEG/83168688291403481_1836897873.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260309_111/1773020238486y0VBz_JPEG/83168688291403481_1836897873.jpg"
+      ],
+      "rank_or_position": 15,
+      "review_score": 4.47,
+      "review_count": 116,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13248025622",
+      "product_name": "스테비아 대추 방울 토마토 토망고 단마토 2kg",
+      "brand": "채널102698382",
+      "category": "기타",
+      "original_price": 39900,
+      "sale_price": 16900,
+      "discount_rate": 57,
+      "product_url": "https://smartstore.naver.com/main/products/13248025622",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13248025622",
+      "image_url": "https://shop-phinf.pstatic.net/20260314_110/1773449185146wjuHa_JPEG/430558010924806_233248548.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260314_110/1773449185146wjuHa_JPEG/430558010924806_233248548.jpg"
+      ],
+      "rank_or_position": 29,
+      "review_score": 4.6,
+      "review_count": 25,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13258313009",
+      "product_name": "자연별곡 죽 3종 6팩 세트(능이닭죽2, 소고기버섯죽2, 단호박죽2)",
+      "brand": "채널100002411",
+      "category": "식품/음료",
+      "original_price": 29400,
+      "sale_price": 19990,
+      "discount_rate": 32,
+      "product_url": "https://smartstore.naver.com/main/products/13258313009",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13258313009",
+      "image_url": "https://shop-phinf.pstatic.net/20260320_214/1773990112140r26ig_JPEG/98331140963838536_913205317.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260320_214/1773990112140r26ig_JPEG/98331140963838536_913205317.jpg"
+      ],
+      "rank_or_position": 39,
+      "review_score": 4.5,
+      "review_count": 2,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜 체험딜",
+      "product_id": "13268247491",
+      "product_name": "[배송비체험이벤트] 숙취엔 벌나무 (2개입파우치) 숙취해소제",
+      "brand": "배송비체험이벤트",
+      "category": "기타",
+      "original_price": 5000,
+      "sale_price": 4000,
+      "discount_rate": 20,
+      "product_url": "https://smartstore.naver.com/main/products/13268247491",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13268247491",
+      "image_url": "https://shop-phinf.pstatic.net/20260318_68/1773811122156kCjqM_JPEG/43364772297597827_66407787.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260318_68/1773811122156kCjqM_JPEG/43364772297597827_66407787.jpg"
+      ],
+      "rank_or_position": 16,
+      "review_score": 0.0,
+      "review_count": 0,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13269209107",
+      "product_name": "[리뷰2천원] 켈로그 NEW 저당 그래놀라 고소한 통곡물 파로 360g 2팩 + 1팩(+저당그래놀라 120g)",
+      "brand": "리뷰2천원",
+      "category": "기타",
+      "original_price": 25440,
+      "sale_price": 14000,
+      "discount_rate": 44,
+      "product_url": "https://smartstore.naver.com/main/products/13269209107",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13269209107",
+      "image_url": "https://shop-phinf.pstatic.net/20260414_173/17761569324175wnbO_JPEG/52559374547653270_1845844034.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260414_173/17761569324175wnbO_JPEG/52559374547653270_1845844034.jpg"
+      ],
+      "rank_or_position": 14,
+      "review_score": 4.9,
+      "review_count": 626,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13279954656",
+      "product_name": "프링글스 하트 미니로즈 35g 12개입 1박스",
+      "brand": "채널100596797",
+      "category": "기타",
+      "original_price": 18000,
+      "sale_price": 14900,
+      "discount_rate": 17,
+      "product_url": "https://smartstore.naver.com/main/products/13279954656",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13279954656",
+      "image_url": "https://shop-phinf.pstatic.net/20260407_86/1775550975879QWcFk_JPEG/17627008805539786_1892866750.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260407_86/1775550975879QWcFk_JPEG/17627008805539786_1892866750.jpg"
+      ],
+      "rank_or_position": 2,
+      "review_score": 5.0,
+      "review_count": 1,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13335717113",
+      "product_name": "신제품 출시 CJ 고메 소바바 치킨 순살 375g 5봉 2+2+1 선택 (신제품 황금홀릭, 소이허니, 양념, 마쏘킥, 레드핫)",
+      "brand": "채널100146361",
+      "category": "기타",
+      "original_price": 49900,
+      "sale_price": 33900,
+      "discount_rate": 32,
+      "product_url": "https://smartstore.naver.com/main/products/13335717113",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13335717113",
+      "image_url": "https://shop-phinf.pstatic.net/20260330_215/1774859033817y0Szk_JPEG/13705292903868666_1877827188.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260330_215/1774859033817y0Szk_JPEG/13705292903868666_1877827188.jpg"
+      ],
+      "rank_or_position": 31,
+      "review_score": 4.9,
+      "review_count": 205,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13359882040",
+      "product_name": "[대용량 1KG] 30년 전통 저온숙성 특제양념 돼지목살 왕구이 500G / 2팩",
+      "brand": "대용량 1KG",
+      "category": "기타",
+      "original_price": 25900,
+      "sale_price": 11900,
+      "discount_rate": 54,
+      "product_url": "https://smartstore.naver.com/main/products/13359882040",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13359882040",
+      "image_url": "https://shop-phinf.pstatic.net/20260413_193/1776061719630RH0xN_PNG/59677094555842080_350722855.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260413_193/1776061719630RH0xN_PNG/59677094555842080_350722855.png"
+      ],
+      "rank_or_position": 22,
+      "review_score": 5.0,
+      "review_count": 1,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "282715831",
+      "product_name": "대저 짭짤이 토마토 2.5kg 로얄과 특품 부산",
+      "brand": "채널500057619",
+      "category": "기타",
+      "original_price": 30900,
+      "sale_price": 14900,
+      "discount_rate": 51,
+      "product_url": "https://smartstore.naver.com/main/products/282715831",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/282715831",
+      "image_url": "https://shop-phinf.pstatic.net/20220325_32/16481822363574Hpgc_JPEG/49318079058697435_57094851.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20220325_32/16481822363574Hpgc_JPEG/49318079058697435_57094851.jpg"
+      ],
+      "rank_or_position": 23,
+      "review_score": 4.68,
+      "review_count": 7230,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "2841553804",
+      "product_name": "힐스 강아지사료 어덜트 7+ 스몰바이트 2kg",
+      "brand": "채널100181508",
+      "category": "육아/반려",
+      "original_price": 47500,
+      "sale_price": 40370,
+      "discount_rate": 15,
+      "product_url": "https://smartstore.naver.com/main/products/2841553804",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/2841553804",
+      "image_url": "https://shop-phinf.pstatic.net/20250512_161/1747043119328Uw90d_JPEG/93676902567411772_1994500778.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250512_161/1747043119328Uw90d_JPEG/93676902567411772_1994500778.jpg"
+      ],
+      "rank_or_position": 40,
+      "review_score": 4.87,
+      "review_count": 3180,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "340729843",
+      "product_name": "국내산 제철 박달 대게 홍게 게 포항 구룡포",
+      "brand": "채널500115640",
+      "category": "기타",
+      "original_price": 58900,
+      "sale_price": 29900,
+      "discount_rate": 49,
+      "product_url": "https://smartstore.naver.com/main/products/340729843",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/340729843",
+      "image_url": "https://shop-phinf.pstatic.net/20250107_132/1736216719043F8zKY_JPEG/7914840356643184_1712787715.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250107_132/1736216719043F8zKY_JPEG/7914840356643184_1712787715.jpg"
+      ],
+      "rank_or_position": 37,
+      "review_score": 4.39,
+      "review_count": 69455,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "354231605",
+      "product_name": "종가 행복이온 포기김치 10kg, 1개",
+      "brand": "채널500036672",
+      "category": "식품/음료",
+      "original_price": 69800,
+      "sale_price": 61900,
+      "discount_rate": 11,
+      "product_url": "https://smartstore.naver.com/main/products/354231605",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/354231605",
+      "image_url": "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png"
+      ],
+      "rank_or_position": 35,
+      "review_score": 4.75,
+      "review_count": 69128,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "3977763391",
+      "product_name": "집에서먹자 곱이고운 모듬한판 소 초벌 곱창구이 대창 막창 염통 술안주 560g 760g",
+      "brand": "채널100292269",
+      "category": "기타",
+      "original_price": 32900,
+      "sale_price": 16900,
+      "discount_rate": 48,
+      "product_url": "https://smartstore.naver.com/main/products/3977763391",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/3977763391",
+      "image_url": "https://shop-phinf.pstatic.net/20250402_225/1743575231389gDroK_JPEG/77708034525440834_289512943.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250402_225/1743575231389gDroK_JPEG/77708034525440834_289512943.jpg"
+      ],
+      "rank_or_position": 26,
+      "review_score": 4.67,
+      "review_count": 15982,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "4643610063",
+      "product_name": "스파클생수 500ml, 60개",
+      "brand": "채널500185891",
+      "category": "식품/음료",
+      "original_price": 18000,
+      "sale_price": 13890,
+      "discount_rate": 22,
+      "product_url": "https://smartstore.naver.com/main/products/4643610063",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4643610063",
+      "image_url": "https://shop-phinf.pstatic.net/20250610_227/1749517442739azFqJ_JPEG/55356741551700648_429803527.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250610_227/1749517442739azFqJ_JPEG/55356741551700648_429803527.jpg"
+      ],
+      "rank_or_position": 7,
+      "review_score": 4.92,
+      "review_count": 60367,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "4733964360",
+      "product_name": "아이깨끗해 핸드워시 250ml 본품+200ml 리필 4개+100ml 증정",
+      "brand": "채널500240447",
+      "category": "생활/주방",
+      "original_price": 20000,
+      "sale_price": 10000,
+      "discount_rate": 50,
+      "product_url": "https://smartstore.naver.com/main/products/4733964360",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4733964360",
+      "image_url": "https://shop-phinf.pstatic.net/20260414_102/1776153805375BKth3_JPEG/0415_EC8AA4ED8E98EC859CEB949C_EB9DBCEC9DB4EC98A8ECBD94E.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260414_102/1776153805375BKth3_JPEG/0415_EC8AA4ED8E98EC859CEB949C_EB9DBCEC9DB4EC98A8ECBD94E.jpg"
+      ],
+      "rank_or_position": 8,
+      "review_score": 4.84,
+      "review_count": 102325,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "4890808405",
+      "product_name": "제주반했어 제주도 손질 자반 간 고등어 특대 고등어살 2kg",
+      "brand": "채널100650054",
+      "category": "기타",
+      "original_price": 56000,
+      "sale_price": 43900,
+      "discount_rate": 21,
+      "product_url": "https://smartstore.naver.com/main/products/4890808405",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4890808405",
+      "image_url": "https://shop-phinf.pstatic.net/20260223_64/1771804042415Vkmyy_JPEG/44624096563802757_144020731.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260223_64/1771804042415Vkmyy_JPEG/44624096563802757_144020731.jpg"
+      ],
+      "rank_or_position": 41,
+      "review_score": 4.9,
+      "review_count": 9517,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "4993762256",
+      "product_name": "[슈퍼적립] 템테이션 맛있는 닭고기맛 5개입 세트 고양이간식",
+      "brand": "슈퍼적립",
+      "category": "식품/음료",
+      "original_price": 43000,
+      "sale_price": 28310,
+      "discount_rate": 34,
+      "product_url": "https://smartstore.naver.com/main/products/4993762256",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4993762256",
+      "image_url": "https://shop-phinf.pstatic.net/20250108_51/1736291863713HvQSn_JPEG/18949663551720866_1728456834.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250108_51/1736291863713HvQSn_JPEG/18949663551720866_1728456834.jpg"
+      ],
+      "rank_or_position": 24,
+      "review_score": 4.93,
+      "review_count": 41466,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "574304932",
+      "product_name": "넬리 쉰내잡는 친환경 소다 가루세제 세탁세제 (100회) 리필형 1.5kg x 2개",
+      "brand": "채널500023997",
+      "category": "생활/주방",
+      "original_price": 59800,
+      "sale_price": 36900,
+      "discount_rate": 38,
+      "product_url": "https://smartstore.naver.com/main/products/574304932",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/574304932",
+      "image_url": "https://shop-phinf.pstatic.net/20260210_214/17707014694305sYeo_PNG/48352365184967298_381807874.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260210_214/17707014694305sYeo_PNG/48352365184967298_381807874.png"
+      ],
+      "rank_or_position": 18,
+      "review_score": 4.86,
+      "review_count": 1889,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "5931415063",
+      "product_name": "[N배송] 더자리 마이크로안티 항균 줄누빔 베개커버 40x60 50x70 사계절용 1+1",
+      "brand": "N배송",
+      "category": "생활/주방",
+      "original_price": 15900,
+      "sale_price": 5900,
+      "discount_rate": 62,
+      "product_url": "https://smartstore.naver.com/main/products/5931415063",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/5931415063",
+      "image_url": "https://shop-phinf.pstatic.net/20211015_9/1634265067542O4cXP_JPEG/35400963248898266_590233698.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20211015_9/1634265067542O4cXP_JPEG/35400963248898266_590233698.jpg"
+      ],
+      "rank_or_position": 6,
+      "review_score": 4.67,
+      "review_count": 205,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "6416114804",
+      "product_name": "마하차녹 무지개망고 망고 2.5kg 5kg",
+      "brand": "채널500061708",
+      "category": "기타",
+      "original_price": 44000,
+      "sale_price": 19900,
+      "discount_rate": 54,
+      "product_url": "https://smartstore.naver.com/main/products/6416114804",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/6416114804",
+      "image_url": "https://shop-phinf.pstatic.net/20230515_112/1684118950447rJ3yL_JPEG/32055657236623227_825092903.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230515_112/1684118950447rJ3yL_JPEG/32055657236623227_825092903.jpg"
+      ],
+      "rank_or_position": 17,
+      "review_score": 4.63,
+      "review_count": 5838,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "6459235096",
+      "product_name": "경북고령 고당도 멜론 달콤한 파파야 설향 메론 2kg 3kg 5kg",
+      "brand": "채널101509593",
+      "category": "기타",
+      "original_price": 49750,
+      "sale_price": 15400,
+      "discount_rate": 69,
+      "product_url": "https://smartstore.naver.com/main/products/6459235096",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/6459235096",
+      "image_url": "https://shop-phinf.pstatic.net/20230403_119/1680482073737K8Kfs_JPEG/81617908504673093_2009404576.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230403_119/1680482073737K8Kfs_JPEG/81617908504673093_2009404576.jpg"
+      ],
+      "rank_or_position": 27,
+      "review_score": 4.73,
+      "review_count": 637,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7123166354",
+      "product_name": "[체험딜 특-가] 입는 오버나이트 5P x1팩 외 생리대 중형 대형 팬티라이너 할 인 전",
+      "brand": "체험딜 특-가",
+      "category": "기타",
+      "original_price": 7900,
+      "sale_price": 3900,
+      "discount_rate": 50,
+      "product_url": "https://smartstore.naver.com/main/products/7123166354",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7123166354",
+      "image_url": "https://shop-phinf.pstatic.net/20230920_52/1695189357848sm2Le_JPEG/1741434646298867_1555986150.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230920_52/1695189357848sm2Le_JPEG/1741434646298867_1555986150.jpg"
+      ],
+      "rank_or_position": 3,
+      "review_score": 4.85,
+      "review_count": 2412,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7467111211",
+      "product_name": "국내산 배추 포기김치 전라도 김치 미담채 3kg 5kg",
+      "brand": "채널101232925",
+      "category": "식품/음료",
+      "original_price": 23900,
+      "sale_price": 12900,
+      "discount_rate": 46,
+      "product_url": "https://smartstore.naver.com/main/products/7467111211",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7467111211",
+      "image_url": "https://shop-phinf.pstatic.net/20240812_41/1723453295406pw0Fa_JPEG/3031479226160158_1786260343.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20240812_41/1723453295406pw0Fa_JPEG/3031479226160158_1786260343.jpg"
+      ],
+      "rank_or_position": 30,
+      "review_score": 4.63,
+      "review_count": 1609,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7587547475",
+      "product_name": "티젠 콤부차 10스틱X8박스 혼합(80스틱)",
+      "brand": "채널500241388",
+      "category": "기타",
+      "original_price": 56000,
+      "sale_price": 22900,
+      "discount_rate": 59,
+      "product_url": "https://smartstore.naver.com/main/products/7587547475",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7587547475",
+      "image_url": "https://shop-phinf.pstatic.net/20251001_228/1759281952530Ehf4f_JPEG/30748405656291226_1518826049.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251001_228/1759281952530Ehf4f_JPEG/30748405656291226_1518826049.jpg"
+      ],
+      "rank_or_position": 20,
+      "review_score": 4.92,
+      "review_count": 34161,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7999337429",
+      "product_name": "그레인온 골드 카무트 효소 30포, 3개",
+      "brand": "채널101573499",
+      "category": "기타",
+      "original_price": 105000,
+      "sale_price": 44900,
+      "discount_rate": 57,
+      "product_url": "https://smartstore.naver.com/main/products/7999337429",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7999337429",
+      "image_url": "https://shop-phinf.pstatic.net/20260201_287/1769871686613RSlvz_JPEG/22587247070318414_1847670825.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260201_287/1769871686613RSlvz_JPEG/22587247070318414_1847670825.jpg"
+      ],
+      "rank_or_position": 13,
+      "review_score": 4.84,
+      "review_count": 66049,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "8274346880",
+      "product_name": "[1+1] 첨가물 없는 통밀빵 깜빠뉴 2개 (흰밀X, 계량제X) 좋은 재료 좋은 먹거리",
+      "brand": "1+1",
+      "category": "식품/음료",
+      "original_price": 16800,
+      "sale_price": 9900,
+      "discount_rate": 41,
+      "product_url": "https://smartstore.naver.com/main/products/8274346880",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/8274346880",
+      "image_url": "https://shop-phinf.pstatic.net/20240413_51/1712979260873D2cl8_JPEG/114115156519398129_1311337495.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20240413_51/1712979260873D2cl8_JPEG/114115156519398129_1311337495.jpg"
+      ],
+      "rank_or_position": 12,
+      "review_score": 4.77,
+      "review_count": 5683,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "9091968567",
+      "product_name": "새우함량55% 오오통살 새우까스 패티",
+      "brand": "채널500120216",
+      "category": "기타",
+      "original_price": 30900,
+      "sale_price": 15900,
+      "discount_rate": 48,
+      "product_url": "https://smartstore.naver.com/main/products/9091968567",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9091968567",
+      "image_url": "https://shop-phinf.pstatic.net/20230822_176/1692707312196fUQpK_JPEG/26566703962063289_1358962183.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230822_176/1692707312196fUQpK_JPEG/26566703962063289_1358962183.jpg"
+      ],
+      "rank_or_position": 21,
+      "review_score": 4.8,
+      "review_count": 3313,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "9221638908",
+      "product_name": "피지오겔 DMT 페이셜 수분 장벽크림 75ml x3개+(증정)DMT 로션 50ml+클렌징젤 30ml",
+      "brand": "채널100770404",
+      "category": "뷰티/헬스",
+      "original_price": 57000,
+      "sale_price": 35900,
+      "discount_rate": 37,
+      "product_url": "https://smartstore.naver.com/main/products/9221638908",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9221638908",
+      "image_url": "https://shop-phinf.pstatic.net/20260406_108/1775485280523oQIG5_JPEG/58560745321077533_352248461.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260406_108/1775485280523oQIG5_JPEG/58560745321077533_352248461.jpg"
+      ],
+      "rank_or_position": 28,
+      "review_score": 4.9,
+      "review_count": 19604,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    }
+  ],
+  "removed_products": [],
+  "price_changed_products": [],
+  "products": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12808256836",
+      "product_name": "[정착육] 다채롭게 활용하는 큐브 수입 삼겹살 1kg",
+      "brand": "정착육",
+      "category": "식품/음료",
+      "original_price": 16990,
+      "sale_price": 16990,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/12808256836",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12808256836",
+      "image_url": "https://shop-phinf.pstatic.net/20251211_158/1765417700314j3ym2_JPEG/41035726790325630_1341013539.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251211_158/1765417700314j3ym2_JPEG/41035726790325630_1341013539.jpg"
+      ],
+      "rank_or_position": 1,
+      "review_score": 4.78,
+      "review_count": 190,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13279954656",
+      "product_name": "프링글스 하트 미니로즈 35g 12개입 1박스",
+      "brand": "채널100596797",
+      "category": "기타",
+      "original_price": 18000,
+      "sale_price": 14900,
+      "discount_rate": 17,
+      "product_url": "https://smartstore.naver.com/main/products/13279954656",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13279954656",
+      "image_url": "https://shop-phinf.pstatic.net/20260407_86/1775550975879QWcFk_JPEG/17627008805539786_1892866750.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260407_86/1775550975879QWcFk_JPEG/17627008805539786_1892866750.jpg"
+      ],
+      "rank_or_position": 2,
+      "review_score": 5.0,
+      "review_count": 1,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7123166354",
+      "product_name": "[체험딜 특-가] 입는 오버나이트 5P x1팩 외 생리대 중형 대형 팬티라이너 할 인 전",
+      "brand": "체험딜 특-가",
+      "category": "기타",
+      "original_price": 7900,
+      "sale_price": 3900,
+      "discount_rate": 50,
+      "product_url": "https://smartstore.naver.com/main/products/7123166354",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7123166354",
+      "image_url": "https://shop-phinf.pstatic.net/20230920_52/1695189357848sm2Le_JPEG/1741434646298867_1555986150.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230920_52/1695189357848sm2Le_JPEG/1741434646298867_1555986150.jpg"
+      ],
+      "rank_or_position": 3,
+      "review_score": 4.85,
+      "review_count": 2412,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12532703693",
+      "product_name": "[김수사] 간장/양념 꽃게장 2종 (택1)",
+      "brand": "김수사",
+      "category": "기타",
+      "original_price": 10,
+      "sale_price": 10,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/12532703693",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12532703693",
+      "image_url": "https://shop-phinf.pstatic.net/20251013_294/17603153623976OHrs_JPEG/47519022208280032_350563614.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251013_294/17603153623976OHrs_JPEG/47519022208280032_350563614.jpg"
+      ],
+      "rank_or_position": 4,
+      "review_score": 4.62,
+      "review_count": 171,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12930024471",
+      "product_name": "이클립스 포도향 34g x8개",
+      "brand": "채널500146800",
+      "category": "기타",
+      "original_price": 18400,
+      "sale_price": 18400,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/12930024471",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12930024471",
+      "image_url": "https://shop-phinf.pstatic.net/20260106_33/17676741356421y7Yy_JPEG/17012561806748073_1913084967.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260106_33/17676741356421y7Yy_JPEG/17012561806748073_1913084967.jpg"
+      ],
+      "rank_or_position": 5,
+      "review_score": 4.94,
+      "review_count": 1174,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "5931415063",
+      "product_name": "[N배송] 더자리 마이크로안티 항균 줄누빔 베개커버 40x60 50x70 사계절용 1+1",
+      "brand": "N배송",
+      "category": "생활/주방",
+      "original_price": 15900,
+      "sale_price": 5900,
+      "discount_rate": 62,
+      "product_url": "https://smartstore.naver.com/main/products/5931415063",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/5931415063",
+      "image_url": "https://shop-phinf.pstatic.net/20211015_9/1634265067542O4cXP_JPEG/35400963248898266_590233698.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20211015_9/1634265067542O4cXP_JPEG/35400963248898266_590233698.jpg"
+      ],
+      "rank_or_position": 6,
+      "review_score": 4.67,
+      "review_count": 205,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "4643610063",
+      "product_name": "스파클생수 500ml, 60개",
+      "brand": "채널500185891",
+      "category": "식품/음료",
+      "original_price": 18000,
+      "sale_price": 13890,
+      "discount_rate": 22,
+      "product_url": "https://smartstore.naver.com/main/products/4643610063",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4643610063",
+      "image_url": "https://shop-phinf.pstatic.net/20250610_227/1749517442739azFqJ_JPEG/55356741551700648_429803527.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250610_227/1749517442739azFqJ_JPEG/55356741551700648_429803527.jpg"
+      ],
+      "rank_or_position": 7,
+      "review_score": 4.92,
+      "review_count": 60367,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "4733964360",
+      "product_name": "아이깨끗해 핸드워시 250ml 본품+200ml 리필 4개+100ml 증정",
+      "brand": "채널500240447",
+      "category": "생활/주방",
+      "original_price": 20000,
+      "sale_price": 10000,
+      "discount_rate": 50,
+      "product_url": "https://smartstore.naver.com/main/products/4733964360",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4733964360",
+      "image_url": "https://shop-phinf.pstatic.net/20260414_102/1776153805375BKth3_JPEG/0415_EC8AA4ED8E98EC859CEB949C_EB9DBCEC9DB4EC98A8ECBD94E.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260414_102/1776153805375BKth3_JPEG/0415_EC8AA4ED8E98EC859CEB949C_EB9DBCEC9DB4EC98A8ECBD94E.jpg"
+      ],
+      "rank_or_position": 8,
+      "review_score": 4.84,
+      "review_count": 102325,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11895422204",
+      "product_name": "[오늘끝딜] 자연담 먹는샘물 500ml, 40개",
+      "brand": "오늘끝딜",
+      "category": "식품/음료",
+      "original_price": 13600,
+      "sale_price": 8200,
+      "discount_rate": 39,
+      "product_url": "https://smartstore.naver.com/main/products/11895422204",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11895422204",
+      "image_url": "https://shop-phinf.pstatic.net/20251023_5/1761193436735t3mH3_JPEG/10263187797379923_1303275887.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251023_5/1761193436735t3mH3_JPEG/10263187797379923_1303275887.jpg"
+      ],
+      "rank_or_position": 9,
+      "review_score": 4.88,
+      "review_count": 4120,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12237533946",
+      "product_name": "국내산 깻잎으로 만든 전라도식 깻잎김치 500g",
+      "brand": "채널500255345",
+      "category": "식품/음료",
+      "original_price": 18000,
+      "sale_price": 9900,
+      "discount_rate": 45,
+      "product_url": "https://smartstore.naver.com/main/products/12237533946",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12237533946",
+      "image_url": "https://shop-phinf.pstatic.net/20250812_243/1754981270964rip1Y_JPEG/47798639976362411_928270483.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250812_243/1754981270964rip1Y_JPEG/47798639976362411_928270483.jpg"
+      ],
+      "rank_or_position": 10,
+      "review_score": 4.78,
+      "review_count": 2917,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12299324340",
+      "product_name": "[할리스] 바닐라 딜라이트 로우슈거 450mlx6병+시그니처 아메리카노 450mlx6병",
+      "brand": "할리스",
+      "category": "기타",
+      "original_price": 38400,
+      "sale_price": 14900,
+      "discount_rate": 61,
+      "product_url": "https://smartstore.naver.com/main/products/12299324340",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12299324340",
+      "image_url": "https://shop-phinf.pstatic.net/20260225_141/17719880273122ATPg_JPEG/10523995302550062_1700896322.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260225_141/17719880273122ATPg_JPEG/10523995302550062_1700896322.jpg"
+      ],
+      "rank_or_position": 11,
+      "review_score": 4.86,
+      "review_count": 415,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "8274346880",
+      "product_name": "[1+1] 첨가물 없는 통밀빵 깜빠뉴 2개 (흰밀X, 계량제X) 좋은 재료 좋은 먹거리",
+      "brand": "1+1",
+      "category": "식품/음료",
+      "original_price": 16800,
+      "sale_price": 9900,
+      "discount_rate": 41,
+      "product_url": "https://smartstore.naver.com/main/products/8274346880",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/8274346880",
+      "image_url": "https://shop-phinf.pstatic.net/20240413_51/1712979260873D2cl8_JPEG/114115156519398129_1311337495.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20240413_51/1712979260873D2cl8_JPEG/114115156519398129_1311337495.jpg"
+      ],
+      "rank_or_position": 12,
+      "review_score": 4.77,
+      "review_count": 5683,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7999337429",
+      "product_name": "그레인온 골드 카무트 효소 30포, 3개",
+      "brand": "채널101573499",
+      "category": "기타",
+      "original_price": 105000,
+      "sale_price": 44900,
+      "discount_rate": 57,
+      "product_url": "https://smartstore.naver.com/main/products/7999337429",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7999337429",
+      "image_url": "https://shop-phinf.pstatic.net/20260201_287/1769871686613RSlvz_JPEG/22587247070318414_1847670825.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260201_287/1769871686613RSlvz_JPEG/22587247070318414_1847670825.jpg"
+      ],
+      "rank_or_position": 13,
+      "review_score": 4.84,
+      "review_count": 66049,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13269209107",
+      "product_name": "[리뷰2천원] 켈로그 NEW 저당 그래놀라 고소한 통곡물 파로 360g 2팩 + 1팩(+저당그래놀라 120g)",
+      "brand": "리뷰2천원",
+      "category": "기타",
+      "original_price": 25440,
+      "sale_price": 14000,
+      "discount_rate": 44,
+      "product_url": "https://smartstore.naver.com/main/products/13269209107",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13269209107",
+      "image_url": "https://shop-phinf.pstatic.net/20260414_173/17761569324175wnbO_JPEG/52559374547653270_1845844034.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260414_173/17761569324175wnbO_JPEG/52559374547653270_1845844034.jpg"
+      ],
+      "rank_or_position": 14,
+      "review_score": 4.9,
+      "review_count": 626,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13221729644",
+      "product_name": "깨끗한 세척사과 껍질째 먹는 오존수 세척 사과",
+      "brand": "채널102497144",
+      "category": "기타",
+      "original_price": 30900,
+      "sale_price": 11900,
+      "discount_rate": 61,
+      "product_url": "https://smartstore.naver.com/main/products/13221729644",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13221729644",
+      "image_url": "https://shop-phinf.pstatic.net/20260309_111/1773020238486y0VBz_JPEG/83168688291403481_1836897873.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260309_111/1773020238486y0VBz_JPEG/83168688291403481_1836897873.jpg"
+      ],
+      "rank_or_position": 15,
+      "review_score": 4.47,
+      "review_count": 116,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜 체험딜",
+      "product_id": "13268247491",
+      "product_name": "[배송비체험이벤트] 숙취엔 벌나무 (2개입파우치) 숙취해소제",
+      "brand": "배송비체험이벤트",
+      "category": "기타",
+      "original_price": 5000,
+      "sale_price": 4000,
+      "discount_rate": 20,
+      "product_url": "https://smartstore.naver.com/main/products/13268247491",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13268247491",
+      "image_url": "https://shop-phinf.pstatic.net/20260318_68/1773811122156kCjqM_JPEG/43364772297597827_66407787.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260318_68/1773811122156kCjqM_JPEG/43364772297597827_66407787.jpg"
+      ],
+      "rank_or_position": 16,
+      "review_score": 0.0,
+      "review_count": 0,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "6416114804",
+      "product_name": "마하차녹 무지개망고 망고 2.5kg 5kg",
+      "brand": "채널500061708",
+      "category": "기타",
+      "original_price": 44000,
+      "sale_price": 19900,
+      "discount_rate": 54,
+      "product_url": "https://smartstore.naver.com/main/products/6416114804",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/6416114804",
+      "image_url": "https://shop-phinf.pstatic.net/20230515_112/1684118950447rJ3yL_JPEG/32055657236623227_825092903.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230515_112/1684118950447rJ3yL_JPEG/32055657236623227_825092903.jpg"
+      ],
+      "rank_or_position": 17,
+      "review_score": 4.63,
+      "review_count": 5838,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "574304932",
+      "product_name": "넬리 쉰내잡는 친환경 소다 가루세제 세탁세제 (100회) 리필형 1.5kg x 2개",
+      "brand": "채널500023997",
+      "category": "생활/주방",
+      "original_price": 59800,
+      "sale_price": 36900,
+      "discount_rate": 38,
+      "product_url": "https://smartstore.naver.com/main/products/574304932",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/574304932",
+      "image_url": "https://shop-phinf.pstatic.net/20260210_214/17707014694305sYeo_PNG/48352365184967298_381807874.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260210_214/17707014694305sYeo_PNG/48352365184967298_381807874.png"
+      ],
+      "rank_or_position": 18,
+      "review_score": 4.86,
+      "review_count": 1889,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11630861814",
+      "product_name": "유황한돈 냉장 삼겹살 목살 1kg 오겹살 캠핑 등갈비 갈매기살 가브리살 항정살",
+      "brand": "채널102600124",
+      "category": "식품/음료",
+      "original_price": 35900,
+      "sale_price": 20900,
+      "discount_rate": 41,
+      "product_url": "https://smartstore.naver.com/main/products/11630861814",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11630861814",
+      "image_url": "https://shop-phinf.pstatic.net/20250324_191/1742797420283pPr2x_JPEG/15331864570494404_1596710579.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250324_191/1742797420283pPr2x_JPEG/15331864570494404_1596710579.jpg"
+      ],
+      "rank_or_position": 19,
+      "review_score": 4.83,
+      "review_count": 20756,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7587547475",
+      "product_name": "티젠 콤부차 10스틱X8박스 혼합(80스틱)",
+      "brand": "채널500241388",
+      "category": "기타",
+      "original_price": 56000,
+      "sale_price": 22900,
+      "discount_rate": 59,
+      "product_url": "https://smartstore.naver.com/main/products/7587547475",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7587547475",
+      "image_url": "https://shop-phinf.pstatic.net/20251001_228/1759281952530Ehf4f_JPEG/30748405656291226_1518826049.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251001_228/1759281952530Ehf4f_JPEG/30748405656291226_1518826049.jpg"
+      ],
+      "rank_or_position": 20,
+      "review_score": 4.92,
+      "review_count": 34161,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "9091968567",
+      "product_name": "새우함량55% 오오통살 새우까스 패티",
+      "brand": "채널500120216",
+      "category": "기타",
+      "original_price": 30900,
+      "sale_price": 15900,
+      "discount_rate": 48,
+      "product_url": "https://smartstore.naver.com/main/products/9091968567",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9091968567",
+      "image_url": "https://shop-phinf.pstatic.net/20230822_176/1692707312196fUQpK_JPEG/26566703962063289_1358962183.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230822_176/1692707312196fUQpK_JPEG/26566703962063289_1358962183.jpg"
+      ],
+      "rank_or_position": 21,
+      "review_score": 4.8,
+      "review_count": 3313,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13359882040",
+      "product_name": "[대용량 1KG] 30년 전통 저온숙성 특제양념 돼지목살 왕구이 500G / 2팩",
+      "brand": "대용량 1KG",
+      "category": "기타",
+      "original_price": 25900,
+      "sale_price": 11900,
+      "discount_rate": 54,
+      "product_url": "https://smartstore.naver.com/main/products/13359882040",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13359882040",
+      "image_url": "https://shop-phinf.pstatic.net/20260413_193/1776061719630RH0xN_PNG/59677094555842080_350722855.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260413_193/1776061719630RH0xN_PNG/59677094555842080_350722855.png"
+      ],
+      "rank_or_position": 22,
+      "review_score": 5.0,
+      "review_count": 1,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "282715831",
+      "product_name": "대저 짭짤이 토마토 2.5kg 로얄과 특품 부산",
+      "brand": "채널500057619",
+      "category": "기타",
+      "original_price": 30900,
+      "sale_price": 14900,
+      "discount_rate": 51,
+      "product_url": "https://smartstore.naver.com/main/products/282715831",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/282715831",
+      "image_url": "https://shop-phinf.pstatic.net/20220325_32/16481822363574Hpgc_JPEG/49318079058697435_57094851.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20220325_32/16481822363574Hpgc_JPEG/49318079058697435_57094851.jpg"
+      ],
+      "rank_or_position": 23,
+      "review_score": 4.68,
+      "review_count": 7230,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "4993762256",
+      "product_name": "[슈퍼적립] 템테이션 맛있는 닭고기맛 5개입 세트 고양이간식",
+      "brand": "슈퍼적립",
+      "category": "식품/음료",
+      "original_price": 43000,
+      "sale_price": 28310,
+      "discount_rate": 34,
+      "product_url": "https://smartstore.naver.com/main/products/4993762256",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4993762256",
+      "image_url": "https://shop-phinf.pstatic.net/20250108_51/1736291863713HvQSn_JPEG/18949663551720866_1728456834.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250108_51/1736291863713HvQSn_JPEG/18949663551720866_1728456834.jpg"
+      ],
+      "rank_or_position": 24,
+      "review_score": 4.93,
+      "review_count": 41466,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11778085390",
+      "product_name": "[3개월분] gutsys 것시스 이지 픽 프로바이오틱스 분말형 유산균 30포, 3개",
+      "brand": "3개월분",
+      "category": "기타",
+      "original_price": 87000,
+      "sale_price": 18900,
+      "discount_rate": 78,
+      "product_url": "https://smartstore.naver.com/main/products/11778085390",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11778085390",
+      "image_url": "https://shop-phinf.pstatic.net/20260403_30/1775191218589lCl6U_JPEG/58806593563346712_28404027.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260403_30/1775191218589lCl6U_JPEG/58806593563346712_28404027.jpg"
+      ],
+      "rank_or_position": 25,
+      "review_score": 4.85,
+      "review_count": 427,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "3977763391",
+      "product_name": "집에서먹자 곱이고운 모듬한판 소 초벌 곱창구이 대창 막창 염통 술안주 560g 760g",
+      "brand": "채널100292269",
+      "category": "기타",
+      "original_price": 32900,
+      "sale_price": 16900,
+      "discount_rate": 48,
+      "product_url": "https://smartstore.naver.com/main/products/3977763391",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/3977763391",
+      "image_url": "https://shop-phinf.pstatic.net/20250402_225/1743575231389gDroK_JPEG/77708034525440834_289512943.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250402_225/1743575231389gDroK_JPEG/77708034525440834_289512943.jpg"
+      ],
+      "rank_or_position": 26,
+      "review_score": 4.67,
+      "review_count": 15982,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "6459235096",
+      "product_name": "경북고령 고당도 멜론 달콤한 파파야 설향 메론 2kg 3kg 5kg",
+      "brand": "채널101509593",
+      "category": "기타",
+      "original_price": 49750,
+      "sale_price": 15400,
+      "discount_rate": 69,
+      "product_url": "https://smartstore.naver.com/main/products/6459235096",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/6459235096",
+      "image_url": "https://shop-phinf.pstatic.net/20230403_119/1680482073737K8Kfs_JPEG/81617908504673093_2009404576.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230403_119/1680482073737K8Kfs_JPEG/81617908504673093_2009404576.jpg"
+      ],
+      "rank_or_position": 27,
+      "review_score": 4.73,
+      "review_count": 637,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "9221638908",
+      "product_name": "피지오겔 DMT 페이셜 수분 장벽크림 75ml x3개+(증정)DMT 로션 50ml+클렌징젤 30ml",
+      "brand": "채널100770404",
+      "category": "뷰티/헬스",
+      "original_price": 57000,
+      "sale_price": 35900,
+      "discount_rate": 37,
+      "product_url": "https://smartstore.naver.com/main/products/9221638908",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9221638908",
+      "image_url": "https://shop-phinf.pstatic.net/20260406_108/1775485280523oQIG5_JPEG/58560745321077533_352248461.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260406_108/1775485280523oQIG5_JPEG/58560745321077533_352248461.jpg"
+      ],
+      "rank_or_position": 28,
+      "review_score": 4.9,
+      "review_count": 19604,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13248025622",
+      "product_name": "스테비아 대추 방울 토마토 토망고 단마토 2kg",
+      "brand": "채널102698382",
+      "category": "기타",
+      "original_price": 39900,
+      "sale_price": 16900,
+      "discount_rate": 57,
+      "product_url": "https://smartstore.naver.com/main/products/13248025622",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13248025622",
+      "image_url": "https://shop-phinf.pstatic.net/20260314_110/1773449185146wjuHa_JPEG/430558010924806_233248548.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260314_110/1773449185146wjuHa_JPEG/430558010924806_233248548.jpg"
+      ],
+      "rank_or_position": 29,
+      "review_score": 4.6,
+      "review_count": 25,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7467111211",
+      "product_name": "국내산 배추 포기김치 전라도 김치 미담채 3kg 5kg",
+      "brand": "채널101232925",
+      "category": "식품/음료",
+      "original_price": 23900,
+      "sale_price": 12900,
+      "discount_rate": 46,
+      "product_url": "https://smartstore.naver.com/main/products/7467111211",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7467111211",
+      "image_url": "https://shop-phinf.pstatic.net/20240812_41/1723453295406pw0Fa_JPEG/3031479226160158_1786260343.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20240812_41/1723453295406pw0Fa_JPEG/3031479226160158_1786260343.jpg"
+      ],
+      "rank_or_position": 30,
+      "review_score": 4.63,
+      "review_count": 1609,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13335717113",
+      "product_name": "신제품 출시 CJ 고메 소바바 치킨 순살 375g 5봉 2+2+1 선택 (신제품 황금홀릭, 소이허니, 양념, 마쏘킥, 레드핫)",
+      "brand": "채널100146361",
+      "category": "기타",
+      "original_price": 49900,
+      "sale_price": 33900,
+      "discount_rate": 32,
+      "product_url": "https://smartstore.naver.com/main/products/13335717113",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13335717113",
+      "image_url": "https://shop-phinf.pstatic.net/20260330_215/1774859033817y0Szk_JPEG/13705292903868666_1877827188.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260330_215/1774859033817y0Szk_JPEG/13705292903868666_1877827188.jpg"
+      ],
+      "rank_or_position": 31,
+      "review_score": 4.9,
+      "review_count": 205,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13171526335",
+      "product_name": "24K 순금키링 0.02g 액막이 클로버 미니골드바 순금선물",
+      "brand": "채널100327929",
+      "category": "기타",
+      "original_price": 29000,
+      "sale_price": 23900,
+      "discount_rate": 17,
+      "product_url": "https://smartstore.naver.com/main/products/13171526335",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13171526335",
+      "image_url": "https://shop-phinf.pstatic.net/20260226_20/1772084056642SXoYA_JPEG/106216905746732739_1175149808.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260226_20/1772084056642SXoYA_JPEG/106216905746732739_1175149808.jpg"
+      ],
+      "rank_or_position": 32,
+      "review_score": 5.0,
+      "review_count": 40,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11461583804",
+      "product_name": "(공식몰) 화이니카 치탄플러스 분말치약 20g, 2개",
+      "brand": "채널101885140",
+      "category": "기타",
+      "original_price": 88200,
+      "sale_price": 67900,
+      "discount_rate": 23,
+      "product_url": "https://smartstore.naver.com/main/products/11461583804",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11461583804",
+      "image_url": "https://shop-phinf.pstatic.net/20260415_62/1776223379035n0e7F_JPEG/110356306166751731_2054441986.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260415_62/1776223379035n0e7F_JPEG/110356306166751731_2054441986.jpg"
+      ],
+      "rank_or_position": 33,
+      "review_score": 4.64,
+      "review_count": 751,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12544116135",
+      "product_name": "청정골 지리산수 무라벨 생수 500ml, 80개",
+      "brand": "채널101437685",
+      "category": "식품/음료",
+      "original_price": 27600,
+      "sale_price": 16290,
+      "discount_rate": 40,
+      "product_url": "https://smartstore.naver.com/main/products/12544116135",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12544116135",
+      "image_url": "https://shop-phinf.pstatic.net/20251015_157/1760510413966WOaLl_PNG/6467487779527408_1915066035.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251015_157/1760510413966WOaLl_PNG/6467487779527408_1915066035.png"
+      ],
+      "rank_or_position": 34,
+      "review_score": 4.88,
+      "review_count": 792,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "354231605",
+      "product_name": "종가 행복이온 포기김치 10kg, 1개",
+      "brand": "채널500036672",
+      "category": "식품/음료",
+      "original_price": 69800,
+      "sale_price": 61900,
+      "discount_rate": 11,
+      "product_url": "https://smartstore.naver.com/main/products/354231605",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/354231605",
+      "image_url": "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png"
+      ],
+      "rank_or_position": 35,
+      "review_score": 4.75,
+      "review_count": 69128,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "10797604811",
+      "product_name": "우르오스 페이스워시 (남자 폼클렌징) 100ml, 2개",
+      "brand": "채널102454744",
+      "category": "뷰티/헬스",
+      "original_price": 26400,
+      "sale_price": 20500,
+      "discount_rate": 22,
+      "product_url": "https://smartstore.naver.com/main/products/10797604811",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10797604811",
+      "image_url": "https://shop-phinf.pstatic.net/20250110_113/173646855025942uhQ_JPEG/34656168281191655_985827464.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250110_113/173646855025942uhQ_JPEG/34656168281191655_985827464.jpg"
+      ],
+      "rank_or_position": 36,
+      "review_score": 4.85,
+      "review_count": 11528,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "340729843",
+      "product_name": "국내산 제철 박달 대게 홍게 게 포항 구룡포",
+      "brand": "채널500115640",
+      "category": "기타",
+      "original_price": 58900,
+      "sale_price": 29900,
+      "discount_rate": 49,
+      "product_url": "https://smartstore.naver.com/main/products/340729843",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/340729843",
+      "image_url": "https://shop-phinf.pstatic.net/20250107_132/1736216719043F8zKY_JPEG/7914840356643184_1712787715.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250107_132/1736216719043F8zKY_JPEG/7914840356643184_1712787715.jpg"
+      ],
+      "rank_or_position": 37,
+      "review_score": 4.39,
+      "review_count": 69455,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13141389638",
+      "product_name": "NEW 스팀쿡 마스터+ 듀얼스팀 오븐 에어프라이어 20L AV20F11WG (소이 코튼)",
+      "brand": "채널100458264",
+      "category": "기타",
+      "original_price": 469000,
+      "sale_price": 369000,
+      "discount_rate": 21,
+      "product_url": "https://smartstore.naver.com/main/products/13141389638",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13141389638",
+      "image_url": "https://shop-phinf.pstatic.net/20260223_137/1771810523736requs_PNG/18551927816736990_649212829.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260223_137/1771810523736requs_PNG/18551927816736990_649212829.png"
+      ],
+      "rank_or_position": 38,
+      "review_score": 4.9,
+      "review_count": 440,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13258313009",
+      "product_name": "자연별곡 죽 3종 6팩 세트(능이닭죽2, 소고기버섯죽2, 단호박죽2)",
+      "brand": "채널100002411",
+      "category": "식품/음료",
+      "original_price": 29400,
+      "sale_price": 19990,
+      "discount_rate": 32,
+      "product_url": "https://smartstore.naver.com/main/products/13258313009",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13258313009",
+      "image_url": "https://shop-phinf.pstatic.net/20260320_214/1773990112140r26ig_JPEG/98331140963838536_913205317.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260320_214/1773990112140r26ig_JPEG/98331140963838536_913205317.jpg"
+      ],
+      "rank_or_position": 39,
+      "review_score": 4.5,
+      "review_count": 2,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "2841553804",
+      "product_name": "힐스 강아지사료 어덜트 7+ 스몰바이트 2kg",
+      "brand": "채널100181508",
+      "category": "육아/반려",
+      "original_price": 47500,
+      "sale_price": 40370,
+      "discount_rate": 15,
+      "product_url": "https://smartstore.naver.com/main/products/2841553804",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/2841553804",
+      "image_url": "https://shop-phinf.pstatic.net/20250512_161/1747043119328Uw90d_JPEG/93676902567411772_1994500778.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250512_161/1747043119328Uw90d_JPEG/93676902567411772_1994500778.jpg"
+      ],
+      "rank_or_position": 40,
+      "review_score": 4.87,
+      "review_count": 3180,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "4890808405",
+      "product_name": "제주반했어 제주도 손질 자반 간 고등어 특대 고등어살 2kg",
+      "brand": "채널100650054",
+      "category": "기타",
+      "original_price": 56000,
+      "sale_price": 43900,
+      "discount_rate": 21,
+      "product_url": "https://smartstore.naver.com/main/products/4890808405",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4890808405",
+      "image_url": "https://shop-phinf.pstatic.net/20260223_64/1771804042415Vkmyy_JPEG/44624096563802757_144020731.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260223_64/1771804042415Vkmyy_JPEG/44624096563802757_144020731.jpg"
+      ],
+      "rank_or_position": 41,
+      "review_score": 4.9,
+      "review_count": 9517,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11576894833",
+      "product_name": "[스페셜 구성] 코코지 하우스와 올케어 성장 패키지",
+      "brand": "스페셜 구성",
+      "category": "기타",
+      "original_price": 278300,
+      "sale_price": 198900,
+      "discount_rate": 28,
+      "product_url": "https://smartstore.naver.com/main/products/11576894833",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11576894833",
+      "image_url": "https://shop-phinf.pstatic.net/20260305_200/17726904469866e8wv_PNG/106823294773952986_478181545.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260305_200/17726904469866e8wv_PNG/106823294773952986_478181545.png"
+      ],
+      "rank_or_position": 42,
+      "review_score": 4.9,
+      "review_count": 2074,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "10421288994",
+      "product_name": "자동소화 국산 고용량 멀티탭 에어컨 건조기 전용 누전차단 안전 접지 웨이브 4구 50cm",
+      "brand": "채널101037405",
+      "category": "기타",
+      "original_price": 45000,
+      "sale_price": 26820,
+      "discount_rate": 40,
+      "product_url": "https://smartstore.naver.com/main/products/10421288994",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10421288994",
+      "image_url": "https://shop-phinf.pstatic.net/20260109_147/1767926583640X5ov1_JPEG/6270125130263631_1304672693.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260109_147/1767926583640X5ov1_JPEG/6270125130263631_1304672693.jpg"
+      ],
+      "rank_or_position": 43,
+      "review_score": 4.9,
+      "review_count": 816,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    },
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "12137786879",
+      "product_name": "[최대혜택가 37만] 삼성 LH43BEFHLGFXKR 107.9cm(43인치) 크리스탈 UHD 4K 1등급 비즈니스 TV 스탠드형 LH43BEF",
+      "brand": "최대혜택가 37만",
+      "category": "기타",
+      "original_price": 559000,
+      "sale_price": 459000,
+      "discount_rate": 17,
+      "product_url": "https://smartstore.naver.com/main/products/12137786879",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12137786879",
+      "image_url": "https://shop-phinf.pstatic.net/20251217_239/1765941086016IrkiL_JPEG/43354168128379356_2133311168.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251217_239/1765941086016IrkiL_JPEG/43354168128379356_2133311168.jpg"
+      ],
+      "rank_or_position": 44,
+      "review_score": 4.92,
+      "review_count": 1555,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      },
+      "status": "entering",
+      "appeared_today": true,
+      "price_changed_today": false,
+      "active_days": 1
+    }
+  ]
+}

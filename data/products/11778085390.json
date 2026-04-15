@@ -1,0 +1,82 @@
+{
+  "product_id": "11778085390",
+  "deal_type": "스페셜딜",
+  "product_name": "[3개월분] gutsys 것시스 이지 픽 프로바이오틱스 분말형 유산균 30포, 3개",
+  "brand": "3개월분",
+  "category": "기타",
+  "first_seen_date": "2026-04-15",
+  "last_seen_date": "2026-04-15",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 18900,
+  "latest_original_price": 87000,
+  "latest_discount_rate": 78,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260403_30/1775191218589lCl6U_JPEG/58806593563346712_28404027.jpg",
+  "latest_rank": 25,
+  "product_url": "https://smartstore.naver.com/main/products/11778085390",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 78.0,
+  "max_discount_rate": 78,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "11778085390",
+      "product_name": "[3개월분] gutsys 것시스 이지 픽 프로바이오틱스 분말형 유산균 30포, 3개",
+      "brand": "3개월분",
+      "category": "기타",
+      "original_price": 87000,
+      "sale_price": 18900,
+      "discount_rate": 78,
+      "product_url": "https://smartstore.naver.com/main/products/11778085390",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11778085390",
+      "image_url": "https://shop-phinf.pstatic.net/20260403_30/1775191218589lCl6U_JPEG/58806593563346712_28404027.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260403_30/1775191218589lCl6U_JPEG/58806593563346712_28404027.jpg"
+      ],
+      "rank_or_position": 25,
+      "review_score": 4.85,
+      "review_count": 427,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-15",
+      "original_price": 87000,
+      "sale_price": 18900,
+      "discount_rate": 78
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-15",
+      "image_url": "https://shop-phinf.pstatic.net/20260403_30/1775191218589lCl6U_JPEG/58806593563346712_28404027.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-15",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

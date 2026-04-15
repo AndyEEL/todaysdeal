@@ -1,5 +1,15 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/api/products/:productId",
+      "destination": "/api/products?productId=:productId"
+    },
+    {
+      "source": "/api/brands/:brand",
+      "destination": "/api/brands?brand=:brand"
+    }
+  ],
   "headers": [
     {
       "source": "/data/latest.json",
@@ -12,6 +22,24 @@
     },
     {
       "source": "/data/daily/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/data/derived/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/data/products/(.*)",
       "headers": [
         {
           "key": "Cache-Control",

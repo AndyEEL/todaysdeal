@@ -1,51 +1,64 @@
-# today's deal
+# today's deal analytics
 
-네이버 쇼핑 `https://shopping.naver.com/promotion`의 `스페셜딜` 상품을 매일 수집해서 JSON으로 저장하고, 정적 웹 페이지에서 바로 보여주는 프로젝트입니다.
+네이버 쇼핑 `https://shopping.naver.com/promotion`의 `스페셜딜` 데이터를 매일 수집하고,  
+상품/브랜드의 **진입 → 유지 → 이탈 → 재진입(관측 시)** 흐름을 JSON 기반으로 분석하는 프로젝트입니다.
 
-## 구성
+## 핵심 구조
 
-- `scripts/naver_special_deals.py`: 스페셜딜 크롤러
-- `api/snapshot.py`: 파일 기반 스냅샷 API (`/api/snapshot?date=YYYY-MM-DD`)
-- `api/live-snapshot/index.py`: 실시간 수집 API (자동 수집 워크플로 용도)
-- `data/latest.json`: 최신 스냅샷
-- `data/daily/YYYY-MM-DD.json`: 날짜별 스냅샷
-- `.github/workflows/update-special-deals.yml`: GitHub Actions 자동 수집
-- `index.html`, `app.js`, `styles.css`: Vercel에 배포할 정적 웹 페이지
+- 수집: `scripts/naver_special_deals.py`
+- 파생 분석 생성: `scripts/build_derived_data.py`
+- API:
+  - `api/snapshot.py` → `/api/snapshot?date=YYYY-MM-DD`
+  - `api/live-snapshot/index.py` → `/api/live-snapshot`
+  - `api/insights/*` → 일별/브랜드/상품 요약
+  - `api/products.py` → 상품 타임라인 상세
+  - `api/brands.py` → 브랜드 상세
+- 저장:
+  - `data/latest.json`
+  - `data/daily/YYYY-MM-DD.json`
+  - `data/derived/...` (insights, summaries, indices)
+  - `data/products/{product_id}.json` (상품 lifecycle 상세)
 
 ## 로컬 실행
 
-```bash
-.venv/bin/python scripts/naver_special_deals.py
-```
-
-저장된 HTML로 테스트:
+수집:
 
 ```bash
-.venv/bin/python scripts/naver_special_deals.py --html-file /tmp/naver_promotion.html
+.venv/bin/python scripts/naver_special_deals.py --output-dir data --skip-history
 ```
 
-## GitHub Actions
+파생 분석 생성:
 
-워크플로는 매일 `11:06 KST`에 실행되도록 설정되어 있습니다.
+```bash
+.venv/bin/python scripts/build_derived_data.py --data-dir data
+```
 
-실행 흐름:
+## API 예시
 
-1. Vercel의 `/api/live-snapshot` 호출
-2. 받은 JSON으로 `latest.json`, `daily/YYYY-MM-DD.json` 갱신
-3. `data` 변경사항 커밋
-4. `main` 브랜치에 push
+- 스냅샷:
+  - `/api/snapshot`
+  - `/api/snapshot?date=2026-04-15`
+- 일별 인사이트:
+  - `/api/insights/daily`
+  - `/api/insights/daily?date=2026-04-15`
+- 상품/브랜드 요약:
+  - `/api/insights/products`
+  - `/api/insights/brands`
+- 상품/브랜드 상세:
+  - `/api/products?productId=12808256836`
+  - `/api/brands?brand=채널102655931`
+  - rewrite 지원: `/api/products/12808256836`, `/api/brands/{slug}`
 
-필수 설정:
+## GitHub Actions 자동화
 
-- `VERCEL_LIVE_SNAPSHOT_URL` (권장) 또는 `VERCEL_SNAPSHOT_URL`
-- 예시 값: `https://your-project.vercel.app/api/live-snapshot`
+`.github/workflows/update-special-deals.yml`
 
-## Vercel
+매일 `11:06 KST` 실행:
+1. `/api/live-snapshot` 호출
+2. `data/latest.json`, `data/daily/YYYY-MM-DD.json` 갱신
+3. `scripts/build_derived_data.py` 실행
+4. `data` 변경사항 커밋 후 `main`에 push
 
-이 저장소를 Vercel에 Import 하면 정적 사이트로 바로 배포할 수 있습니다.
-
-- 홈 화면: `/`
-- 파일 스냅샷 API: `/api/snapshot`
-- 날짜 조회 API: `/api/snapshot?date=2026-04-15`
-- 실시간 수집 API: `/api/live-snapshot`
-- 최신 데이터: `/data/latest.json`
+필수 Repository Variable:
+- `VERCEL_LIVE_SNAPSHOT_URL` (권장)
+- 또는 `VERCEL_SNAPSHOT_URL` (자동 fallback 지원)

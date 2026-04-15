@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-04-15T20:37:28.128439",
+  "snapshot_date": "2026-04-15",
+  "status_counts": {
+    "entering": 44
+  },
+  "total_products_observed": 44,
+  "total_daily_snapshots": 1,
+  "last_daily_diff": {
+    "snapshot_date": "2026-04-15",
+    "new_count": 44,
+    "removed_count": 0,
+    "price_changed_count": 0
+  },
+  "categories": {
+    "식품/음료": 11,
+    "기타": 27,
+    "생활/주방": 3,
+    "뷰티/헬스": 2,
+    "육아/반려": 1
+  }
+}

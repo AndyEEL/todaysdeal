@@ -1,0 +1,82 @@
+{
+  "product_id": "10797604811",
+  "deal_type": "스페셜딜",
+  "product_name": "우르오스 페이스워시 (남자 폼클렌징) 100ml, 2개",
+  "brand": "채널102454744",
+  "category": "뷰티/헬스",
+  "first_seen_date": "2026-04-15",
+  "last_seen_date": "2026-04-15",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 20500,
+  "latest_original_price": 26400,
+  "latest_discount_rate": 22,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250110_113/173646855025942uhQ_JPEG/34656168281191655_985827464.jpg",
+  "latest_rank": 36,
+  "product_url": "https://smartstore.naver.com/main/products/10797604811",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 22.0,
+  "max_discount_rate": 22,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "10797604811",
+      "product_name": "우르오스 페이스워시 (남자 폼클렌징) 100ml, 2개",
+      "brand": "채널102454744",
+      "category": "뷰티/헬스",
+      "original_price": 26400,
+      "sale_price": 20500,
+      "discount_rate": 22,
+      "product_url": "https://smartstore.naver.com/main/products/10797604811",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10797604811",
+      "image_url": "https://shop-phinf.pstatic.net/20250110_113/173646855025942uhQ_JPEG/34656168281191655_985827464.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250110_113/173646855025942uhQ_JPEG/34656168281191655_985827464.jpg"
+      ],
+      "rank_or_position": 36,
+      "review_score": 4.85,
+      "review_count": 11528,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-15",
+      "original_price": 26400,
+      "sale_price": 20500,
+      "discount_rate": 22
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-15",
+      "image_url": "https://shop-phinf.pstatic.net/20250110_113/173646855025942uhQ_JPEG/34656168281191655_985827464.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-15",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

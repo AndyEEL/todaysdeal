@@ -1,0 +1,82 @@
+{
+  "product_id": "2841553804",
+  "deal_type": "스페셜딜",
+  "product_name": "힐스 강아지사료 어덜트 7+ 스몰바이트 2kg",
+  "brand": "채널100181508",
+  "category": "육아/반려",
+  "first_seen_date": "2026-04-15",
+  "last_seen_date": "2026-04-15",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 40370,
+  "latest_original_price": 47500,
+  "latest_discount_rate": 15,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250512_161/1747043119328Uw90d_JPEG/93676902567411772_1994500778.jpg",
+  "latest_rank": 40,
+  "product_url": "https://smartstore.naver.com/main/products/2841553804",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 15.0,
+  "max_discount_rate": 15,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "2841553804",
+      "product_name": "힐스 강아지사료 어덜트 7+ 스몰바이트 2kg",
+      "brand": "채널100181508",
+      "category": "육아/반려",
+      "original_price": 47500,
+      "sale_price": 40370,
+      "discount_rate": 15,
+      "product_url": "https://smartstore.naver.com/main/products/2841553804",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/2841553804",
+      "image_url": "https://shop-phinf.pstatic.net/20250512_161/1747043119328Uw90d_JPEG/93676902567411772_1994500778.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250512_161/1747043119328Uw90d_JPEG/93676902567411772_1994500778.jpg"
+      ],
+      "rank_or_position": 40,
+      "review_score": 4.87,
+      "review_count": 3180,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-15",
+      "original_price": 47500,
+      "sale_price": 40370,
+      "discount_rate": 15
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-15",
+      "image_url": "https://shop-phinf.pstatic.net/20250512_161/1747043119328Uw90d_JPEG/93676902567411772_1994500778.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-15",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

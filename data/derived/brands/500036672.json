@@ -1,0 +1,71 @@
+{
+  "brand": "채널500036672",
+  "snapshot_date": "2026-04-15",
+  "window_days": 7,
+  "summary": {
+    "brand": "채널500036672",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 11.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "균형 운영형"
+  },
+  "top_products": [
+    {
+      "product_id": "354231605",
+      "deal_type": "스페셜딜",
+      "product_name": "종가 행복이온 포기김치 10kg, 1개",
+      "brand": "채널500036672",
+      "category": "식품/음료",
+      "first_seen_date": "2026-04-15",
+      "last_seen_date": "2026-04-15",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 61900,
+      "latest_original_price": 69800,
+      "latest_discount_rate": 11,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png",
+      "latest_rank": 35,
+      "product_url": "https://smartstore.naver.com/main/products/354231605",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 11.0,
+      "max_discount_rate": 11
+    }
+  ],
+  "products": [
+    {
+      "product_id": "354231605",
+      "deal_type": "스페셜딜",
+      "product_name": "종가 행복이온 포기김치 10kg, 1개",
+      "brand": "채널500036672",
+      "category": "식품/음료",
+      "first_seen_date": "2026-04-15",
+      "last_seen_date": "2026-04-15",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 61900,
+      "latest_original_price": 69800,
+      "latest_discount_rate": 11,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20250520_73/1747716430605vlWPF_PNG/76306057634654571_440600386.png",
+      "latest_rank": 35,
+      "product_url": "https://smartstore.naver.com/main/products/354231605",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 11.0,
+      "max_discount_rate": 11
+    }
+  ],
+  "slug": "500036672"
+}

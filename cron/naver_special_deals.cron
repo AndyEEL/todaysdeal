@@ -1,5 +1,6 @@
 SHELL=/bin/zsh
 PATH=/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin
 
-# Crawl Naver Shopping special deals every 30 minutes.
-*/30 * * * * /Users/andylee/dev/990won/.venv/bin/python /Users/andylee/dev/990won/scripts/naver_special_deals.py --output-dir /Users/andylee/dev/990won/data/naver_special_deals >> /Users/andylee/dev/990won/logs/naver_special_deals.log 2>&1
+# Crawl once a day at 11:01 KST and rebuild derived analytics JSON.
+1 11 * * * /Users/andylee/dev/990won/.venv/bin/python /Users/andylee/dev/990won/scripts/naver_special_deals.py --output-dir /Users/andylee/dev/990won/data --skip-history >> /Users/andylee/dev/990won/logs/naver_special_deals.log 2>&1
+2 11 * * * /Users/andylee/dev/990won/.venv/bin/python /Users/andylee/dev/990won/scripts/build_derived_data.py --data-dir /Users/andylee/dev/990won/data >> /Users/andylee/dev/990won/logs/naver_special_deals.log 2>&1

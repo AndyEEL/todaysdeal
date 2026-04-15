@@ -1,0 +1,82 @@
+{
+  "product_id": "9221638908",
+  "deal_type": "스페셜딜",
+  "product_name": "피지오겔 DMT 페이셜 수분 장벽크림 75ml x3개+(증정)DMT 로션 50ml+클렌징젤 30ml",
+  "brand": "채널100770404",
+  "category": "뷰티/헬스",
+  "first_seen_date": "2026-04-15",
+  "last_seen_date": "2026-04-15",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 35900,
+  "latest_original_price": 57000,
+  "latest_discount_rate": 37,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260406_108/1775485280523oQIG5_JPEG/58560745321077533_352248461.jpg",
+  "latest_rank": 28,
+  "product_url": "https://smartstore.naver.com/main/products/9221638908",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 37.0,
+  "max_discount_rate": 37,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "9221638908",
+      "product_name": "피지오겔 DMT 페이셜 수분 장벽크림 75ml x3개+(증정)DMT 로션 50ml+클렌징젤 30ml",
+      "brand": "채널100770404",
+      "category": "뷰티/헬스",
+      "original_price": 57000,
+      "sale_price": 35900,
+      "discount_rate": 37,
+      "product_url": "https://smartstore.naver.com/main/products/9221638908",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9221638908",
+      "image_url": "https://shop-phinf.pstatic.net/20260406_108/1775485280523oQIG5_JPEG/58560745321077533_352248461.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260406_108/1775485280523oQIG5_JPEG/58560745321077533_352248461.jpg"
+      ],
+      "rank_or_position": 28,
+      "review_score": 4.9,
+      "review_count": 19604,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-15",
+      "original_price": 57000,
+      "sale_price": 35900,
+      "discount_rate": 37
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-15",
+      "image_url": "https://shop-phinf.pstatic.net/20260406_108/1775485280523oQIG5_JPEG/58560745321077533_352248461.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-15",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "product_id": "13141389638",
+  "deal_type": "스페셜딜",
+  "product_name": "NEW 스팀쿡 마스터+ 듀얼스팀 오븐 에어프라이어 20L AV20F11WG (소이 코튼)",
+  "brand": "채널100458264",
+  "category": "기타",
+  "first_seen_date": "2026-04-15",
+  "last_seen_date": "2026-04-15",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 369000,
+  "latest_original_price": 469000,
+  "latest_discount_rate": 21,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260223_137/1771810523736requs_PNG/18551927816736990_649212829.png",
+  "latest_rank": 38,
+  "product_url": "https://smartstore.naver.com/main/products/13141389638",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 21.0,
+  "max_discount_rate": 21,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "13141389638",
+      "product_name": "NEW 스팀쿡 마스터+ 듀얼스팀 오븐 에어프라이어 20L AV20F11WG (소이 코튼)",
+      "brand": "채널100458264",
+      "category": "기타",
+      "original_price": 469000,
+      "sale_price": 369000,
+      "discount_rate": 21,
+      "product_url": "https://smartstore.naver.com/main/products/13141389638",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13141389638",
+      "image_url": "https://shop-phinf.pstatic.net/20260223_137/1771810523736requs_PNG/18551927816736990_649212829.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260223_137/1771810523736requs_PNG/18551927816736990_649212829.png"
+      ],
+      "rank_or_position": 38,
+      "review_score": 4.9,
+      "review_count": 440,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-15",
+      "original_price": 469000,
+      "sale_price": 369000,
+      "discount_rate": 21
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-15",
+      "image_url": "https://shop-phinf.pstatic.net/20260223_137/1771810523736requs_PNG/18551927816736990_649212829.png"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-15",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

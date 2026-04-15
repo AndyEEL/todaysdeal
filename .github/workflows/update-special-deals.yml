@@ -57,6 +57,10 @@ jobs:
             --output-dir data \
             --skip-history
 
+      - name: Build derived analytics JSON
+        run: |
+          python scripts/build_derived_data.py --data-dir data
+
       - name: Commit updated JSON
         run: |
           if [ -z "$(git status --porcelain -- data)" ]; then

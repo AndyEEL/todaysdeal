@@ -1,0 +1,82 @@
+{
+  "product_id": "7467111211",
+  "deal_type": "스페셜딜",
+  "product_name": "국내산 배추 포기김치 전라도 김치 미담채 3kg 5kg",
+  "brand": "채널101232925",
+  "category": "식품/음료",
+  "first_seen_date": "2026-04-15",
+  "last_seen_date": "2026-04-15",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 12900,
+  "latest_original_price": 23900,
+  "latest_discount_rate": 46,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20240812_41/1723453295406pw0Fa_JPEG/3031479226160158_1786260343.jpg",
+  "latest_rank": 30,
+  "product_url": "https://smartstore.naver.com/main/products/7467111211",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 46.0,
+  "max_discount_rate": 46,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-15",
+      "deal_type": "스페셜딜",
+      "product_id": "7467111211",
+      "product_name": "국내산 배추 포기김치 전라도 김치 미담채 3kg 5kg",
+      "brand": "채널101232925",
+      "category": "식품/음료",
+      "original_price": 23900,
+      "sale_price": 12900,
+      "discount_rate": 46,
+      "product_url": "https://smartstore.naver.com/main/products/7467111211",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7467111211",
+      "image_url": "https://shop-phinf.pstatic.net/20240812_41/1723453295406pw0Fa_JPEG/3031479226160158_1786260343.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20240812_41/1723453295406pw0Fa_JPEG/3031479226160158_1786260343.jpg"
+      ],
+      "rank_or_position": 30,
+      "review_score": 4.63,
+      "review_count": 1609,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-15.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-15T19:15:35.669702+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-15",
+      "original_price": 23900,
+      "sale_price": 12900,
+      "discount_rate": 46
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-15",
+      "image_url": "https://shop-phinf.pstatic.net/20240812_41/1723453295406pw0Fa_JPEG/3031479226160158_1786260343.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-15",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}
