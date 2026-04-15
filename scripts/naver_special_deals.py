@@ -5,6 +5,7 @@ import argparse
 import json
 import logging
 import re
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -14,6 +15,7 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 SOURCE_URL = "https://shopping.naver.com/promotion"
+DIRECT_SOURCE_URL = "https://shopping.naver.com/promotion/BROWSER/PC"
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -78,6 +80,54 @@ def fetch_html(url: str, timeout: float) -> str:
     )
     with urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8", errors="replace")
+
+
+def fetch_html_with_curl(url: str, timeout: float) -> str:
+    result = subprocess.run(
+        [
+            "curl",
+            "-L",
+            "--compressed",
+            "-A",
+            USER_AGENT,
+            "--max-time",
+            str(int(timeout)),
+            url,
+        ],
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    return result.stdout
+
+
+def fetch_candidate_html(source_url: str, timeout: float) -> tuple[str, str]:
+    candidate_urls = []
+    for candidate in (source_url, DIRECT_SOURCE_URL):
+        if candidate not in candidate_urls:
+            candidate_urls.append(candidate)
+
+    for candidate_url in candidate_urls:
+        try:
+            logging.info("Fetching %s with urllib", candidate_url)
+            html = fetch_html(candidate_url, timeout)
+            if "__NEXT_DATA__" in html:
+                return html, candidate_url
+            logging.warning("No __NEXT_DATA__ found from urllib response for %s", candidate_url)
+        except (HTTPError, URLError) as exc:
+            logging.warning("urllib fetch failed for %s: %s", candidate_url, exc)
+
+    for candidate_url in candidate_urls:
+        try:
+            logging.info("Fetching %s with curl fallback", candidate_url)
+            html = fetch_html_with_curl(candidate_url, timeout)
+            if "__NEXT_DATA__" in html:
+                return html, candidate_url
+            logging.warning("No __NEXT_DATA__ found from curl response for %s", candidate_url)
+        except (subprocess.CalledProcessError, FileNotFoundError) as exc:
+            logging.warning("curl fetch failed for %s: %s", candidate_url, exc)
+
+    raise ValueError("Could not fetch HTML containing __NEXT_DATA__ from any candidate URL.")
 
 
 def load_next_data(html: str) -> dict[str, Any]:
@@ -242,12 +292,12 @@ def main() -> int:
         if args.html_file:
             logging.info("Loading HTML from %s", args.html_file)
             html = args.html_file.read_text(encoding="utf-8")
+            resolved_source_url = args.source_url
         else:
-            logging.info("Fetching %s", args.source_url)
-            html = fetch_html(args.source_url, args.timeout)
+            html, resolved_source_url = fetch_candidate_html(args.source_url, args.timeout)
 
         next_data = load_next_data(html)
-        snapshot = extract_special_deals(next_data, args.source_url)
+        snapshot = extract_special_deals(next_data, resolved_source_url)
         daily_path, latest_path, history_path = save_snapshot(
             snapshot=snapshot,
             output_dir=args.output_dir,
@@ -265,7 +315,7 @@ def main() -> int:
         return 0
     except FileNotFoundError as exc:
         logging.error("Input HTML file not found: %s", exc)
-    except (HTTPError, URLError) as exc:
+    except (HTTPError, URLError, subprocess.CalledProcessError) as exc:
         logging.error("Failed to fetch live page: %s", exc)
     except (KeyError, ValueError, json.JSONDecodeError) as exc:
         logging.error("Failed to parse promotion page: %s", exc)
