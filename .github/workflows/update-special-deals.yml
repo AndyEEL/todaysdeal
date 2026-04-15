@@ -17,6 +17,7 @@ jobs:
   crawl-and-commit:
     runs-on: ubuntu-latest
     env:
+      VERCEL_LIVE_SNAPSHOT_URL: ${{ vars.VERCEL_LIVE_SNAPSHOT_URL }}
       VERCEL_SNAPSHOT_URL: ${{ vars.VERCEL_SNAPSHOT_URL }}
 
     steps:
@@ -28,31 +29,43 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch snapshot from Vercel
+      - name: Fetch live snapshot from Vercel
         run: |
-          if [ -z "$VERCEL_SNAPSHOT_URL" ]; then
-            echo "Repository variable VERCEL_SNAPSHOT_URL is not set."
+          LIVE_URL="$VERCEL_LIVE_SNAPSHOT_URL"
+          if [ -z "$LIVE_URL" ] && [ -n "$VERCEL_SNAPSHOT_URL" ]; then
+            case "$VERCEL_SNAPSHOT_URL" in
+              */api/snapshot)
+                LIVE_URL="${VERCEL_SNAPSHOT_URL%/api/snapshot}/api/live-snapshot"
+                ;;
+              *)
+                LIVE_URL="$VERCEL_SNAPSHOT_URL"
+                ;;
+            esac
+          fi
+
+          if [ -z "$LIVE_URL" ]; then
+            echo "Set VERCEL_LIVE_SNAPSHOT_URL or VERCEL_SNAPSHOT_URL repository variable."
             exit 1
           fi
 
-          curl -fsSL "$VERCEL_SNAPSHOT_URL" -o /tmp/naver_special_deals_snapshot.json
+          curl -fsSL "$LIVE_URL" -o /tmp/naver_special_deals_snapshot.json
 
       - name: Write JSON files
         run: |
           python scripts/naver_special_deals.py \
             --snapshot-file /tmp/naver_special_deals_snapshot.json \
-            --output-dir data/naver_special_deals \
+            --output-dir data \
             --skip-history
 
       - name: Commit updated JSON
         run: |
-          if [ -z "$(git status --porcelain -- data/naver_special_deals)" ]; then
+          if [ -z "$(git status --porcelain -- data)" ]; then
             echo "No data changes detected."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/naver_special_deals
+          git add data
           git commit -m "Update special deals snapshot"
           git push

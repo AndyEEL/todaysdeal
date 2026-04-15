@@ -27,7 +27,7 @@ NEXT_DATA_PATTERN = re.compile(
 )
 SEOUL = ZoneInfo("Asia/Seoul")
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT_DIR = REPO_ROOT / "data" / "naver_special_deals"
+DEFAULT_OUTPUT_DIR = REPO_ROOT / "data"
 
 
 def parse_args() -> argparse.Namespace:

@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 logs/
 data/naver_special_deals/history/
+data/history/

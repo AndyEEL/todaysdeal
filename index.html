@@ -26,18 +26,26 @@
           보여주는 보드입니다.
         </p>
 
+        <div class="hero-controls">
+          <label class="date-field">
+            <span>기준 날짜</span>
+            <input id="date-input" type="date" />
+          </label>
+          <button id="today-button" type="button">오늘로 이동</button>
+        </div>
+
         <div class="hero-stats" id="hero-stats">
           <article>
-            <span class="stat-label">업데이트</span>
-            <strong id="stat-updated">불러오는 중</strong>
+            <span class="stat-label">선택 날짜</span>
+            <strong id="stat-date">불러오는 중</strong>
           </article>
           <article>
             <span class="stat-label">상품 수</span>
             <strong id="stat-count">-</strong>
           </article>
           <article>
-            <span class="stat-label">판매 창</span>
-            <strong id="stat-window">-</strong>
+            <span class="stat-label">업데이트</span>
+            <strong id="stat-updated">-</strong>
           </article>
         </div>
       </header>
@@ -46,15 +54,43 @@
         <section class="panel toolbar">
           <div>
             <p class="panel-kicker">Live Data</p>
-            <h2>오늘 수집된 상품</h2>
+            <h2>날짜별 스냅샷</h2>
+            <p class="list-meta" id="sale-window">-</p>
           </div>
-          <label class="search">
-            <span class="sr-only">상품 검색</span>
-            <input id="search-input" type="search" placeholder="상품명으로 검색" />
-          </label>
+          <div class="toolbar-right">
+            <label class="search">
+              <span class="sr-only">상품 검색</span>
+              <input id="search-input" type="search" placeholder="상품명으로 검색" />
+            </label>
+            <label class="future-filter">
+              <span>카테고리</span>
+              <select id="category-filter" disabled>
+                <option>전체 (준비중)</option>
+              </select>
+            </label>
+          </div>
         </section>
 
-        <section class="summary-grid" id="summary-grid"></section>
+        <section class="panel">
+          <div class="list-header">
+            <div>
+              <p class="panel-kicker">Daily Comparison</p>
+              <h2>전일 대비 변화</h2>
+            </div>
+            <p id="compare-note" class="list-meta"></p>
+          </div>
+          <section class="summary-grid" id="compare-grid"></section>
+          <section class="delta-grid">
+            <article class="delta-card">
+              <h3>신규 추가된 상품</h3>
+              <ul id="added-list" class="delta-list"></ul>
+            </article>
+            <article class="delta-card">
+              <h3>사라진 상품</h3>
+              <ul id="removed-list" class="delta-list"></ul>
+            </article>
+          </section>
+        </section>
 
         <section class="panel">
           <div class="list-header">
@@ -65,6 +101,30 @@
             <p id="list-meta" class="list-meta"></p>
           </div>
           <div id="deal-grid" class="deal-grid"></div>
+        </section>
+
+        <section class="panel roadmap-panel">
+          <div class="list-header">
+            <div>
+              <p class="panel-kicker">Expansion</p>
+              <h2>다음 확장 예정</h2>
+            </div>
+            <p class="list-meta">JSON 기반 구조 유지</p>
+          </div>
+          <div class="roadmap-grid">
+            <article>
+              <h3>카테고리 필터</h3>
+              <p>상품 메타데이터 스키마 확장 시 즉시 연결 가능</p>
+            </article>
+            <article>
+              <h3>브랜드 분석</h3>
+              <p>브랜드별 점유율, 신규 진입/이탈 추적 카드 추가</p>
+            </article>
+            <article>
+              <h3>최근 7일 트렌드</h3>
+              <p>daily JSON 누적 기반 시계열 변화 차트 추가</p>
+            </article>
+          </div>
         </section>
       </main>
     </div>
