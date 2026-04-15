@@ -5,6 +5,7 @@
 ## 구성
 
 - `scripts/naver_special_deals.py`: 스페셜딜 크롤러
+- `api/snapshot.py`: Vercel 함수에서 실시간 스냅샷 JSON을 만드는 API
 - `data/naver_special_deals/latest.json`: 최신 스냅샷
 - `data/naver_special_deals/daily/YYYY-MM-DD.json`: 날짜별 최신 스냅샷
 - `.github/workflows/update-special-deals.yml`: GitHub Actions 자동 수집
@@ -28,14 +29,20 @@
 
 실행 흐름:
 
-1. Python 3.12 준비
-2. 크롤러 실행
+1. Vercel의 `/api/snapshot` 호출
+2. 받은 JSON으로 `latest.json`, `daily/YYYY-MM-DD.json` 갱신
 3. `data/naver_special_deals` 변경사항 커밋
 4. `main` 브랜치에 push
+
+필수 설정:
+
+- GitHub repo variable `VERCEL_SNAPSHOT_URL`
+- 예시 값: `https://your-project.vercel.app/api/snapshot`
 
 ## Vercel
 
 이 저장소를 Vercel에 Import 하면 정적 사이트로 바로 배포할 수 있습니다.
 
 - 홈 화면: `/`
+- 스냅샷 API: `/api/snapshot`
 - 최신 데이터: `/data/naver_special_deals/latest.json`

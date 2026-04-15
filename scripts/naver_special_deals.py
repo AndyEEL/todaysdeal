@@ -47,6 +47,11 @@ def parse_args() -> argparse.Namespace:
         help="Read HTML from a local file instead of fetching the live page.",
     )
     parser.add_argument(
+        "--snapshot-file",
+        type=Path,
+        help="Read a prebuilt snapshot JSON file and write daily/latest files from it.",
+    )
+    parser.add_argument(
         "--timeout",
         type=float,
         default=30.0,
@@ -289,15 +294,21 @@ def main() -> int:
     configure_logging(args.quiet)
 
     try:
-        if args.html_file:
+        if args.snapshot_file:
+            logging.info("Loading snapshot JSON from %s", args.snapshot_file)
+            snapshot = json.loads(args.snapshot_file.read_text(encoding="utf-8"))
+            resolved_source_url = snapshot.get("source_url", args.source_url)
+            snapshot["source_url"] = resolved_source_url
+        elif args.html_file:
             logging.info("Loading HTML from %s", args.html_file)
             html = args.html_file.read_text(encoding="utf-8")
             resolved_source_url = args.source_url
+            next_data = load_next_data(html)
+            snapshot = extract_special_deals(next_data, resolved_source_url)
         else:
             html, resolved_source_url = fetch_candidate_html(args.source_url, args.timeout)
-
-        next_data = load_next_data(html)
-        snapshot = extract_special_deals(next_data, resolved_source_url)
+            next_data = load_next_data(html)
+            snapshot = extract_special_deals(next_data, resolved_source_url)
         daily_path, latest_path, history_path = save_snapshot(
             snapshot=snapshot,
             output_dir=args.output_dir,

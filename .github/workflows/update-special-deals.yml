@@ -16,6 +16,8 @@ concurrency:
 jobs:
   crawl-and-commit:
     runs-on: ubuntu-latest
+    env:
+      VERCEL_SNAPSHOT_URL: ${{ vars.VERCEL_SNAPSHOT_URL }}
 
     steps:
       - name: Check out repository
@@ -26,8 +28,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run crawler
-        run: python scripts/naver_special_deals.py --output-dir data/naver_special_deals --skip-history
+      - name: Fetch snapshot from Vercel
+        run: |
+          if [ -z "$VERCEL_SNAPSHOT_URL" ]; then
+            echo "Repository variable VERCEL_SNAPSHOT_URL is not set."
+            exit 1
+          fi
+
+          curl -fsSL "$VERCEL_SNAPSHOT_URL" -o /tmp/naver_special_deals_snapshot.json
+
+      - name: Write JSON files
+        run: |
+          python scripts/naver_special_deals.py \
+            --snapshot-file /tmp/naver_special_deals_snapshot.json \
+            --output-dir data/naver_special_deals \
+            --skip-history
 
       - name: Commit updated JSON
         run: |
