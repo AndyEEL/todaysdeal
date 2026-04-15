@@ -1,41 +1,41 @@
-# Naver Special Deals Crawler
+# today's deal
 
-`https://shopping.naver.com/promotion`의 `스페셜딜` 상품을 파싱해서 JSON으로 저장하는 경량 파이썬 스크립트입니다.
+네이버 쇼핑 `https://shopping.naver.com/promotion`의 `스페셜딜` 상품을 매일 수집해서 JSON으로 저장하고, 정적 웹 페이지에서 바로 보여주는 프로젝트입니다.
 
-## 실행
+## 구성
 
-현재 페이지를 바로 수집:
+- `scripts/naver_special_deals.py`: 스페셜딜 크롤러
+- `data/naver_special_deals/latest.json`: 최신 스냅샷
+- `data/naver_special_deals/daily/YYYY-MM-DD.json`: 날짜별 최신 스냅샷
+- `.github/workflows/update-special-deals.yml`: GitHub Actions 자동 수집
+- `index.html`, `app.js`, `styles.css`: Vercel에 배포할 정적 웹 페이지
+
+## 로컬 실행
 
 ```bash
 .venv/bin/python scripts/naver_special_deals.py
 ```
 
-저장된 HTML로 오프라인 검증:
+저장된 HTML로 테스트:
 
 ```bash
 .venv/bin/python scripts/naver_special_deals.py --html-file /tmp/naver_promotion.html
 ```
 
-## 출력 파일
+## GitHub Actions
 
-- `data/naver_special_deals/daily/YYYY-MM-DD.json`: 해당 날짜의 최신 스냅샷
-- `data/naver_special_deals/history/YYYY-MM-DD/HHMMSS.json`: 실행 시각별 히스토리 스냅샷
-- `data/naver_special_deals/latest.json`: 가장 최근 스냅샷
+워크플로는 매일 `11:06 KST`에 실행되도록 설정되어 있습니다.
 
-## 크론
+실행 흐름:
 
-예시 크론 파일은 `cron/naver_special_deals.cron`에 있습니다.
+1. Python 3.12 준비
+2. 크롤러 실행
+3. `data/naver_special_deals` 변경사항 커밋
+4. `main` 브랜치에 push
 
-설치:
+## Vercel
 
-```bash
-crontab cron/naver_special_deals.cron
-```
+이 저장소를 Vercel에 Import 하면 정적 사이트로 바로 배포할 수 있습니다.
 
-로그:
-
-```bash
-tail -f logs/naver_special_deals.log
-```
-
-# todaysdeal
+- 홈 화면: `/`
+- 최신 데이터: `/data/naver_special_deals/latest.json`

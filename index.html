@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>today's deal</title>
+    <meta
+      name="description"
+      content="네이버 쇼핑 오늘의 스페셜딜을 매일 자동으로 모아보는 데일리 딜 보드"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Daily Snapshot</p>
+        <h1>today's deal</h1>
+        <p class="hero-copy">
+          네이버 쇼핑 <strong>스페셜딜</strong>을 매일 한 번 수집해, 오늘 확인할 만한 딜만 깔끔하게
+          보여주는 보드입니다.
+        </p>
+
+        <div class="hero-stats" id="hero-stats">
+          <article>
+            <span class="stat-label">업데이트</span>
+            <strong id="stat-updated">불러오는 중</strong>
+          </article>
+          <article>
+            <span class="stat-label">상품 수</span>
+            <strong id="stat-count">-</strong>
+          </article>
+          <article>
+            <span class="stat-label">판매 창</span>
+            <strong id="stat-window">-</strong>
+          </article>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="panel toolbar">
+          <div>
+            <p class="panel-kicker">Live Data</p>
+            <h2>오늘 수집된 상품</h2>
+          </div>
+          <label class="search">
+            <span class="sr-only">상품 검색</span>
+            <input id="search-input" type="search" placeholder="상품명으로 검색" />
+          </label>
+        </section>
+
+        <section class="summary-grid" id="summary-grid"></section>
+
+        <section class="panel">
+          <div class="list-header">
+            <div>
+              <p class="panel-kicker">Special Deal List</p>
+              <h2>딜 리스트</h2>
+            </div>
+            <p id="list-meta" class="list-meta"></p>
+          </div>
+          <div id="deal-grid" class="deal-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="deal-card-template">
+      <article class="deal-card">
+        <div class="card-top">
+          <span class="card-rank"></span>
+          <span class="card-label"></span>
+        </div>
+        <h3 class="card-title"></h3>
+        <div class="price-row">
+          <strong class="card-price"></strong>
+          <span class="card-discount"></span>
+        </div>
+        <dl class="card-meta">
+          <div>
+            <dt>리뷰</dt>
+            <dd class="card-reviews"></dd>
+          </div>
+          <div>
+            <dt>정가</dt>
+            <dd class="card-sale-price"></dd>
+          </div>
+        </dl>
+        <a class="card-link" target="_blank" rel="noreferrer noopener">상품 보기</a>
+      </article>
+    </template>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

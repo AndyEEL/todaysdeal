@@ -1,0 +1,43 @@
+name: Update Special Deals
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 11:06 KST every day
+    - cron: "6 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-special-deals
+  cancel-in-progress: false
+
+jobs:
+  crawl-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run crawler
+        run: python scripts/naver_special_deals.py --output-dir data/naver_special_deals --skip-history
+
+      - name: Commit updated JSON
+        run: |
+          if [ -z "$(git status --porcelain -- data/naver_special_deals)" ]; then
+            echo "No data changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/naver_special_deals
+          git commit -m "Update special deals snapshot"
+          git push
