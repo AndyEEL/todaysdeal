@@ -3,103 +3,84 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>today's deal analytics</title>
+    <title>today's deal workbench</title>
     <meta
       name="description"
-      content="네이버 쇼핑 오늘끝딜/스페셜딜 lifecycle 분석 대시보드"
+      content="오늘의딜 상품/브랜드 운영 워크벤치"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="hero panel">
-        <div>
-          <p class="eyebrow">Deal Lifecycle Dashboard</p>
-          <h1>today's deal analytics</h1>
-          <p class="hero-copy">
-            스냅샷 조회를 넘어 상품/브랜드의 진입-유지-이탈 흐름을 날짜별로 추적합니다.
+    <div class="workbench-shell">
+      <header class="panel workspace-header">
+        <div class="workspace-copy">
+          <p class="eyebrow">today's deal v1</p>
+          <h1>오늘의딜 운영 워크벤치</h1>
+          <p class="lead-copy">
+            카테고리 · 운영 스토어 중심으로 상품 상태와 브랜드 흐름을 한 화면에서 관리합니다.
           </p>
         </div>
-        <div class="hero-controls">
+        <div class="workspace-actions">
           <label class="date-field">
-            <span>기준 날짜</span>
+            <span>기준일</span>
             <input id="date-input" type="date" />
           </label>
-          <button id="today-button" type="button">오늘</button>
-          <button id="reload-button" type="button">새로고침</button>
+          <button id="today-button" type="button">오늘 데이터</button>
+          <button id="reload-button" type="button">다시 불러오기</button>
         </div>
       </header>
 
-      <main class="content">
-        <section class="kpi-grid">
-          <article class="kpi-card">
-            <p>총 상품 수</p>
-            <strong id="kpi-product-count">-</strong>
-          </article>
-          <article class="kpi-card tone-up">
-            <p>신규 진입</p>
-            <strong id="kpi-new-count">-</strong>
-          </article>
-          <article class="kpi-card tone-down">
-            <p>이탈</p>
-            <strong id="kpi-removed-count">-</strong>
-          </article>
-          <article class="kpi-card tone-info">
-            <p>가격 변경</p>
-            <strong id="kpi-price-changed-count">-</strong>
-          </article>
+      <main class="workspace-main">
+        <section class="panel stat-panel">
+          <div class="stat-grid">
+            <article class="stat-card">
+              <p>조회 상품</p>
+              <strong id="kpi-total-products">-</strong>
+            </article>
+            <article class="stat-card">
+              <p>신규 진입</p>
+              <strong id="kpi-entering-products">-</strong>
+            </article>
+            <article class="stat-card">
+              <p>가격 변동</p>
+              <strong id="kpi-price-change-products">-</strong>
+            </article>
+            <article class="stat-card">
+              <p>운영 스토어</p>
+              <strong id="kpi-store-count">-</strong>
+            </article>
+          </div>
+          <p id="summary-note" class="panel-note">-</p>
         </section>
 
         <section class="panel">
           <div class="section-head">
-            <div>
-              <p class="eyebrow">Daily Summary</p>
-              <h2>전일 대비 변화</h2>
-            </div>
-            <p id="summary-note" class="meta-text">-</p>
-          </div>
-          <div class="brand-grid">
-            <article>
-              <h3>가장 많이 진입한 브랜드</h3>
-              <p id="top-entering-brand" class="brand-highlight">-</p>
-            </article>
-            <article>
-              <h3>가장 많이 이탈한 브랜드</h3>
-              <p id="top-exiting-brand" class="brand-highlight">-</p>
-            </article>
-            <article>
-              <h3>딜 종료 후 가격 복귀/유지</h3>
-              <p id="post-exit-ratio" class="brand-highlight">-</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="panel">
-          <div class="section-head">
-            <div>
-              <p class="eyebrow">Filter & Sort</p>
-              <h2>상품 리스트</h2>
-            </div>
+            <h2>필터</h2>
             <p id="list-meta" class="meta-text">-</p>
           </div>
-          <div class="toolbar">
-            <label class="control-field control-search">
-              <span class="sr-only">검색</span>
-              <input id="search-input" type="search" placeholder="상품명 또는 브랜드 검색" />
+          <div class="filter-grid">
+            <label class="control-field">
+              <span>카테고리</span>
+              <select id="category-filter">
+                <option value="all">전체</option>
+              </select>
             </label>
             <label class="control-field">
-              <span>상태</span>
-              <select id="status-filter">
+              <span>운영 스토어</span>
+              <select id="store-filter">
                 <option value="all">전체</option>
-                <option value="entering">entering</option>
-                <option value="active">active</option>
-                <option value="price_changed">price_changed</option>
+              </select>
+            </label>
+            <label class="control-field">
+              <span>딜유형</span>
+              <select id="deal-type-filter">
+                <option value="all">전체</option>
               </select>
             </label>
             <label class="control-field">
@@ -108,77 +89,94 @@
                 <option value="all">전체</option>
               </select>
             </label>
-            <label class="control-field">
-              <span>카테고리</span>
-              <select id="category-filter">
-                <option value="all">전체</option>
-              </select>
+            <label class="control-field control-search">
+              <span>검색</span>
+              <input id="search-input" type="search" placeholder="상품명, 브랜드, 운영 스토어" />
             </label>
             <label class="control-field">
               <span>정렬</span>
               <select id="sort-filter">
-                <option value="rank">랭크순</option>
-                <option value="discount">할인율순</option>
-                <option value="active_days">유지일수순</option>
-                <option value="price_changes">가격변동순</option>
+                <option value="rank">노출순</option>
+                <option value="discount">할인율 높은순</option>
+                <option value="sale_price_low">판매가 낮은순</option>
+                <option value="active_days">누적 노출일순</option>
+                <option value="price_changes">가격 변동 많은순</option>
               </select>
             </label>
           </div>
-          <div id="deal-grid" class="deal-grid"></div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="section-head">
+            <h2>상품 워크벤치</h2>
+            <p class="meta-text">카테고리/스토어 기준 실무 테이블</p>
+          </div>
+          <div class="table-scroll">
+            <table class="data-table" id="product-table">
+              <thead>
+                <tr>
+                  <th>순위</th>
+                  <th>카테고리</th>
+                  <th>운영 스토어</th>
+                  <th>브랜드</th>
+                  <th>상품명</th>
+                  <th>딜유형</th>
+                  <th>판매가</th>
+                  <th>할인율</th>
+                  <th>상태</th>
+                  <th>노출일</th>
+                  <th>상품</th>
+                  <th>상세</th>
+                </tr>
+              </thead>
+              <tbody id="product-table-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="section-head">
+            <h2>브랜드 플로우</h2>
+            <p id="brand-flow-meta" class="meta-text">-</p>
+          </div>
+          <div class="table-scroll">
+            <table class="data-table" id="brand-flow-table">
+              <thead>
+                <tr>
+                  <th>브랜드</th>
+                  <th>상품수</th>
+                  <th>운영 스토어수</th>
+                  <th>신규</th>
+                  <th>가격 변동</th>
+                  <th>안정 운영</th>
+                  <th>평균 할인율</th>
+                  <th>평균 노출일</th>
+                  <th>주력 카테고리</th>
+                </tr>
+              </thead>
+              <tbody id="brand-flow-body"></tbody>
+            </table>
+          </div>
         </section>
 
         <section class="panel split-panel">
-          <article class="delta-panel">
+          <article>
             <div class="section-head compact">
-              <h2>변화 로그</h2>
+              <h2>오늘 이탈 상품</h2>
             </div>
-            <div class="delta-columns">
-              <div>
-                <h3>신규 상품</h3>
-                <ul id="added-list" class="delta-list"></ul>
-              </div>
-              <div>
-                <h3>제거 상품</h3>
-                <ul id="removed-list" class="delta-list"></ul>
-              </div>
-            </div>
+            <ul id="removed-list" class="simple-list"></ul>
           </article>
-          <article class="detail-panel">
+          <article>
             <div class="section-head compact">
-              <h2>상품 타임라인</h2>
+              <h2>상품 상세 타임라인</h2>
             </div>
             <div id="product-detail" class="detail-content">
-              <p class="meta-text">상품 카드의 <strong>타임라인 보기</strong> 버튼을 눌러주세요.</p>
+              <p class="meta-text">상품 테이블의 <strong>타임라인</strong> 버튼을 눌러주세요.</p>
             </div>
           </article>
         </section>
       </main>
     </div>
-
-    <template id="deal-card-template">
-      <article class="deal-card">
-        <div class="thumb-wrap">
-          <img class="card-thumb" alt="" loading="lazy" />
-        </div>
-        <div class="card-body">
-          <div class="card-top">
-            <span class="tag card-status"></span>
-            <span class="tag card-rank"></span>
-          </div>
-          <h3 class="card-title"></h3>
-          <p class="card-subtitle"></p>
-          <div class="price-row">
-            <strong class="card-price"></strong>
-            <span class="card-discount"></span>
-          </div>
-          <p class="card-original-price"></p>
-          <div class="card-actions">
-            <a class="card-link" target="_blank" rel="noreferrer noopener">상품 보기</a>
-            <button type="button" class="timeline-button">타임라인 보기</button>
-          </div>
-        </div>
-      </article>
-    </template>
 
     <script src="./app.js" defer></script>
   </body>
