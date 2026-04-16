@@ -5,3 +5,4 @@ __pycache__/
 logs/
 data/naver_special_deals/history/
 data/history/
+.vercel

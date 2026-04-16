@@ -54,10 +54,11 @@
 `.github/workflows/update-special-deals.yml`
 
 매일 `11:15 KST` 실행:
-1. `/api/live-snapshot` 호출
-2. `data/latest.json`, `data/daily/YYYY-MM-DD.json` 갱신
-3. `scripts/build_derived_data.py` 실행
-4. `data` 변경사항 커밋 후 `main`에 push
+1. 우선 `/api/live-snapshot` 호출 시도
+2. 실패 시 GitHub Actions 환경에서 직접 수집으로 fallback
+3. `data/latest.json`, `data/daily/YYYY-MM-DD.json` 갱신
+4. `scripts/build_derived_data.py` 실행
+5. `data` 변경사항 커밋 후 `main`에 push
 
 필수 Repository Variable:
 - `VERCEL_LIVE_SNAPSHOT_URL` (권장)
