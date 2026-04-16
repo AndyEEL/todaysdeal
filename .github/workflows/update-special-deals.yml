@@ -3,8 +3,8 @@ name: Update Special Deals
 on:
   workflow_dispatch:
   schedule:
-    # 11:06 KST every day
-    - cron: "6 2 * * *"
+    # 11:15 KST every day
+    - cron: "15 2 * * *"
 
 permissions:
   contents: write

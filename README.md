@@ -53,7 +53,7 @@
 
 `.github/workflows/update-special-deals.yml`
 
-매일 `11:06 KST` 실행:
+매일 `11:15 KST` 실행:
 1. `/api/live-snapshot` 호출
 2. `data/latest.json`, `data/daily/YYYY-MM-DD.json` 갱신
 3. `scripts/build_derived_data.py` 실행
