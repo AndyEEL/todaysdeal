@@ -40,12 +40,12 @@
       ],
       "rank_or_position": 30,
       "review_score": 4.79,
-      "review_count": 20934,
+      "review_count": 20937,
       "raw_snapshot_source": {
         "snapshot_file": "data/daily/2026-04-16.json",
         "source_url": "https://shopping.naver.com/promotion",
         "selected_tab": "스페셜딜",
-        "fetched_at": "2026-04-16T21:06:11.706559+09:00"
+        "fetched_at": "2026-04-16T21:17:39.085716+09:00"
       }
     }
   ],
