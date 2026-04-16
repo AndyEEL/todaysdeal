@@ -49,7 +49,32 @@
   - `/api/brands?brand=채널102655931`
   - rewrite 지원: `/api/products/12808256836`, `/api/brands/{slug}`
 
-## GitHub Actions 자동화
+## 자동화
+
+### 1) 로컬 cron 자동화 (권장)
+
+`cron/naver_special_deals.cron`
+
+매일 `11:15 KST`에 아래 흐름을 실행합니다.
+1. 네이버 스페셜딜 직접 수집
+2. `data/latest.json`, `data/daily/YYYY-MM-DD.json` 갱신
+3. `scripts/build_derived_data.py` 실행
+4. 변경된 `data/`를 commit
+5. `main`에 push → Vercel 자동 재배포
+
+실행 스크립트:
+- `scripts/update_and_publish.sh`
+
+로그 파일:
+- `logs/naver_special_deals.log`
+
+crontab 설치:
+
+```bash
+crontab cron/naver_special_deals.cron
+```
+
+### 2) GitHub Actions 자동화
 
 `.github/workflows/update-special-deals.yml`
 
@@ -63,3 +88,5 @@
 필수 Repository Variable:
 - `VERCEL_LIVE_SNAPSHOT_URL` (권장)
 - 또는 `VERCEL_SNAPSHOT_URL` (자동 fallback 지원)
+
+> 현재 네이버 응답 구조상 GitHub/Vercel 환경에서 `__NEXT_DATA__` 파싱이 불안정할 수 있어, 운영 기준으로는 로컬 cron 자동화를 권장합니다.
