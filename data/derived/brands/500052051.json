@@ -1,0 +1,71 @@
+{
+  "brand": "채널500052051",
+  "snapshot_date": "2026-04-16",
+  "window_days": 7,
+  "summary": {
+    "brand": "채널500052051",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 39.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "균형 운영형"
+  },
+  "top_products": [
+    {
+      "product_id": "13227840374",
+      "deal_type": "스페셜딜",
+      "product_name": "빙그레 더단백 민트초코 250ml 18팩 단백질 음료",
+      "brand": "채널500052051",
+      "category": "식품/음료",
+      "first_seen_date": "2026-04-16",
+      "last_seen_date": "2026-04-16",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 27900,
+      "latest_original_price": 45900,
+      "latest_discount_rate": 39,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260331_60/1774940430821WIg3x_PNG/109073261219193394_142570162.png",
+      "latest_rank": 15,
+      "product_url": "https://smartstore.naver.com/main/products/13227840374",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 39.0,
+      "max_discount_rate": 39
+    }
+  ],
+  "products": [
+    {
+      "product_id": "13227840374",
+      "deal_type": "스페셜딜",
+      "product_name": "빙그레 더단백 민트초코 250ml 18팩 단백질 음료",
+      "brand": "채널500052051",
+      "category": "식품/음료",
+      "first_seen_date": "2026-04-16",
+      "last_seen_date": "2026-04-16",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 27900,
+      "latest_original_price": 45900,
+      "latest_discount_rate": 39,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260331_60/1774940430821WIg3x_PNG/109073261219193394_142570162.png",
+      "latest_rank": 15,
+      "product_url": "https://smartstore.naver.com/main/products/13227840374",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 39.0,
+      "max_discount_rate": 39
+    }
+  ],
+  "slug": "500052051"
+}

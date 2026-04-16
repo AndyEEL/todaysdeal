@@ -1,0 +1,82 @@
+{
+  "product_id": "11281496661",
+  "deal_type": "스페셜딜",
+  "product_name": "[N단독 대용량]닥터그루트 멀티퍼펙션 탈모증상집중케어 힘없는모발용 샴푸 330ml+리필330ml+(증정)지루성 샴푸 50ml",
+  "brand": "N단독 대용량",
+  "category": "뷰티/헬스",
+  "first_seen_date": "2026-04-16",
+  "last_seen_date": "2026-04-16",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 32900,
+  "latest_original_price": 47300,
+  "latest_discount_rate": 30,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260212_138/1770877741998Bs06e_JPEG/55250159117031496_1258964912.jpg",
+  "latest_rank": 40,
+  "product_url": "https://smartstore.naver.com/main/products/11281496661",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 30.0,
+  "max_discount_rate": 30,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-16",
+      "deal_type": "스페셜딜",
+      "product_id": "11281496661",
+      "product_name": "[N단독 대용량]닥터그루트 멀티퍼펙션 탈모증상집중케어 힘없는모발용 샴푸 330ml+리필330ml+(증정)지루성 샴푸 50ml",
+      "brand": "N단독 대용량",
+      "category": "뷰티/헬스",
+      "original_price": 47300,
+      "sale_price": 32900,
+      "discount_rate": 30,
+      "product_url": "https://smartstore.naver.com/main/products/11281496661",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11281496661",
+      "image_url": "https://shop-phinf.pstatic.net/20260212_138/1770877741998Bs06e_JPEG/55250159117031496_1258964912.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260212_138/1770877741998Bs06e_JPEG/55250159117031496_1258964912.jpg"
+      ],
+      "rank_or_position": 40,
+      "review_score": 4.84,
+      "review_count": 1711,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-16.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-16T21:06:11.706559+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-16",
+      "original_price": 47300,
+      "sale_price": 32900,
+      "discount_rate": 30
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-16",
+      "image_url": "https://shop-phinf.pstatic.net/20260212_138/1770877741998Bs06e_JPEG/55250159117031496_1258964912.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-16",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

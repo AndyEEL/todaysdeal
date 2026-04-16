@@ -1,0 +1,82 @@
+{
+  "product_id": "11635538454",
+  "deal_type": "스페셜딜",
+  "product_name": "2025년 햅쌀 국산 찰흑미 흑미 500g X 3봉",
+  "brand": "채널101295037",
+  "category": "식품/음료",
+  "first_seen_date": "2026-04-16",
+  "last_seen_date": "2026-04-16",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 8600,
+  "latest_original_price": 16900,
+  "latest_discount_rate": 49,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250325_163/1742884259001i5fjO_JPEG/77017242103389226_1354699438.jpg",
+  "latest_rank": 7,
+  "product_url": "https://smartstore.naver.com/main/products/11635538454",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 49.0,
+  "max_discount_rate": 49,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-16",
+      "deal_type": "스페셜딜",
+      "product_id": "11635538454",
+      "product_name": "2025년 햅쌀 국산 찰흑미 흑미 500g X 3봉",
+      "brand": "채널101295037",
+      "category": "식품/음료",
+      "original_price": 16900,
+      "sale_price": 8600,
+      "discount_rate": 49,
+      "product_url": "https://smartstore.naver.com/main/products/11635538454",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11635538454",
+      "image_url": "https://shop-phinf.pstatic.net/20250325_163/1742884259001i5fjO_JPEG/77017242103389226_1354699438.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250325_163/1742884259001i5fjO_JPEG/77017242103389226_1354699438.jpg"
+      ],
+      "rank_or_position": 7,
+      "review_score": 4.67,
+      "review_count": 6,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-16.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-16T21:06:11.706559+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-16",
+      "original_price": 16900,
+      "sale_price": 8600,
+      "discount_rate": 49
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-16",
+      "image_url": "https://shop-phinf.pstatic.net/20250325_163/1742884259001i5fjO_JPEG/77017242103389226_1354699438.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-16",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

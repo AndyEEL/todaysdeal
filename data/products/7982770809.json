@@ -1,0 +1,82 @@
+{
+  "product_id": "7982770809",
+  "deal_type": "스페셜딜",
+  "product_name": "산지직송 프리미엄 대추방울토마토 소과2kg,로얄과2kg",
+  "brand": "채널101836491",
+  "category": "기타",
+  "first_seen_date": "2026-04-16",
+  "last_seen_date": "2026-04-16",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 10900,
+  "latest_original_price": 14900,
+  "latest_discount_rate": 26,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250514_177/1747191606627LA0YV_PNG/3606835759324314_369307259.png",
+  "latest_rank": 14,
+  "product_url": "https://smartstore.naver.com/main/products/7982770809",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 26.0,
+  "max_discount_rate": 26,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-16",
+      "deal_type": "스페셜딜",
+      "product_id": "7982770809",
+      "product_name": "산지직송 프리미엄 대추방울토마토 소과2kg,로얄과2kg",
+      "brand": "채널101836491",
+      "category": "기타",
+      "original_price": 14900,
+      "sale_price": 10900,
+      "discount_rate": 26,
+      "product_url": "https://smartstore.naver.com/main/products/7982770809",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7982770809",
+      "image_url": "https://shop-phinf.pstatic.net/20250514_177/1747191606627LA0YV_PNG/3606835759324314_369307259.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250514_177/1747191606627LA0YV_PNG/3606835759324314_369307259.png"
+      ],
+      "rank_or_position": 14,
+      "review_score": 4.61,
+      "review_count": 10186,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-16.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-16T21:06:11.706559+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-16",
+      "original_price": 14900,
+      "sale_price": 10900,
+      "discount_rate": 26
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-16",
+      "image_url": "https://shop-phinf.pstatic.net/20250514_177/1747191606627LA0YV_PNG/3606835759324314_369307259.png"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-16",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "product_id": "13278078404",
+  "deal_type": "스페셜딜",
+  "product_name": "[데체코 공식] 올리오 엑스트라 버진 올리브오일 1L 2개 (+올리브 샐러드 증정)",
+  "brand": "데체코 공식",
+  "category": "기타",
+  "first_seen_date": "2026-04-16",
+  "last_seen_date": "2026-04-16",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 39800,
+  "latest_original_price": 84900,
+  "latest_discount_rate": 53,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260326_42/1774491752494q7j9i_JPEG/47026196812538867_397223721.jpg",
+  "latest_rank": 10,
+  "product_url": "https://smartstore.naver.com/main/products/13278078404",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 53.0,
+  "max_discount_rate": 53,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-16",
+      "deal_type": "스페셜딜",
+      "product_id": "13278078404",
+      "product_name": "[데체코 공식] 올리오 엑스트라 버진 올리브오일 1L 2개 (+올리브 샐러드 증정)",
+      "brand": "데체코 공식",
+      "category": "기타",
+      "original_price": 84900,
+      "sale_price": 39800,
+      "discount_rate": 53,
+      "product_url": "https://smartstore.naver.com/main/products/13278078404",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13278078404",
+      "image_url": "https://shop-phinf.pstatic.net/20260326_42/1774491752494q7j9i_JPEG/47026196812538867_397223721.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260326_42/1774491752494q7j9i_JPEG/47026196812538867_397223721.jpg"
+      ],
+      "rank_or_position": 10,
+      "review_score": 0.0,
+      "review_count": 0,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-16.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-16T21:06:11.706559+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-16",
+      "original_price": 84900,
+      "sale_price": 39800,
+      "discount_rate": 53
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-16",
+      "image_url": "https://shop-phinf.pstatic.net/20260326_42/1774491752494q7j9i_JPEG/47026196812538867_397223721.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-16",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

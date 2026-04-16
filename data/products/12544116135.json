@@ -7,9 +7,9 @@
   "first_seen_date": "2026-04-15",
   "last_seen_date": "2026-04-15",
   "active_days": 1,
-  "current_status": "entering",
-  "appeared_today": true,
-  "disappeared_today": false,
+  "current_status": "exited",
+  "appeared_today": false,
+  "disappeared_today": true,
   "latest_sale_price": 16290,
   "latest_original_price": 27600,
   "latest_discount_rate": 40,
@@ -68,6 +68,19 @@
       "date": "2026-04-15",
       "type": "entered_deal",
       "summary": "딜에 처음 진입했습니다."
+    },
+    {
+      "date": "2026-04-15",
+      "type": "exited_deal",
+      "summary": "최신 스냅샷 기준 딜에서 이탈했습니다."
+    },
+    {
+      "date": "2026-04-16",
+      "type": "replaced_by_other_sku",
+      "summary": "유사 상품으로 SKU 교체 가능성이 감지되었습니다.",
+      "replaced_by_product_id": "12220650201",
+      "replaced_by_product_name": "청정골 지리산수 무라벨 생수 500ml, 40개",
+      "similarity": 0.7143
     }
   ],
   "stats": {
@@ -77,6 +90,6 @@
     "post_exit_observed_count": 0,
     "post_exit_reverted_count": 0,
     "post_exit_held_count": 0,
-    "replacement_count": 0
+    "replacement_count": 1
   }
 }

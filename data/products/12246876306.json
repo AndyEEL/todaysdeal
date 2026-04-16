@@ -1,0 +1,82 @@
+{
+  "product_id": "12246876306",
+  "deal_type": "스페셜딜",
+  "product_name": "농협 프리미엄 당일도정 새청무 쌀 10kg 단일품종 (상등급)",
+  "brand": "채널500009413",
+  "category": "식품/음료",
+  "first_seen_date": "2026-04-16",
+  "last_seen_date": "2026-04-16",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 32400,
+  "latest_original_price": 59900,
+  "latest_discount_rate": 45,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260225_243/1772008172910KTnoS_JPEG/62809145210485834_1949384369.jpg",
+  "latest_rank": 5,
+  "product_url": "https://smartstore.naver.com/main/products/12246876306",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 45.0,
+  "max_discount_rate": 45,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-16",
+      "deal_type": "스페셜딜",
+      "product_id": "12246876306",
+      "product_name": "농협 프리미엄 당일도정 새청무 쌀 10kg 단일품종 (상등급)",
+      "brand": "채널500009413",
+      "category": "식품/음료",
+      "original_price": 59900,
+      "sale_price": 32400,
+      "discount_rate": 45,
+      "product_url": "https://smartstore.naver.com/main/products/12246876306",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12246876306",
+      "image_url": "https://shop-phinf.pstatic.net/20260225_243/1772008172910KTnoS_JPEG/62809145210485834_1949384369.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260225_243/1772008172910KTnoS_JPEG/62809145210485834_1949384369.jpg"
+      ],
+      "rank_or_position": 5,
+      "review_score": 4.81,
+      "review_count": 1027,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-16.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-16T21:06:11.706559+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-16",
+      "original_price": 59900,
+      "sale_price": 32400,
+      "discount_rate": 45
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-16",
+      "image_url": "https://shop-phinf.pstatic.net/20260225_243/1772008172910KTnoS_JPEG/62809145210485834_1949384369.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-16",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

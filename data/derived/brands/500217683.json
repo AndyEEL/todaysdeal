@@ -1,0 +1,71 @@
+{
+  "brand": "채널500217683",
+  "snapshot_date": "2026-04-16",
+  "window_days": 7,
+  "summary": {
+    "brand": "채널500217683",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 23.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "균형 운영형"
+  },
+  "top_products": [
+    {
+      "product_id": "13160379880",
+      "deal_type": "스페셜딜",
+      "product_name": "하림 직화 닭가슴살 3종 10팩 (소금구이, 바비큐구이, 갈비구이)",
+      "brand": "채널500217683",
+      "category": "식품/음료",
+      "first_seen_date": "2026-04-16",
+      "last_seen_date": "2026-04-16",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 22900,
+      "latest_original_price": 30000,
+      "latest_discount_rate": 23,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260224_117/1771910312515NdEu3_PNG/13589879521004667_1848828952.png",
+      "latest_rank": 24,
+      "product_url": "https://smartstore.naver.com/main/products/13160379880",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 23.0,
+      "max_discount_rate": 23
+    }
+  ],
+  "products": [
+    {
+      "product_id": "13160379880",
+      "deal_type": "스페셜딜",
+      "product_name": "하림 직화 닭가슴살 3종 10팩 (소금구이, 바비큐구이, 갈비구이)",
+      "brand": "채널500217683",
+      "category": "식품/음료",
+      "first_seen_date": "2026-04-16",
+      "last_seen_date": "2026-04-16",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 22900,
+      "latest_original_price": 30000,
+      "latest_discount_rate": 23,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260224_117/1771910312515NdEu3_PNG/13589879521004667_1848828952.png",
+      "latest_rank": 24,
+      "product_url": "https://smartstore.naver.com/main/products/13160379880",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 23.0,
+      "max_discount_rate": 23
+    }
+  ],
+  "slug": "500217683"
+}

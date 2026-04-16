@@ -7,9 +7,9 @@
   "first_seen_date": "2026-04-15",
   "last_seen_date": "2026-04-15",
   "active_days": 1,
-  "current_status": "entering",
-  "appeared_today": true,
-  "disappeared_today": false,
+  "current_status": "exited",
+  "appeared_today": false,
+  "disappeared_today": true,
   "latest_sale_price": 67900,
   "latest_original_price": 88200,
   "latest_discount_rate": 23,
@@ -68,6 +68,11 @@
       "date": "2026-04-15",
       "type": "entered_deal",
       "summary": "딜에 처음 진입했습니다."
+    },
+    {
+      "date": "2026-04-15",
+      "type": "exited_deal",
+      "summary": "최신 스냅샷 기준 딜에서 이탈했습니다."
     }
   ],
   "stats": {
