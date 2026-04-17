@@ -17,6 +17,7 @@
   - `data/latest.json`
   - `data/daily/YYYY-MM-DD.json`
   - `data/derived/...` (insights, summaries, indices)
+  - `data/derived/todaysdeal-analysis.xlsx` (`Summary`, `Raw` 2시트 Excel 결과물)
   - `data/products/{product_id}.json` (상품 lifecycle 상세)
 
 ## 로컬 실행
@@ -31,6 +32,12 @@
 
 ```bash
 .venv/bin/python scripts/build_derived_data.py --data-dir data
+```
+
+Excel 결과물 열기:
+
+```bash
+open data/derived/todaysdeal-analysis.xlsx
 ```
 
 Airtable 동기화(dry-run):

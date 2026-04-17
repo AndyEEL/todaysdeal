@@ -11,6 +11,8 @@ from collections import Counter, defaultdict
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
+from xml.sax.saxutils import escape as xml_escape
+from zipfile import ZIP_DEFLATED, ZipFile
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA_DIR = REPO_ROOT / "data"
@@ -202,6 +204,7 @@ def normalize_product(
         "deal_type": deal_type,
         "product_id": product_id,
         "product_name": product_name,
+        "store_id": collapse_whitespace(str(raw_product.get("channel_no") or "")),
         "brand": infer_brand(product_name, raw_product),
         "category": infer_category(product_name),
         "original_price": original_price,
@@ -250,6 +253,19 @@ def build_date_products(snapshot_files: dict[str, Path]) -> dict[str, list[dict[
         )
         date_products[snapshot_date] = ordered
     return date_products
+
+
+def build_date_exposures(snapshot_files: dict[str, Path]) -> dict[str, list[dict[str, Any]]]:
+    date_exposures: dict[str, list[dict[str, Any]]] = {}
+    for snapshot_date, snapshot_file in snapshot_files.items():
+        snapshot = read_json(snapshot_file)
+        products = snapshot.get("products", [])
+        exposures: list[dict[str, Any]] = []
+        for rank, raw_product in enumerate(products, start=1):
+            normalized = normalize_product(raw_product, snapshot, snapshot_date, rank, snapshot_file)
+            exposures.append(normalized)
+        date_exposures[snapshot_date] = exposures
+    return date_exposures
 
 
 def build_daily_diffs(date_products: dict[str, list[dict[str, Any]]]) -> dict[str, dict[str, Any]]:
@@ -772,10 +788,334 @@ def build_daily_insights(
     return insights_by_date
 
 
+def build_raw_sheet(
+    date_exposures: dict[str, list[dict[str, Any]]],
+    products_detail: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+
+    for snapshot_date in sorted(date_exposures.keys()):
+        for item in date_exposures[snapshot_date]:
+            detail = products_detail.get(item["product_id"], {})
+            rows.append(
+                {
+                    "today_deal_date": item["snapshot_date"],
+                    "type": item["deal_type"],
+                    "store_id": item.get("store_id") or "",
+                    "product_id": item["product_id"],
+                    "product_name": item["product_name"],
+                    "category": item["category"],
+                    "sale_price": item["sale_price"],
+                    "original_price": item["original_price"],
+                    "discount_rate": item["discount_rate"],
+                    "product_url": item["product_url"],
+                    "image_url": item["image_url"],
+                    "first_seen_date": detail.get("first_seen_date"),
+                    "last_seen_date": detail.get("last_seen_date"),
+                    "exposure_days": detail.get("active_days"),
+                    "price_change_count": detail.get("price_change_count"),
+                    "latest_sale_price": detail.get("latest_sale_price"),
+                    "latest_discount_rate": detail.get("latest_discount_rate"),
+                }
+            )
+
+    rows.sort(
+        key=lambda item: (
+            item["today_deal_date"],
+            item.get("store_id") or "",
+            item["product_id"],
+        )
+    )
+    return rows
+
+
+def summary_metric_row_count(rows: list[dict[str, Any]]) -> int:
+    return len(rows)
+
+
+def summary_metric_unique_product_count(rows: list[dict[str, Any]]) -> int:
+    return len({item["product_id"] for item in rows if item.get("product_id")})
+
+
+def summary_metric_avg_discount_rate(rows: list[dict[str, Any]]) -> float:
+    values = [item["discount_rate"] for item in rows if item.get("discount_rate") is not None]
+    return round(sum(values) / len(values), 2) if values else 0.0
+
+
+def summary_metric_avg_sale_price(rows: list[dict[str, Any]]) -> float:
+    values = [item["sale_price"] for item in rows if item.get("sale_price") is not None]
+    return round(sum(values) / len(values), 2) if values else 0.0
+
+
+SUMMARY_METRIC_BUILDERS: dict[str, Any] = {
+    "row_count": summary_metric_row_count,
+    "unique_product_count": summary_metric_unique_product_count,
+    "avg_discount_rate": summary_metric_avg_discount_rate,
+    "avg_sale_price": summary_metric_avg_sale_price,
+}
+
+
+def build_summary_sheet(raw_rows: list[dict[str, Any]], metric: str = "row_count") -> dict[str, Any]:
+    metric_builder = SUMMARY_METRIC_BUILDERS.get(metric)
+    if metric_builder is None:
+        raise ValueError(f"Unsupported summary metric: {metric}")
+
+    dates = sorted({item["today_deal_date"] for item in raw_rows})
+    store_ids = sorted({item.get("store_id") or "" for item in raw_rows})
+
+    grouped: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
+    for row in raw_rows:
+        grouped[(row.get("store_id") or "", row["today_deal_date"] )].append(row)
+
+    rows: list[list[Any]] = []
+    for store_id in store_ids:
+        values = [metric_builder(grouped.get((store_id, snapshot_date), [])) for snapshot_date in dates]
+        rows.append([store_id, *values])
+
+    return {
+        "metric": metric,
+        "headers": ["store_id", *dates],
+        "rows": rows,
+        "dates": dates,
+    }
+
+
 def clear_json_dir(path: Path) -> None:
     path.mkdir(parents=True, exist_ok=True)
     for json_file in path.glob("*.json"):
         json_file.unlink()
+
+
+def excel_column_name(index: int) -> str:
+    value = index
+    result = ""
+    while value > 0:
+        value, remainder = divmod(value - 1, 26)
+        result = chr(65 + remainder) + result
+    return result
+
+
+def make_excel_inline_string(value: str) -> str:
+    escaped = xml_escape(value)
+    if value.strip() != value or "\n" in value:
+        return f'<is><t xml:space="preserve">{escaped}</t></is>'
+    return f"<is><t>{escaped}</t></is>"
+
+
+def build_excel_cell(row_index: int, column_index: int, value: Any, style_id: int = 0) -> str:
+    cell_ref = f"{excel_column_name(column_index)}{row_index}"
+    style_attr = f' s="{style_id}"' if style_id else ""
+    if value is None or value == "":
+        return f'<c r="{cell_ref}"{style_attr}/>'
+    if isinstance(value, bool):
+        numeric_value = 1 if value else 0
+        return f'<c r="{cell_ref}"{style_attr}><v>{numeric_value}</v></c>'
+    if isinstance(value, (int, float)):
+        return f'<c r="{cell_ref}"{style_attr}><v>{value}</v></c>'
+    return f'<c r="{cell_ref}" t="inlineStr"{style_attr}>{make_excel_inline_string(str(value))}</c>'
+
+
+def build_sheet_xml(
+    headers: list[str],
+    rows: list[list[Any]],
+    integer_columns: set[int] | None = None,
+    percent_columns: set[int] | None = None,
+    freeze_top_row: bool = True,
+    freeze_first_column: bool = False,
+) -> str:
+    integer_columns = integer_columns or set()
+    percent_columns = percent_columns or set()
+    total_rows = len(rows) + 1
+    total_columns = len(headers)
+    last_cell = f"{excel_column_name(total_columns)}{total_rows}"
+
+    sheet_views = '<sheetViews><sheetView workbookViewId="0">'
+    if freeze_top_row and freeze_first_column:
+        sheet_views += (
+            '<pane xSplit="1" ySplit="1" topLeftCell="B2" activePane="bottomRight" state="frozen"/>'
+            '<selection pane="bottomRight" activeCell="B2" sqref="B2"/>'
+        )
+    elif freeze_top_row:
+        sheet_views += '<pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/><selection pane="bottomLeft" activeCell="A2" sqref="A2"/>'
+    sheet_views += '</sheetView></sheetViews>'
+
+    widths: list[float] = []
+    all_rows = [headers, *rows]
+    for column_index in range(total_columns):
+        max_len = max(
+            len(str(row[column_index])) if column_index < len(row) and row[column_index] is not None else 0
+            for row in all_rows
+        )
+        widths.append(min(max(12, max_len + 2), 48))
+    cols_xml = "".join(
+        f'<col min="{index}" max="{index}" width="{widths[index - 1]}" customWidth="1"/>'
+        for index in range(1, total_columns + 1)
+    )
+
+    row_xml_parts: list[str] = []
+    header_cells = "".join(build_excel_cell(1, column_index, header, style_id=1) for column_index, header in enumerate(headers, start=1))
+    row_xml_parts.append(f'<row r="1">{header_cells}</row>')
+
+    for row_offset, row in enumerate(rows, start=2):
+        cells: list[str] = []
+        for column_index, value in enumerate(row, start=1):
+            style_id = 0
+            if column_index in percent_columns and value is not None:
+                value = value / 100.0
+                style_id = 3
+            elif column_index in integer_columns and value is not None:
+                style_id = 2
+            cells.append(build_excel_cell(row_offset, column_index, value, style_id=style_id))
+        row_xml_parts.append(f'<row r="{row_offset}">{"".join(cells)}</row>')
+
+    auto_filter = f'<autoFilter ref="A1:{last_cell}"/>'
+    return (
+        '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+        '<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">'
+        f'<dimension ref="A1:{last_cell}"/>'
+        f'{sheet_views}'
+        f'<cols>{cols_xml}</cols>'
+        f'<sheetData>{"".join(row_xml_parts)}</sheetData>'
+        f'{auto_filter}'
+        '</worksheet>'
+    )
+
+
+def build_summary_sheet_xml(summary_sheet: dict[str, Any]) -> str:
+    return build_sheet_xml(
+        headers=summary_sheet["headers"],
+        rows=summary_sheet["rows"],
+        integer_columns=set(range(2, len(summary_sheet["headers"]) + 1)),
+        freeze_top_row=True,
+        freeze_first_column=True,
+    )
+
+
+def build_raw_sheet_xml(raw_rows: list[dict[str, Any]]) -> str:
+    headers = [
+        "today_deal_date",
+        "type",
+        "store_id",
+        "product_id",
+        "product_name",
+        "category",
+        "sale_price",
+        "original_price",
+        "discount_rate",
+        "product_url",
+        "image_url",
+        "first_seen_date",
+        "last_seen_date",
+        "exposure_days",
+        "price_change_count",
+        "latest_sale_price",
+        "latest_discount_rate",
+    ]
+    rows = [[item.get(header) for header in headers] for item in raw_rows]
+    return build_sheet_xml(
+        headers=headers,
+        rows=rows,
+        integer_columns={7, 8, 14, 15, 16},
+        percent_columns={9, 17},
+        freeze_top_row=True,
+        freeze_first_column=False,
+    )
+
+
+def workbook_styles_xml() -> str:
+    return (
+        '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+        '<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">'
+        '<fonts count="2">'
+        '<font><sz val="11"/><name val="Aptos"/><family val="2"/></font>'
+        '<font><b/><sz val="11"/><name val="Aptos"/><family val="2"/></font>'
+        '</fonts>'
+        '<fills count="2">'
+        '<fill><patternFill patternType="none"/></fill>'
+        '<fill><patternFill patternType="gray125"/></fill>'
+        '</fills>'
+        '<borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders>'
+        '<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>'
+        '<cellXfs count="4">'
+        '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>'
+        '<xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"/>'
+        '<xf numFmtId="3" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>'
+        '<xf numFmtId="9" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>'
+        '</cellXfs>'
+        '<cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>'
+        '</styleSheet>'
+    )
+
+
+def export_excel(summary_sheet: dict[str, Any], raw_rows: list[dict[str, Any]], output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with ZipFile(output_path, mode="w", compression=ZIP_DEFLATED) as workbook:
+        workbook.writestr(
+            "[Content_Types].xml",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">'
+            '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>'
+            '<Default Extension="xml" ContentType="application/xml"/>'
+            '<Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>'
+            '<Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>'
+            '<Override PartName="/xl/worksheets/sheet2.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>'
+            '<Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>'
+            '<Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>'
+            '<Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>'
+            '</Types>',
+        )
+        workbook.writestr(
+            "_rels/.rels",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
+            '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/>'
+            '<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>'
+            '<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>'
+            '</Relationships>',
+        )
+        workbook.writestr(
+            "docProps/core.xml",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" '
+            'xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" '
+            'xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">'
+            '<dc:title>todaysdeal analysis</dc:title>'
+            '<dc:creator>Kaguri</dc:creator>'
+            f'<dcterms:created xsi:type="dcterms:W3CDTF">{datetime.utcnow().isoformat()}Z</dcterms:created>'
+            '</cp:coreProperties>',
+        )
+        workbook.writestr(
+            "docProps/app.xml",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" '
+            'xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">'
+            '<Application>OpenClaw</Application>'
+            '</Properties>',
+        )
+        workbook.writestr(
+            "xl/workbook.xml",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" '
+            'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">'
+            '<sheets>'
+            '<sheet name="Summary" sheetId="1" r:id="rId1"/>'
+            '<sheet name="Raw" sheetId="2" r:id="rId2"/>'
+            '</sheets>'
+            '</workbook>',
+        )
+        workbook.writestr(
+            "xl/_rels/workbook.xml.rels",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
+            '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/>'
+            '<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet2.xml"/>'
+            '<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>'
+            '</Relationships>',
+        )
+        workbook.writestr("xl/styles.xml", workbook_styles_xml())
+        workbook.writestr("xl/worksheets/sheet1.xml", build_summary_sheet_xml(summary_sheet))
+        workbook.writestr("xl/worksheets/sheet2.xml", build_raw_sheet_xml(raw_rows))
 
 
 def unique_brand_slugs(brands: list[str]) -> dict[str, str]:
@@ -803,6 +1143,8 @@ def write_outputs(
     brands_summary: dict[str, Any],
     brand_details: dict[str, dict[str, Any]],
     insights_by_date: dict[str, dict[str, Any]],
+    raw_rows: list[dict[str, Any]],
+    summary_sheet: dict[str, Any],
 ) -> None:
     latest_date = dates[-1]
     generated_at = datetime.now().isoformat()
@@ -811,6 +1153,7 @@ def write_outputs(
     derived_dir = data_dir / "derived"
     insights_dir = derived_dir / "daily-insights"
     brands_dir = derived_dir / "brands"
+    excel_path = derived_dir / "todaysdeal-analysis.xlsx"
 
     clear_json_dir(products_dir)
     clear_json_dir(insights_dir)
@@ -904,6 +1247,8 @@ def write_outputs(
         },
     )
 
+    export_excel(summary_sheet=summary_sheet, raw_rows=raw_rows, output_path=excel_path)
+
 
 def main() -> int:
     args = parse_args()
@@ -920,6 +1265,7 @@ def main() -> int:
 
     try:
         date_products = build_date_products(snapshot_files)
+        date_exposures = build_date_exposures(snapshot_files)
         daily_diffs = build_daily_diffs(date_products)
         replacements = build_replacement_index(daily_diffs)
         products_summary, products_detail, active_days_index = build_product_outputs(
@@ -940,6 +1286,14 @@ def main() -> int:
             active_days_index=active_days_index,
             products_detail=products_detail,
         )
+        raw_rows = build_raw_sheet(
+            date_exposures=date_exposures,
+            products_detail=products_detail,
+        )
+        summary_sheet = build_summary_sheet(
+            raw_rows=raw_rows,
+            metric="row_count",
+        )
         write_outputs(
             data_dir=args.data_dir,
             dates=dates,
@@ -950,6 +1304,8 @@ def main() -> int:
             brands_summary=brands_summary,
             brand_details=brand_details,
             insights_by_date=insights_by_date,
+            raw_rows=raw_rows,
+            summary_sheet=summary_sheet,
         )
         logging.info("Derived data build complete. Products tracked: %s", len(products_summary))
         return 0
