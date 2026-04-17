@@ -68,6 +68,11 @@ class AirtableMetaClient:
         time.sleep(REQUEST_INTERVAL_SECONDS)
         return response
 
+    def create_field(self, table_id: str, payload: dict[str, Any]) -> dict[str, Any]:
+        response = self._request("POST", f"bases/{self.base_id}/tables/{table_id}/fields", payload)
+        time.sleep(REQUEST_INTERVAL_SECONDS)
+        return response
+
 
 def to_field_payload(field_name: str, field_type: str) -> dict[str, Any]:
     if field_type == "single line text":
@@ -129,6 +134,7 @@ def main() -> int:
         "existing_tables": [table.get("name") for table in existing_tables],
         "missing_tables": missing_table_names,
         "created_tables": [],
+        "created_fields": {},
     }
 
     if args.dry_run:
@@ -140,6 +146,21 @@ def main() -> int:
             payload = build_table_payload(table_name, AIRTABLE_SCHEMA[table_name])
             created = client.create_table(payload)
             summary["created_tables"].append(created.get("name", table_name))
+
+        refreshed_tables = client.list_tables()
+        refreshed_by_name = {table.get("name"): table for table in refreshed_tables}
+
+        for table_name, table_meta in AIRTABLE_SCHEMA.items():
+            table = refreshed_by_name.get(table_name)
+            if not table:
+                continue
+            existing_field_names = {field.get("name") for field in table.get("fields", [])}
+            for field_name, field_type in table_meta["fields"]:
+                if field_name in existing_field_names:
+                    continue
+                payload = to_field_payload(field_name, field_type)
+                client.create_field(table["id"], payload)
+                summary.setdefault("created_fields", {}).setdefault(table_name, []).append(field_name)
     except Exception as exc:
         print(str(exc), file=sys.stderr)
         return 1

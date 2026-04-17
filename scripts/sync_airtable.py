@@ -33,6 +33,7 @@ AIRTABLE_SCHEMA: dict[str, dict[str, Any]] = {
         "merge_field": "Deal Record Key",
         "fields": [
             ("Deal Record Key", "single line text"),
+            ("Is Latest Snapshot", "checkbox"),
             ("Snapshot Date", "single line text"),
             ("Product ID", "single line text"),
             ("Product Name", "single line text"),
@@ -285,6 +286,7 @@ def build_daily_deal_records(
         fields = clean_fields(
             {
                 "Deal Record Key": f"{snapshot_date}_{product_id}",
+                "Is Latest Snapshot": True,
                 "Snapshot Date": snapshot_date,
                 "Product ID": product_id,
                 "Product Name": item.get("name"),
@@ -425,6 +427,70 @@ class AirtableClient:
             time.sleep(REQUEST_INTERVAL_SECONDS)
         return total
 
+    def list_records(self, table_name: str, fields: list[str] | None = None) -> list[dict[str, Any]]:
+        encoded_table_name = quote(table_name, safe="")
+        base_path = f"{self.base_id}/{encoded_table_name}"
+        records: list[dict[str, Any]] = []
+        offset: str | None = None
+
+        while True:
+            query_parts: list[str] = []
+            if fields:
+                for field_name in fields:
+                    query_parts.append(f"fields[]={quote(field_name, safe='')}")
+            if offset:
+                query_parts.append(f"offset={quote(offset, safe='')}")
+
+            path = base_path if not query_parts else f"{base_path}?{'&'.join(query_parts)}"
+            payload = self._request("GET", path)
+            records.extend(payload.get("records", []))
+            offset = payload.get("offset")
+            if not offset:
+                break
+            time.sleep(REQUEST_INTERVAL_SECONDS)
+
+        return records
+
+    def update_records_by_id(self, table_name: str, records: list[dict[str, Any]]) -> int:
+        if not records:
+            return 0
+
+        total = 0
+        encoded_table_name = quote(table_name, safe="")
+        path = f"{self.base_id}/{encoded_table_name}"
+
+        for batch in chunked(records, BATCH_SIZE):
+            payload = {
+                "typecast": True,
+                "records": batch,
+            }
+            response = self._request("PATCH", path, payload)
+            total += len(response.get("records", []))
+            time.sleep(REQUEST_INTERVAL_SECONDS)
+        return total
+
+
+def build_stale_latest_flag_updates(
+    existing_daily_records: list[dict[str, Any]],
+    latest_snapshot_date: str,
+) -> list[dict[str, Any]]:
+    updates: list[dict[str, Any]] = []
+    for record in existing_daily_records:
+        fields = record.get("fields", {})
+        if not fields.get("Is Latest Snapshot"):
+            continue
+        if fields.get("Snapshot Date") == latest_snapshot_date:
+            continue
+        updates.append(
+            {
+                "id": record["id"],
+                "fields": {
+                    "Is Latest Snapshot": False,
+                },
+            }
+        )
+    return updates
+
 
 def print_schema() -> None:
     payload = {
@@ -494,6 +560,17 @@ def main() -> int:
             merge_field=AIRTABLE_SCHEMA["Daily Deals"]["merge_field"],
             records=daily_deals_records,
         )
+        stale_flag_updates = build_stale_latest_flag_updates(
+            existing_daily_records=client.list_records(
+                table_name=config.daily_deals_table,
+                fields=["Snapshot Date", "Is Latest Snapshot"],
+            ),
+            latest_snapshot_date=str(snapshot.get("snapshot_date") or ""),
+        )
+        stale_latest_flags_cleared = client.update_records_by_id(
+            table_name=config.daily_deals_table,
+            records=stale_flag_updates,
+        )
         synced_products = client.upsert_records(
             table_name=config.products_table,
             merge_field=AIRTABLE_SCHEMA["Products"]["merge_field"],
@@ -511,6 +588,7 @@ def main() -> int:
     summary = {
         "snapshot_date": snapshot.get("snapshot_date"),
         "daily_deals_synced": synced_daily_deals,
+        "stale_latest_flags_cleared": stale_latest_flags_cleared,
         "products_synced": synced_products,
         "runs_synced": synced_runs,
         "tables": {
