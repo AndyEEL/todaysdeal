@@ -7,12 +7,15 @@ import os
 import re
 import sys
 import time
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
+
+from build_derived_data import build_date_exposures, collect_daily_snapshot_files
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA_DIR = REPO_ROOT / "data"
@@ -35,27 +38,44 @@ AIRTABLE_SCHEMA: dict[str, dict[str, Any]] = {
             ("Deal Record Key", "single line text"),
             ("Is Latest Snapshot", "checkbox"),
             ("Snapshot Date", "single line text"),
+            ("Type", "single line text"),
+            ("Store ID", "single line text"),
             ("Product ID", "single line text"),
             ("Product Name", "single line text"),
+            ("Category", "single line text"),
+            ("Sale Price", "number"),
+            ("Original Price", "number"),
+            ("Discount Rate", "number"),
             ("Product URL", "url"),
             ("Image URL", "url"),
-            ("Deal Type", "single line text"),
-            ("Store ID", "single line text"),
-            ("Store Name", "single line text"),
-            ("Brand Name", "single line text"),
-            ("Category", "single line text"),
+            ("First Seen Date", "single line text"),
+            ("Last Seen Date", "single line text"),
+            ("Exposure Days", "number"),
+            ("Price Change Count", "number"),
+            ("Latest Sale Price", "number"),
+            ("Latest Discount Rate", "number"),
             ("Rank", "number"),
-            ("Original Price", "number"),
-            ("Sale Price", "number"),
-            ("Discount Rate", "number"),
             ("Review Score", "number"),
             ("Review Count", "number"),
+            ("Brand Name", "single line text"),
             ("Status Today", "single line text"),
             ("New Today", "checkbox"),
             ("Price Changed", "checkbox"),
-            ("Days Seen Total", "number"),
             ("Fetched At", "single line text"),
             ("Source URL", "url"),
+        ],
+    },
+    "Store Daily Summary": {
+        "merge_field": "Summary Key",
+        "fields": [
+            ("Summary Key", "single line text"),
+            ("Is Latest Snapshot", "checkbox"),
+            ("Snapshot Date", "single line text"),
+            ("Store ID", "single line text"),
+            ("Exposure Row Count", "number"),
+            ("Unique Product Count", "number"),
+            ("Avg Discount Rate", "number"),
+            ("Avg Sale Price", "number"),
         ],
     },
     "Products": {
@@ -108,6 +128,7 @@ class Config:
     api_key: str | None
     base_id: str | None
     daily_deals_table: str
+    store_daily_summary_table: str
     products_table: str
     runs_table: str
 
@@ -188,6 +209,7 @@ def resolve_config(env_file: Path) -> Config:
         api_key=resolve_env("AIRTABLE_API_KEY", dotenv) or resolve_env("AIRTABLE_PAT", dotenv),
         base_id=normalize_airtable_base_id(resolve_env("AIRTABLE_BASE_ID", dotenv)),
         daily_deals_table=resolve_env("AIRTABLE_DAILY_DEALS_TABLE", dotenv, "Daily Deals") or "Daily Deals",
+        store_daily_summary_table=resolve_env("AIRTABLE_STORE_DAILY_SUMMARY_TABLE", dotenv, "Store Daily Summary") or "Store Daily Summary",
         products_table=resolve_env("AIRTABLE_PRODUCTS_TABLE", dotenv, "Products") or "Products",
         runs_table=resolve_env("AIRTABLE_RUNS_TABLE", dotenv, "Runs") or "Runs",
     )
@@ -199,7 +221,7 @@ def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def load_sync_payload(data_dir: Path, snapshot_date: str | None) -> tuple[dict[str, Any], dict[str, Any], dict[str, Any]]:
+def load_sync_payload(data_dir: Path, snapshot_date: str | None) -> tuple[dict[str, Any], dict[str, Any], dict[str, Any], dict[str, Path], str]:
     daily_insights_path = (
         data_dir / "derived" / "daily-insights" / f"{snapshot_date}.json"
         if snapshot_date
@@ -214,6 +236,7 @@ def load_sync_payload(data_dir: Path, snapshot_date: str | None) -> tuple[dict[s
     snapshot_path = data_dir / "daily" / f"{resolved_snapshot_date}.json"
     snapshot = read_json(snapshot_path)
     products_summary = read_json(data_dir / "derived" / "products-summary.json")
+    snapshot_files = collect_daily_snapshot_files(data_dir)
 
     if snapshot.get("snapshot_date") != resolved_snapshot_date:
         raise ValueError(
@@ -223,8 +246,10 @@ def load_sync_payload(data_dir: Path, snapshot_date: str | None) -> tuple[dict[s
         raise ValueError(
             f"Daily insights date mismatch: expected {resolved_snapshot_date}, got {daily_insights.get('snapshot_date')}"
         )
+    if resolved_snapshot_date not in snapshot_files:
+        raise ValueError(f"Snapshot date not found in collected daily files: {resolved_snapshot_date}")
 
-    return snapshot, daily_insights, products_summary
+    return snapshot, daily_insights, products_summary, snapshot_files, resolved_snapshot_date
 
 
 def safe_number(value: Any) -> int | float | None:
@@ -256,7 +281,8 @@ def clean_fields(fields: dict[str, Any]) -> dict[str, Any]:
 
 
 def build_daily_deal_records(
-    snapshot: dict[str, Any],
+    date_exposures: dict[str, list[dict[str, Any]]],
+    latest_snapshot_date: str,
     daily_insights: dict[str, Any],
     products_summary: dict[str, Any],
 ) -> list[dict[str, Any]]:
@@ -273,46 +299,80 @@ def build_daily_deal_records(
     }
 
     records: list[dict[str, Any]] = []
-    snapshot_date = str(snapshot.get("snapshot_date") or "")
-    fetched_at = snapshot.get("fetched_at")
-    source_url = snapshot.get("source_url")
+    for snapshot_date in sorted(date_exposures.keys()):
+        exposures = date_exposures[snapshot_date]
+        is_latest = snapshot_date == latest_snapshot_date
+        for item in exposures:
+            product_id = str(item.get("product_id") or "").strip()
+            if not product_id:
+                continue
+            summary = summary_items.get(product_id, {})
+            fields = clean_fields(
+                {
+                    "Deal Record Key": f"{snapshot_date}_{product_id}",
+                    "Is Latest Snapshot": is_latest,
+                    "Snapshot Date": snapshot_date,
+                    "Type": item.get("deal_type"),
+                    "Store ID": item.get("store_id"),
+                    "Product ID": product_id,
+                    "Product Name": item.get("product_name"),
+                    "Category": item.get("category"),
+                    "Sale Price": safe_number(item.get("sale_price")),
+                    "Original Price": safe_number(item.get("original_price")),
+                    "Discount Rate": safe_number(item.get("discount_rate")),
+                    "Product URL": item.get("product_url"),
+                    "Image URL": item.get("image_url"),
+                    "First Seen Date": summary.get("first_seen_date"),
+                    "Last Seen Date": summary.get("last_seen_date"),
+                    "Exposure Days": safe_number(summary.get("active_days")),
+                    "Price Change Count": safe_number(summary.get("price_change_count")),
+                    "Latest Sale Price": safe_number(summary.get("latest_sale_price")),
+                    "Latest Discount Rate": safe_number(summary.get("latest_discount_rate")),
+                    "Rank": safe_number(item.get("rank_or_position")),
+                    "Review Score": safe_number(item.get("review_score")),
+                    "Review Count": safe_number(item.get("review_count")),
+                    "Brand Name": summary.get("brand") or item.get("brand"),
+                    "Status Today": STATUS_LABELS.get(str(summary.get("current_status") or ""), "유지") if is_latest else None,
+                    "New Today": product_id in new_ids if is_latest else False,
+                    "Price Changed": product_id in price_changed_ids if is_latest else False,
+                    "Fetched At": item.get("raw_snapshot_source", {}).get("fetched_at"),
+                    "Source URL": item.get("raw_snapshot_source", {}).get("source_url"),
+                }
+            )
+            records.append(fields)
 
-    for item in snapshot.get("products", []):
-        product_id = str(item.get("product_id") or "").strip()
-        if not product_id:
-            continue
-        summary = summary_items.get(product_id, {})
-        store_id = str(item.get("channel_no") or "").strip()
-        fields = clean_fields(
-            {
-                "Deal Record Key": f"{snapshot_date}_{product_id}",
-                "Is Latest Snapshot": True,
-                "Snapshot Date": snapshot_date,
-                "Product ID": product_id,
-                "Product Name": item.get("name"),
-                "Product URL": item.get("landing_url"),
-                "Image URL": item.get("image_url"),
-                "Deal Type": item.get("label"),
-                "Store ID": store_id,
-                "Store Name": f"채널{store_id}" if store_id else None,
-                "Brand Name": summary.get("brand"),
-                "Category": summary.get("category"),
-                "Rank": safe_number(item.get("rank") or item.get("order")),
-                "Original Price": safe_number(item.get("sale_price")),
-                "Sale Price": safe_number(item.get("discounted_price")),
-                "Discount Rate": safe_number(item.get("discounted_ratio")),
-                "Review Score": safe_number(item.get("review_score")),
-                "Review Count": safe_number(item.get("review_count")),
-                "Status Today": STATUS_LABELS.get(str(summary.get("current_status") or ""), "유지"),
-                "New Today": product_id in new_ids,
-                "Price Changed": product_id in price_changed_ids,
-                "Days Seen Total": safe_number(summary.get("active_days")),
-                "Fetched At": fetched_at,
-                "Source URL": source_url,
-            }
+    return records
+
+
+def build_store_daily_summary_records(
+    date_exposures: dict[str, list[dict[str, Any]]],
+    latest_snapshot_date: str,
+) -> list[dict[str, Any]]:
+    grouped: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
+    for snapshot_date, exposures in date_exposures.items():
+        for item in exposures:
+            grouped[(snapshot_date, item.get("store_id") or "")].append(item)
+
+    records: list[dict[str, Any]] = []
+    for (snapshot_date, store_id), rows in sorted(grouped.items(), key=lambda value: (value[0][0], value[0][1])):
+        discount_values = [item.get("discount_rate") for item in rows if item.get("discount_rate") is not None]
+        sale_values = [item.get("sale_price") for item in rows if item.get("sale_price") is not None]
+        avg_discount_rate = round(sum(discount_values) / len(discount_values), 2) if discount_values else None
+        avg_sale_price = round(sum(sale_values) / len(sale_values), 2) if sale_values else None
+        records.append(
+            clean_fields(
+                {
+                    "Summary Key": f"{snapshot_date}_{store_id or 'unknown'}",
+                    "Is Latest Snapshot": snapshot_date == latest_snapshot_date,
+                    "Snapshot Date": snapshot_date,
+                    "Store ID": store_id,
+                    "Exposure Row Count": len(rows),
+                    "Unique Product Count": len({item.get('product_id') for item in rows if item.get('product_id')}),
+                    "Avg Discount Rate": safe_number(avg_discount_rate),
+                    "Avg Sale Price": safe_number(avg_sale_price),
+                }
+            )
         )
-        records.append(fields)
-
     return records
 
 
@@ -516,8 +576,10 @@ def main() -> int:
         print_schema()
         return 0
 
-    snapshot, daily_insights, products_summary = load_sync_payload(args.data_dir, args.snapshot_date)
-    daily_deals_records = build_daily_deal_records(snapshot, daily_insights, products_summary)
+    snapshot, daily_insights, products_summary, snapshot_files, resolved_snapshot_date = load_sync_payload(args.data_dir, args.snapshot_date)
+    date_exposures = build_date_exposures(snapshot_files)
+    daily_deals_records = build_daily_deal_records(date_exposures, resolved_snapshot_date, daily_insights, products_summary)
+    store_daily_summary_records = build_store_daily_summary_records(date_exposures, resolved_snapshot_date)
     product_records = build_product_records(products_summary)
     run_records = build_run_records(snapshot, daily_insights)
 
@@ -527,6 +589,7 @@ def main() -> int:
         summary = {
             "snapshot_date": snapshot.get("snapshot_date"),
             "daily_deals_records": len(daily_deals_records),
+            "store_daily_summary_records": len(store_daily_summary_records),
             "product_records": len(product_records),
             "run_records": len(run_records),
             "enabled": config.enabled,
@@ -534,6 +597,7 @@ def main() -> int:
             "api_key_present": bool(config.api_key),
             "tables": {
                 "daily_deals": config.daily_deals_table,
+                "store_daily_summary": config.store_daily_summary_table,
                 "products": config.products_table,
                 "runs": config.runs_table,
             },
@@ -571,6 +635,22 @@ def main() -> int:
             table_name=config.daily_deals_table,
             records=stale_flag_updates,
         )
+        synced_store_daily_summary = client.upsert_records(
+            table_name=config.store_daily_summary_table,
+            merge_field=AIRTABLE_SCHEMA["Store Daily Summary"]["merge_field"],
+            records=store_daily_summary_records,
+        )
+        stale_summary_flag_updates = build_stale_latest_flag_updates(
+            existing_daily_records=client.list_records(
+                table_name=config.store_daily_summary_table,
+                fields=["Snapshot Date", "Is Latest Snapshot"],
+            ),
+            latest_snapshot_date=str(snapshot.get("snapshot_date") or ""),
+        )
+        stale_summary_latest_flags_cleared = client.update_records_by_id(
+            table_name=config.store_daily_summary_table,
+            records=stale_summary_flag_updates,
+        )
         synced_products = client.upsert_records(
             table_name=config.products_table,
             merge_field=AIRTABLE_SCHEMA["Products"]["merge_field"],
@@ -589,10 +669,13 @@ def main() -> int:
         "snapshot_date": snapshot.get("snapshot_date"),
         "daily_deals_synced": synced_daily_deals,
         "stale_latest_flags_cleared": stale_latest_flags_cleared,
+        "store_daily_summary_synced": synced_store_daily_summary,
+        "stale_summary_latest_flags_cleared": stale_summary_latest_flags_cleared,
         "products_synced": synced_products,
         "runs_synced": synced_runs,
         "tables": {
             "daily_deals": config.daily_deals_table,
+            "store_daily_summary": config.store_daily_summary_table,
             "products": config.products_table,
             "runs": config.runs_table,
         },

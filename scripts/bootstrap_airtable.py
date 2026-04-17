@@ -91,7 +91,7 @@ def to_field_payload(field_name: str, field_type: str) -> dict[str, Any]:
             },
         }
     if field_type == "number":
-        precision = 2 if field_name in {"Review Score", "Average Discount Rate"} else 0
+        precision = 2 if field_name in {"Review Score", "Average Discount Rate", "Avg Discount Rate", "Avg Sale Price"} else 0
         return {
             "name": field_name,
             "type": "number",
