@@ -1,0 +1,71 @@
+{
+  "brand": "채널100131340",
+  "snapshot_date": "2026-04-17",
+  "window_days": 7,
+  "summary": {
+    "brand": "채널100131340",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 11.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "균형 운영형"
+  },
+  "top_products": [
+    {
+      "product_id": "10578307319",
+      "deal_type": "스페셜딜",
+      "product_name": "브리타 정수기 필터 막스트라 프로 퓨어 퍼포먼스 4입",
+      "brand": "채널100131340",
+      "category": "기타",
+      "first_seen_date": "2026-04-17",
+      "last_seen_date": "2026-04-17",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 28900,
+      "latest_original_price": 32500,
+      "latest_discount_rate": 11,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20240712_91/1720765203643X2pz7_JPEG/3995032592113187_311207151.jpg",
+      "latest_rank": 30,
+      "product_url": "https://smartstore.naver.com/main/products/10578307319",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 11.0,
+      "max_discount_rate": 11
+    }
+  ],
+  "products": [
+    {
+      "product_id": "10578307319",
+      "deal_type": "스페셜딜",
+      "product_name": "브리타 정수기 필터 막스트라 프로 퓨어 퍼포먼스 4입",
+      "brand": "채널100131340",
+      "category": "기타",
+      "first_seen_date": "2026-04-17",
+      "last_seen_date": "2026-04-17",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 28900,
+      "latest_original_price": 32500,
+      "latest_discount_rate": 11,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20240712_91/1720765203643X2pz7_JPEG/3995032592113187_311207151.jpg",
+      "latest_rank": 30,
+      "product_url": "https://smartstore.naver.com/main/products/10578307319",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 11.0,
+      "max_discount_rate": 11
+    }
+  ],
+  "slug": "100131340"
+}

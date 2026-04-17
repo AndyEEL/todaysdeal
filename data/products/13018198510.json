@@ -1,0 +1,82 @@
+{
+  "product_id": "13018198510",
+  "deal_type": "스페셜딜",
+  "product_name": "슬리필로우 낮은 경추베개 더 로우 오가닉코튼 목디스크 거북목 일자목 코골이 황토 기능성베개",
+  "brand": "채널101372175",
+  "category": "생활/주방",
+  "first_seen_date": "2026-04-17",
+  "last_seen_date": "2026-04-17",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 109000,
+  "latest_original_price": 219000,
+  "latest_discount_rate": 50,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260128_212/1769606134904gmnUw_JPEG/22321695317215990_1685840952.jpg",
+  "latest_rank": 37,
+  "product_url": "https://smartstore.naver.com/main/products/13018198510",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 50.0,
+  "max_discount_rate": 50,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-17",
+      "deal_type": "스페셜딜",
+      "product_id": "13018198510",
+      "product_name": "슬리필로우 낮은 경추베개 더 로우 오가닉코튼 목디스크 거북목 일자목 코골이 황토 기능성베개",
+      "brand": "채널101372175",
+      "category": "생활/주방",
+      "original_price": 219000,
+      "sale_price": 109000,
+      "discount_rate": 50,
+      "product_url": "https://smartstore.naver.com/main/products/13018198510",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13018198510",
+      "image_url": "https://shop-phinf.pstatic.net/20260128_212/1769606134904gmnUw_JPEG/22321695317215990_1685840952.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260128_212/1769606134904gmnUw_JPEG/22321695317215990_1685840952.jpg"
+      ],
+      "rank_or_position": 37,
+      "review_score": 4.81,
+      "review_count": 83,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-17.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-17T11:15:21.709103+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-17",
+      "original_price": 219000,
+      "sale_price": 109000,
+      "discount_rate": 50
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-17",
+      "image_url": "https://shop-phinf.pstatic.net/20260128_212/1769606134904gmnUw_JPEG/22321695317215990_1685840952.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-17",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

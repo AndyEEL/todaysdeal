@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-04-16T21:17:39.221816",
-  "snapshot_date": "2026-04-16",
+  "generated_at": "2026-04-17T11:15:21.922683",
+  "snapshot_date": "2026-04-17",
   "status_counts": {
-    "entering": 42,
-    "exited": 44
+    "entering": 40,
+    "exited": 86
   },
-  "total_products_observed": 86,
-  "total_daily_snapshots": 2,
+  "total_products_observed": 126,
+  "total_daily_snapshots": 3,
   "last_daily_diff": {
-    "snapshot_date": "2026-04-16",
-    "new_count": 42,
-    "removed_count": 44,
+    "snapshot_date": "2026-04-17",
+    "new_count": 40,
+    "removed_count": 42,
     "price_changed_count": 0
   },
   "categories": {
     "기타": 26,
-    "식품/음료": 11,
-    "생활/주방": 2,
+    "식품/음료": 7,
+    "생활/주방": 3,
     "육아/반려": 1,
+    "패션": 1,
     "뷰티/헬스": 2
   }
 }

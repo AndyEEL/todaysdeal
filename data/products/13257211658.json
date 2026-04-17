@@ -1,0 +1,82 @@
+{
+  "product_id": "13257211658",
+  "deal_type": "스페셜딜",
+  "product_name": "고기중독 돼지갈비 맛 양념구이 왕십리 칼집 돼지 왕구이 1kg 캠핑 밀키트",
+  "brand": "채널101396394",
+  "category": "기타",
+  "first_seen_date": "2026-04-17",
+  "last_seen_date": "2026-04-17",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 8900,
+  "latest_original_price": 16900,
+  "latest_discount_rate": 47,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260317_38/1773714614531WPY2n_JPEG/124918498456451297_1966194582.jpg",
+  "latest_rank": 7,
+  "product_url": "https://smartstore.naver.com/main/products/13257211658",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 47.0,
+  "max_discount_rate": 47,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-17",
+      "deal_type": "스페셜딜",
+      "product_id": "13257211658",
+      "product_name": "고기중독 돼지갈비 맛 양념구이 왕십리 칼집 돼지 왕구이 1kg 캠핑 밀키트",
+      "brand": "채널101396394",
+      "category": "기타",
+      "original_price": 16900,
+      "sale_price": 8900,
+      "discount_rate": 47,
+      "product_url": "https://smartstore.naver.com/main/products/13257211658",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13257211658",
+      "image_url": "https://shop-phinf.pstatic.net/20260317_38/1773714614531WPY2n_JPEG/124918498456451297_1966194582.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260317_38/1773714614531WPY2n_JPEG/124918498456451297_1966194582.jpg"
+      ],
+      "rank_or_position": 7,
+      "review_score": 4.69,
+      "review_count": 399,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-17.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-17T11:15:21.709103+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-17",
+      "original_price": 16900,
+      "sale_price": 8900,
+      "discount_rate": 47
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-17",
+      "image_url": "https://shop-phinf.pstatic.net/20260317_38/1773714614531WPY2n_JPEG/124918498456451297_1966194582.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-17",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

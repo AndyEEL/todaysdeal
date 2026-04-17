@@ -1,0 +1,71 @@
+{
+  "brand": "채널500035796",
+  "snapshot_date": "2026-04-17",
+  "window_days": 7,
+  "summary": {
+    "brand": "채널500035796",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 64.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "고할인 단기 집중형"
+  },
+  "top_products": [
+    {
+      "product_id": "3504295010",
+      "deal_type": "스페셜딜",
+      "product_name": "닥터웰 에어웨이브 4구 공기압 마사지기 DR-5180 (본체+다리)",
+      "brand": "채널500035796",
+      "category": "기타",
+      "first_seen_date": "2026-04-17",
+      "last_seen_date": "2026-04-17",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 129000,
+      "latest_original_price": 360000,
+      "latest_discount_rate": 64,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20220209_25/1644384888133thiNR_JPEG/45520667820524564_1710284093.jpg",
+      "latest_rank": 38,
+      "product_url": "https://smartstore.naver.com/main/products/3504295010",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 64.0,
+      "max_discount_rate": 64
+    }
+  ],
+  "products": [
+    {
+      "product_id": "3504295010",
+      "deal_type": "스페셜딜",
+      "product_name": "닥터웰 에어웨이브 4구 공기압 마사지기 DR-5180 (본체+다리)",
+      "brand": "채널500035796",
+      "category": "기타",
+      "first_seen_date": "2026-04-17",
+      "last_seen_date": "2026-04-17",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 129000,
+      "latest_original_price": 360000,
+      "latest_discount_rate": 64,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20220209_25/1644384888133thiNR_JPEG/45520667820524564_1710284093.jpg",
+      "latest_rank": 38,
+      "product_url": "https://smartstore.naver.com/main/products/3504295010",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 64.0,
+      "max_discount_rate": 64
+    }
+  ],
+  "slug": "500035796"
+}

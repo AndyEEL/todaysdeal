@@ -1,6 +1,6 @@
 {
   "brand": "최대혜택가 37만",
-  "snapshot_date": "2026-04-16",
+  "snapshot_date": "2026-04-17",
   "window_days": 7,
   "summary": {
     "brand": "최대혜택가 37만",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 459000,
       "latest_original_price": 559000,
       "latest_discount_rate": 17,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 459000,
       "latest_original_price": 559000,
       "latest_discount_rate": 17,
