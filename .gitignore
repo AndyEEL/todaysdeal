@@ -6,3 +6,5 @@ logs/
 data/naver_special_deals/history/
 data/history/
 .vercel
+.env
+.env.local

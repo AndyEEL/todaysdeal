@@ -78,6 +78,9 @@ fi
 echo "Building derived analytics"
 "$PYTHON_BIN" scripts/build_derived_data.py --data-dir data
 
+echo "Syncing Airtable (if enabled)"
+"$PYTHON_BIN" scripts/sync_airtable.py --data-dir data --env-file "$REPO_DIR/.env"
+
 if [ -z "$(git status --porcelain -- data)" ]; then
   echo "No data changes detected."
   echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] === update_and_publish done (no changes) ==="
