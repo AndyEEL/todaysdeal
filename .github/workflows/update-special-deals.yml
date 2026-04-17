@@ -3,8 +3,8 @@ name: Update Special Deals
 on:
   workflow_dispatch:
   schedule:
-    # 11:15 KST every day
-    - cron: "15 2 * * *"
+    # 11:35 KST every day (backup/rescue run after primary host automation)
+    - cron: "35 2 * * *"
 
 permissions:
   contents: write
@@ -17,7 +17,6 @@ jobs:
   crawl-and-commit:
     runs-on: ubuntu-latest
     env:
-      VERCEL_LIVE_SNAPSHOT_URL: ${{ vars.VERCEL_LIVE_SNAPSHOT_URL }}
       VERCEL_SNAPSHOT_URL: ${{ vars.VERCEL_SNAPSHOT_URL }}
 
     steps:
@@ -29,48 +28,67 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch live snapshot from Vercel
+      - name: Decide whether rescue crawl is needed
         run: |
-          LIVE_URL="$VERCEL_LIVE_SNAPSHOT_URL"
-          if [ -z "$LIVE_URL" ] && [ -n "$VERCEL_SNAPSHOT_URL" ]; then
-            case "$VERCEL_SNAPSHOT_URL" in
-              */api/snapshot)
-                LIVE_URL="${VERCEL_SNAPSHOT_URL%/api/snapshot}/api/live-snapshot"
-                ;;
-              *)
-                LIVE_URL="$VERCEL_SNAPSHOT_URL"
-                ;;
-            esac
+          TODAY=$(TZ=Asia/Seoul date +%F)
+          SNAPSHOT_URL="$VERCEL_SNAPSHOT_URL"
+          if [ -z "$SNAPSHOT_URL" ]; then
+            SNAPSHOT_URL="https://todaysdeal.vercel.app/api/snapshot"
           fi
 
-          if [ -z "$LIVE_URL" ]; then
-            echo "No Vercel snapshot URL configured. Falling back to direct crawl."
-            exit 0
-          fi
+          echo "TODAY=$TODAY" >> "$GITHUB_ENV"
+          echo "SNAPSHOT_URL=$SNAPSHOT_URL" >> "$GITHUB_ENV"
 
-          if ! curl -fsSL "$LIVE_URL" -o /tmp/naver_special_deals_snapshot.json; then
-            echo "Live snapshot fetch failed. Falling back to direct crawl."
-            rm -f /tmp/naver_special_deals_snapshot.json
-          fi
-
-      - name: Write JSON files
-        run: |
-          if [ -f /tmp/naver_special_deals_snapshot.json ]; then
-            python scripts/naver_special_deals.py \
-              --snapshot-file /tmp/naver_special_deals_snapshot.json \
-              --output-dir data \
-              --skip-history
+          if curl -fsSL "$SNAPSHOT_URL" -o /tmp/deployed_snapshot.json; then
+            SNAPSHOT_DATE=$(python - <<'PY'
+import json
+from pathlib import Path
+payload = json.loads(Path('/tmp/deployed_snapshot.json').read_text(encoding='utf-8'))
+print(payload.get('snapshot_date', ''))
+PY
+)
+            echo "Deployed snapshot_date: $SNAPSHOT_DATE"
+            if [ "$SNAPSHOT_DATE" = "$TODAY" ]; then
+              echo "NEEDS_CRAWL=0" >> "$GITHUB_ENV"
+              exit 0
+            fi
           else
-            python scripts/naver_special_deals.py \
-              --output-dir data \
-              --skip-history
+            echo "Could not fetch deployed snapshot. Proceeding with rescue crawl."
           fi
+
+          echo "NEEDS_CRAWL=1" >> "$GITHUB_ENV"
+
+      - name: Rescue crawl latest snapshot
+        if: env.NEEDS_CRAWL == '1'
+        run: |
+          ATTEMPTS=2
+          SLEEP_SECONDS=60
+          attempt=1
+          while [ "$attempt" -le "$ATTEMPTS" ]; do
+            echo "Rescue crawl attempt $attempt/$ATTEMPTS"
+            if python scripts/naver_special_deals.py --output-dir data --skip-history; then
+              if python scripts/check_snapshot.py --snapshot-file data/latest.json --expect-date "$TODAY" --min-product-count 1; then
+                break
+              fi
+            fi
+
+            if [ "$attempt" -ge "$ATTEMPTS" ]; then
+              echo "Rescue crawl failed after $ATTEMPTS attempts."
+              exit 1
+            fi
+
+            echo "Sleeping ${SLEEP_SECONDS}s before retry"
+            sleep "$SLEEP_SECONDS"
+            attempt=$((attempt + 1))
+          done
 
       - name: Build derived analytics JSON
+        if: env.NEEDS_CRAWL == '1'
         run: |
           python scripts/build_derived_data.py --data-dir data
 
       - name: Commit updated JSON
+        if: env.NEEDS_CRAWL == '1'
         run: |
           if [ -z "$(git status --porcelain -- data)" ]; then
             echo "No data changes detected."

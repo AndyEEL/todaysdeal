@@ -46,14 +46,21 @@
 - `scripts/update_and_publish.sh`
 - `cron/naver_special_deals.cron`
 
-실무 권고:
-1. **1순위: OpenClaw cron(권장)**
-   - 외부 상시 러너에서 정시 실행 + 재시도/모니터링 구성이 쉬움
-   - 현재 파이프라인과 동일하게 `live-snapshot 우선 -> 실패 시 직접 수집 fallback` 전략 적용 권장
-2. **2순위: GitHub Actions 스케줄 유지(백업 라인)**
-   - 이미 `11:15 KST` 스케줄 + fallback 로직이 구현되어 있어 백업 경로로 적합
-3. **3순위: 로컬 push cron은 보조 운용**
-   - 로컬 머신 가동 상태/네트워크/로그인 세션 의존성이 큼
-   - `scripts/update_and_publish.sh`는 자동화 과정에서 `git reset --hard origin/main`을 수행하므로, 개인 작업 트리와 충돌 가능성이 있어 상시 1차 라인으로는 비권장
+2026-04-17 점검 결과:
+- 로컬/호스트 환경의 직접 수집은 정상 동작 확인
+- `https://todaysdeal.vercel.app/api/live-snapshot` 는 현재 `Could not fetch HTML containing __NEXT_DATA__...`로 500 응답 확인
+- 따라서 **Vercel live-snapshot 경로는 운영 primary로 쓰지 않는 쪽이 맞음**
 
-요약: 운영 안정성 기준으로는 **OpenClaw cron + GitHub Actions 백업** 조합이 가장 안전하고, 로컬 cron은 장애 대응/수동 복구 용도로 두는 구성이 적합합니다.
+적용 방향:
+1. **1순위: 호스트 자동화(primary)**
+   - 임시 `git worktree`에서 안전하게 실행
+   - 직접 수집 3회 재시도 + `check_snapshot.py` 검증 후에만 publish
+   - 개인 작업 repo를 hard reset 하지 않음
+2. **2순위: GitHub Actions backup/rescue**
+   - 먼저 배포된 `/api/snapshot`의 `snapshot_date`를 확인
+   - 이미 오늘 데이터면 종료
+   - stale 상태일 때만 rescue crawl 시도
+3. **제외: live-snapshot 의존 설계**
+   - 현재 서버리스 환경에서 안정성이 낮아 primary path로 부적합
+
+요약: 현재 기준 가장 현실적인 안정화 구조는 **호스트 직접 수집 primary + GitHub Actions rescue backup** 조합입니다.

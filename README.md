@@ -51,19 +51,24 @@
 
 ## 자동화
 
-### 1) 로컬 cron 자동화 (권장)
+### 1) 호스트 자동화 (Primary)
 
 `cron/naver_special_deals.cron`
 
 매일 `11:15 KST`에 아래 흐름을 실행합니다.
-1. 네이버 스페셜딜 직접 수집
-2. `data/latest.json`, `data/daily/YYYY-MM-DD.json` 갱신
-3. `scripts/build_derived_data.py` 실행
-4. 변경된 `data/`를 commit
-5. `main`에 push → Vercel 자동 재배포
+1. 원본 작업 디렉터리와 분리된 **임시 git worktree** 생성
+2. 네이버 스페셜딜 직접 수집 (기본 3회 재시도)
+3. `scripts/check_snapshot.py`로 **당일 스냅샷 / 상품 수 / 탭값** 검증
+4. `data/latest.json`, `data/daily/YYYY-MM-DD.json` 갱신
+5. `scripts/build_derived_data.py` 실행
+6. 변경된 `data/`만 commit
+7. `main`에 push → Vercel 자동 재배포
 
 실행 스크립트:
 - `scripts/update_and_publish.sh`
+
+보조 검증 스크립트:
+- `scripts/check_snapshot.py`
 
 로그 파일:
 - `logs/naver_special_deals.log`
@@ -74,19 +79,21 @@ crontab 설치:
 crontab cron/naver_special_deals.cron
 ```
 
-### 2) GitHub Actions 자동화
+> 핵심 포인트: 자동화가 **현재 작업 중인 로컬 repo를 hard reset 하지 않고**, 별도 worktree에서 안전하게 실행됩니다.
+
+### 2) GitHub Actions 자동화 (Backup / Rescue)
 
 `.github/workflows/update-special-deals.yml`
 
-매일 `11:15 KST` 실행:
-1. 우선 `/api/live-snapshot` 호출 시도
-2. 실패 시 GitHub Actions 환경에서 직접 수집으로 fallback
-3. `data/latest.json`, `data/daily/YYYY-MM-DD.json` 갱신
-4. `scripts/build_derived_data.py` 실행
-5. `data` 변경사항 커밋 후 `main`에 push
+매일 `11:35 KST` 실행:
+1. 배포된 `/api/snapshot`의 `snapshot_date`가 오늘인지 먼저 확인
+2. 이미 최신이면 종료
+3. 최신이 아니면 GitHub Actions 환경에서 **rescue crawl** 2회 시도
+4. `scripts/check_snapshot.py`로 결과 검증
+5. `scripts/build_derived_data.py` 실행
+6. `data` 변경사항 커밋 후 `main`에 push
 
-필수 Repository Variable:
-- `VERCEL_LIVE_SNAPSHOT_URL` (권장)
-- 또는 `VERCEL_SNAPSHOT_URL` (자동 fallback 지원)
+선택 Repository Variable:
+- `VERCEL_SNAPSHOT_URL` (미설정 시 `https://todaysdeal.vercel.app/api/snapshot` 사용)
 
-> 현재 네이버 응답 구조상 GitHub/Vercel 환경에서 `__NEXT_DATA__` 파싱이 불안정할 수 있어, 운영 기준으로는 로컬 cron 자동화를 권장합니다.
+> `/api/live-snapshot`는 현재 Vercel 환경에서 `__NEXT_DATA__` 수집 실패가 발생할 수 있어, 운영 primary 경로에서 제외했습니다.
