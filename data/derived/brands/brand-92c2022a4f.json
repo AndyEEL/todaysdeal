@@ -1,0 +1,71 @@
+{
+  "brand": "농할쿠폰",
+  "snapshot_date": "2026-04-18",
+  "window_days": 7,
+  "summary": {
+    "brand": "농할쿠폰",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 40.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "고할인 단기 집중형"
+  },
+  "top_products": [
+    {
+      "product_id": "11704510185",
+      "deal_type": "스페셜딜",
+      "product_name": "[농할쿠폰] 산지직송 국내산 26년 햇 양파 상(요리용크기) 5kg",
+      "brand": "농할쿠폰",
+      "category": "기타",
+      "first_seen_date": "2026-04-18",
+      "last_seen_date": "2026-04-18",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 11900,
+      "latest_original_price": 19900,
+      "latest_discount_rate": 40,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260407_73/1775542255094p6sm8_JPEG/38533715219389444_1493839568.jpg",
+      "latest_rank": 9,
+      "product_url": "https://smartstore.naver.com/main/products/11704510185",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 40.0,
+      "max_discount_rate": 40
+    }
+  ],
+  "products": [
+    {
+      "product_id": "11704510185",
+      "deal_type": "스페셜딜",
+      "product_name": "[농할쿠폰] 산지직송 국내산 26년 햇 양파 상(요리용크기) 5kg",
+      "brand": "농할쿠폰",
+      "category": "기타",
+      "first_seen_date": "2026-04-18",
+      "last_seen_date": "2026-04-18",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 11900,
+      "latest_original_price": 19900,
+      "latest_discount_rate": 40,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260407_73/1775542255094p6sm8_JPEG/38533715219389444_1493839568.jpg",
+      "latest_rank": 9,
+      "product_url": "https://smartstore.naver.com/main/products/11704510185",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 40.0,
+      "max_discount_rate": 40
+    }
+  ],
+  "slug": "brand-92c2022a4f"
+}

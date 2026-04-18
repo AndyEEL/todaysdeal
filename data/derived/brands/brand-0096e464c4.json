@@ -1,6 +1,6 @@
 {
   "brand": "데체코 공식",
-  "snapshot_date": "2026-04-17",
+  "snapshot_date": "2026-04-18",
   "window_days": 7,
   "summary": {
     "brand": "데체코 공식",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 39800,
       "latest_original_price": 84900,
       "latest_discount_rate": 53,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 39800,
       "latest_original_price": 84900,
       "latest_discount_rate": 53,

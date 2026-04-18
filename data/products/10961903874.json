@@ -1,0 +1,83 @@
+{
+  "product_id": "10961903874",
+  "deal_type": "스페셜딜",
+  "product_name": "[슈퍼적립] LED 귀이개 귀지 핀셋 귀파개 집게 귀후비개 제거 귀집게 청소",
+  "brand": "슈퍼적립",
+  "category": "생활/주방",
+  "first_seen_date": "2026-04-18",
+  "last_seen_date": "2026-04-18",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 5090,
+  "latest_original_price": 12000,
+  "latest_discount_rate": 57,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260401_81/1775004316919g2Tdu_JPEG/20961390736367296_1155238884.jpg",
+  "latest_rank": 2,
+  "product_url": "https://smartstore.naver.com/main/products/10961903874",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 57.0,
+  "max_discount_rate": 57,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-18",
+      "deal_type": "스페셜딜",
+      "product_id": "10961903874",
+      "product_name": "[슈퍼적립] LED 귀이개 귀지 핀셋 귀파개 집게 귀후비개 제거 귀집게 청소",
+      "store_id": "101034585",
+      "brand": "슈퍼적립",
+      "category": "생활/주방",
+      "original_price": 12000,
+      "sale_price": 5090,
+      "discount_rate": 57,
+      "product_url": "https://smartstore.naver.com/main/products/10961903874",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10961903874",
+      "image_url": "https://shop-phinf.pstatic.net/20260401_81/1775004316919g2Tdu_JPEG/20961390736367296_1155238884.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260401_81/1775004316919g2Tdu_JPEG/20961390736367296_1155238884.jpg"
+      ],
+      "rank_or_position": 2,
+      "review_score": 4.76,
+      "review_count": 816,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-18.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-18T11:32:32.773922+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-18",
+      "original_price": 12000,
+      "sale_price": 5090,
+      "discount_rate": 57
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-18",
+      "image_url": "https://shop-phinf.pstatic.net/20260401_81/1775004316919g2Tdu_JPEG/20961390736367296_1155238884.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-18",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

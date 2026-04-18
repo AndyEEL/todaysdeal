@@ -1,6 +1,6 @@
 {
   "brand": "채널101437685",
-  "snapshot_date": "2026-04-17",
+  "snapshot_date": "2026-04-18",
   "window_days": 7,
   "summary": {
     "brand": "채널101437685",
@@ -51,7 +51,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 8490,
       "latest_original_price": 13800,
       "latest_discount_rate": 38,
@@ -77,7 +77,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 8490,
       "latest_original_price": 13800,
       "latest_discount_rate": 38,

@@ -1,0 +1,83 @@
+{
+  "product_id": "6420055057",
+  "deal_type": "스페셜딜",
+  "product_name": "프레시누리 청정우 차돌박이(3초구이 샤브용) 250gX4팩",
+  "brand": "채널100503327",
+  "category": "기타",
+  "first_seen_date": "2026-04-18",
+  "last_seen_date": "2026-04-18",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 21300,
+  "latest_original_price": 25300,
+  "latest_discount_rate": 15,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250703_107/1751489978831WOKBs_JPEG/85622849904601544_1800188648.jpg",
+  "latest_rank": 19,
+  "product_url": "https://smartstore.naver.com/main/products/6420055057",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 15.0,
+  "max_discount_rate": 15,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-18",
+      "deal_type": "스페셜딜",
+      "product_id": "6420055057",
+      "product_name": "프레시누리 청정우 차돌박이(3초구이 샤브용) 250gX4팩",
+      "store_id": "100503327",
+      "brand": "채널100503327",
+      "category": "기타",
+      "original_price": 25300,
+      "sale_price": 21300,
+      "discount_rate": 15,
+      "product_url": "https://smartstore.naver.com/main/products/6420055057",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/6420055057",
+      "image_url": "https://shop-phinf.pstatic.net/20250703_107/1751489978831WOKBs_JPEG/85622849904601544_1800188648.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250703_107/1751489978831WOKBs_JPEG/85622849904601544_1800188648.jpg"
+      ],
+      "rank_or_position": 19,
+      "review_score": 4.83,
+      "review_count": 10418,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-18.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-18T11:32:32.773922+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-18",
+      "original_price": 25300,
+      "sale_price": 21300,
+      "discount_rate": 15
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-18",
+      "image_url": "https://shop-phinf.pstatic.net/20250703_107/1751489978831WOKBs_JPEG/85622849904601544_1800188648.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-18",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

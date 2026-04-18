@@ -1,6 +1,6 @@
 {
   "brand": "할리스",
-  "snapshot_date": "2026-04-17",
+  "snapshot_date": "2026-04-18",
   "window_days": 7,
   "summary": {
     "brand": "할리스",
@@ -51,7 +51,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 23700,
       "latest_original_price": 53600,
       "latest_discount_rate": 55,
@@ -101,7 +101,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 23700,
       "latest_original_price": 53600,
       "latest_discount_rate": 55,

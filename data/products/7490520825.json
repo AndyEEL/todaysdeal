@@ -1,0 +1,83 @@
+{
+  "product_id": "7490520825",
+  "deal_type": "스페셜딜",
+  "product_name": "[내일배송] 신세계푸드 올반인생 왕교자 210g 5+5 (총10봉)",
+  "brand": "내일배송",
+  "category": "기타",
+  "first_seen_date": "2026-04-18",
+  "last_seen_date": "2026-04-18",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 17900,
+  "latest_original_price": 30900,
+  "latest_discount_rate": 42,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20230428_207/1682665478561uwmDN_JPEG/485586410367415_11628555.jpg",
+  "latest_rank": 18,
+  "product_url": "https://smartstore.naver.com/main/products/7490520825",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 42.0,
+  "max_discount_rate": 42,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-18",
+      "deal_type": "스페셜딜",
+      "product_id": "7490520825",
+      "product_name": "[내일배송] 신세계푸드 올반인생 왕교자 210g 5+5 (총10봉)",
+      "store_id": "100791832",
+      "brand": "내일배송",
+      "category": "기타",
+      "original_price": 30900,
+      "sale_price": 17900,
+      "discount_rate": 42,
+      "product_url": "https://smartstore.naver.com/main/products/7490520825",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/7490520825",
+      "image_url": "https://shop-phinf.pstatic.net/20230428_207/1682665478561uwmDN_JPEG/485586410367415_11628555.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20230428_207/1682665478561uwmDN_JPEG/485586410367415_11628555.jpg"
+      ],
+      "rank_or_position": 18,
+      "review_score": 4.84,
+      "review_count": 7718,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-18.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-18T11:32:32.773922+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-18",
+      "original_price": 30900,
+      "sale_price": 17900,
+      "discount_rate": 42
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-18",
+      "image_url": "https://shop-phinf.pstatic.net/20230428_207/1682665478561uwmDN_JPEG/485586410367415_11628555.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-18",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

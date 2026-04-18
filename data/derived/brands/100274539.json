@@ -1,6 +1,6 @@
 {
   "brand": "채널100274539",
-  "snapshot_date": "2026-04-17",
+  "snapshot_date": "2026-04-18",
   "window_days": 7,
   "summary": {
     "brand": "채널100274539",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 1990000,
       "latest_original_price": 3990000,
       "latest_discount_rate": 50,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 1990000,
       "latest_original_price": 3990000,
       "latest_discount_rate": 50,

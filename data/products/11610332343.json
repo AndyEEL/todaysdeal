@@ -1,0 +1,83 @@
+{
+  "product_id": "11610332343",
+  "deal_type": "스페셜딜",
+  "product_name": "스테비아 대추방울 토망고 2kg (500gX4팩)",
+  "brand": "채널500009413",
+  "category": "기타",
+  "first_seen_date": "2026-04-18",
+  "last_seen_date": "2026-04-18",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 16900,
+  "latest_original_price": 29900,
+  "latest_discount_rate": 43,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260203_52/1770098127808UImbb_JPEG/22813688217306165_2062525811.jpg",
+  "latest_rank": 13,
+  "product_url": "https://smartstore.naver.com/main/products/11610332343",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 43.0,
+  "max_discount_rate": 43,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-18",
+      "deal_type": "스페셜딜",
+      "product_id": "11610332343",
+      "product_name": "스테비아 대추방울 토망고 2kg (500gX4팩)",
+      "store_id": "500009413",
+      "brand": "채널500009413",
+      "category": "기타",
+      "original_price": 29900,
+      "sale_price": 16900,
+      "discount_rate": 43,
+      "product_url": "https://smartstore.naver.com/main/products/11610332343",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11610332343",
+      "image_url": "https://shop-phinf.pstatic.net/20260203_52/1770098127808UImbb_JPEG/22813688217306165_2062525811.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260203_52/1770098127808UImbb_JPEG/22813688217306165_2062525811.jpg"
+      ],
+      "rank_or_position": 13,
+      "review_score": 4.78,
+      "review_count": 18,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-18.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-18T11:32:32.773922+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-18",
+      "original_price": 29900,
+      "sale_price": 16900,
+      "discount_rate": 43
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-18",
+      "image_url": "https://shop-phinf.pstatic.net/20260203_52/1770098127808UImbb_JPEG/22813688217306165_2062525811.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-18",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

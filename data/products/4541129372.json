@@ -1,0 +1,83 @@
+{
+  "product_id": "4541129372",
+  "deal_type": "스페셜딜",
+  "product_name": "제스프리 골드키위 자이언트 점보과 골드 키위 10과",
+  "brand": "채널500009413",
+  "category": "기타",
+  "first_seen_date": "2026-04-18",
+  "last_seen_date": "2026-04-18",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 10900,
+  "latest_original_price": 70900,
+  "latest_discount_rate": 84,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250711_17/1752219695773G4Yc4_JPEG/66619777621383124_1928490774.jpg",
+  "latest_rank": 6,
+  "product_url": "https://smartstore.naver.com/main/products/4541129372",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 84.0,
+  "max_discount_rate": 84,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-18",
+      "deal_type": "스페셜딜",
+      "product_id": "4541129372",
+      "product_name": "제스프리 골드키위 자이언트 점보과 골드 키위 10과",
+      "store_id": "500009413",
+      "brand": "채널500009413",
+      "category": "기타",
+      "original_price": 70900,
+      "sale_price": 10900,
+      "discount_rate": 84,
+      "product_url": "https://smartstore.naver.com/main/products/4541129372",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4541129372",
+      "image_url": "https://shop-phinf.pstatic.net/20250711_17/1752219695773G4Yc4_JPEG/66619777621383124_1928490774.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250711_17/1752219695773G4Yc4_JPEG/66619777621383124_1928490774.jpg"
+      ],
+      "rank_or_position": 6,
+      "review_score": 4.58,
+      "review_count": 65,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-18.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-18T11:32:32.773922+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-18",
+      "original_price": 70900,
+      "sale_price": 10900,
+      "discount_rate": 84
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-18",
+      "image_url": "https://shop-phinf.pstatic.net/20250711_17/1752219695773G4Yc4_JPEG/66619777621383124_1928490774.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-18",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}
