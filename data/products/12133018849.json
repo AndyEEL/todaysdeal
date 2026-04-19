@@ -1,0 +1,83 @@
+{
+  "product_id": "12133018849",
+  "deal_type": "스페셜딜",
+  "product_name": "별미! 탱글쫄깃한 생 메밀소바 대용량 6인분 세트",
+  "brand": "채널100938809",
+  "category": "기타",
+  "first_seen_date": "2026-04-19",
+  "last_seen_date": "2026-04-19",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 11900,
+  "latest_original_price": 20900,
+  "latest_discount_rate": 43,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260407_246/1775545549948zSj4K_JPEG/29140462079750248_523175454.jpg",
+  "latest_rank": 9,
+  "product_url": "https://smartstore.naver.com/main/products/12133018849",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 43.0,
+  "max_discount_rate": 43,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-19",
+      "deal_type": "스페셜딜",
+      "product_id": "12133018849",
+      "product_name": "별미! 탱글쫄깃한 생 메밀소바 대용량 6인분 세트",
+      "store_id": "100938809",
+      "brand": "채널100938809",
+      "category": "기타",
+      "original_price": 20900,
+      "sale_price": 11900,
+      "discount_rate": 43,
+      "product_url": "https://smartstore.naver.com/main/products/12133018849",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12133018849",
+      "image_url": "https://shop-phinf.pstatic.net/20260407_246/1775545549948zSj4K_JPEG/29140462079750248_523175454.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260407_246/1775545549948zSj4K_JPEG/29140462079750248_523175454.jpg"
+      ],
+      "rank_or_position": 9,
+      "review_score": 0.0,
+      "review_count": 0,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-19.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-19T11:15:03.071721+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-19",
+      "original_price": 20900,
+      "sale_price": 11900,
+      "discount_rate": 43
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-19",
+      "image_url": "https://shop-phinf.pstatic.net/20260407_246/1775545549948zSj4K_JPEG/29140462079750248_523175454.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-19",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "product_id": "13153683703",
+  "deal_type": "스페셜딜",
+  "product_name": "[2개 구매 시 50%][차려낸] 국내산 닭가슴살 치킨너겟",
+  "brand": "2개 구매 시 50%",
+  "category": "식품/음료",
+  "first_seen_date": "2026-04-19",
+  "last_seen_date": "2026-04-19",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 9900,
+  "latest_original_price": 9900,
+  "latest_discount_rate": 0,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260223_61/1771801983693zmHj8_JPEG/6505362474723634_1465705497.jpg",
+  "latest_rank": 1,
+  "product_url": "https://smartstore.naver.com/main/products/13153683703",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 0.0,
+  "max_discount_rate": 0,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-19",
+      "deal_type": "스페셜딜",
+      "product_id": "13153683703",
+      "product_name": "[2개 구매 시 50%][차려낸] 국내산 닭가슴살 치킨너겟",
+      "store_id": "102655931",
+      "brand": "2개 구매 시 50%",
+      "category": "식품/음료",
+      "original_price": 9900,
+      "sale_price": 9900,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/13153683703",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13153683703",
+      "image_url": "https://shop-phinf.pstatic.net/20260223_61/1771801983693zmHj8_JPEG/6505362474723634_1465705497.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260223_61/1771801983693zmHj8_JPEG/6505362474723634_1465705497.jpg"
+      ],
+      "rank_or_position": 1,
+      "review_score": 4.87,
+      "review_count": 1837,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-19.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-19T11:15:03.071721+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-19",
+      "original_price": 9900,
+      "sale_price": 9900,
+      "discount_rate": 0
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-19",
+      "image_url": "https://shop-phinf.pstatic.net/20260223_61/1771801983693zmHj8_JPEG/6505362474723634_1465705497.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-19",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

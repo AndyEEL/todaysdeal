@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-18T11:32:33.058821",
-  "snapshot_date": "2026-04-18",
+  "generated_at": "2026-04-19T11:15:03.385130",
+  "snapshot_date": "2026-04-19",
   "items": [
     {
       "product_id": "100151769",
@@ -35,6 +35,14 @@
       "file_name": "10434503205.json"
     },
     {
+      "product_id": "10533571737",
+      "file_name": "10533571737.json"
+    },
+    {
+      "product_id": "10561717399",
+      "file_name": "10561717399.json"
+    },
+    {
       "product_id": "10566130307",
       "file_name": "10566130307.json"
     },
@@ -59,6 +67,10 @@
       "file_name": "10961903874.json"
     },
     {
+      "product_id": "10994941297",
+      "file_name": "10994941297.json"
+    },
+    {
       "product_id": "11047482339",
       "file_name": "11047482339.json"
     },
@@ -71,6 +83,10 @@
       "file_name": "11062088963.json"
     },
     {
+      "product_id": "11217819811",
+      "file_name": "11217819811.json"
+    },
+    {
       "product_id": "11236386196",
       "file_name": "11236386196.json"
     },
@@ -79,8 +95,16 @@
       "file_name": "11281496661.json"
     },
     {
+      "product_id": "11359985088",
+      "file_name": "11359985088.json"
+    },
+    {
       "product_id": "11386119808",
       "file_name": "11386119808.json"
+    },
+    {
+      "product_id": "11390011981",
+      "file_name": "11390011981.json"
     },
     {
       "product_id": "11461583804",
@@ -101,6 +125,10 @@
     {
       "product_id": "11614799372",
       "file_name": "11614799372.json"
+    },
+    {
+      "product_id": "11629940090",
+      "file_name": "11629940090.json"
     },
     {
       "product_id": "11630861814",
@@ -127,8 +155,16 @@
       "file_name": "11704510185.json"
     },
     {
+      "product_id": "11746727732",
+      "file_name": "11746727732.json"
+    },
+    {
       "product_id": "11778085390",
       "file_name": "11778085390.json"
+    },
+    {
+      "product_id": "11819569278",
+      "file_name": "11819569278.json"
     },
     {
       "product_id": "11842829587",
@@ -139,12 +175,24 @@
       "file_name": "11895422204.json"
     },
     {
+      "product_id": "11923894595",
+      "file_name": "11923894595.json"
+    },
+    {
+      "product_id": "11952166422",
+      "file_name": "11952166422.json"
+    },
+    {
       "product_id": "11957088430",
       "file_name": "11957088430.json"
     },
     {
       "product_id": "11957706426",
       "file_name": "11957706426.json"
+    },
+    {
+      "product_id": "12133018849",
+      "file_name": "12133018849.json"
     },
     {
       "product_id": "12137786879",
@@ -157,6 +205,10 @@
     {
       "product_id": "12220650201",
       "file_name": "12220650201.json"
+    },
+    {
+      "product_id": "12231822394",
+      "file_name": "12231822394.json"
     },
     {
       "product_id": "12237533946",
@@ -183,6 +235,10 @@
       "file_name": "12299324340.json"
     },
     {
+      "product_id": "12304048367",
+      "file_name": "12304048367.json"
+    },
+    {
       "product_id": "12381375662",
       "file_name": "12381375662.json"
     },
@@ -195,12 +251,32 @@
       "file_name": "12390107297.json"
     },
     {
+      "product_id": "12417661050",
+      "file_name": "12417661050.json"
+    },
+    {
+      "product_id": "12447545379",
+      "file_name": "12447545379.json"
+    },
+    {
+      "product_id": "12465897985",
+      "file_name": "12465897985.json"
+    },
+    {
+      "product_id": "12476725736",
+      "file_name": "12476725736.json"
+    },
+    {
       "product_id": "12532703693",
       "file_name": "12532703693.json"
     },
     {
       "product_id": "12544116135",
       "file_name": "12544116135.json"
+    },
+    {
+      "product_id": "12575770421",
+      "file_name": "12575770421.json"
     },
     {
       "product_id": "12588783457",
@@ -215,12 +291,20 @@
       "file_name": "12633754263.json"
     },
     {
+      "product_id": "12638163250",
+      "file_name": "12638163250.json"
+    },
+    {
       "product_id": "12673036936",
       "file_name": "12673036936.json"
     },
     {
       "product_id": "12701437696",
       "file_name": "12701437696.json"
+    },
+    {
+      "product_id": "12737056092",
+      "file_name": "12737056092.json"
     },
     {
       "product_id": "12739712645",
@@ -231,8 +315,16 @@
       "file_name": "12764580817.json"
     },
     {
+      "product_id": "12798285569",
+      "file_name": "12798285569.json"
+    },
+    {
       "product_id": "12808256836",
       "file_name": "12808256836.json"
+    },
+    {
+      "product_id": "12839052602",
+      "file_name": "12839052602.json"
     },
     {
       "product_id": "12847634130",
@@ -247,12 +339,20 @@
       "file_name": "12863101446.json"
     },
     {
+      "product_id": "12896857984",
+      "file_name": "12896857984.json"
+    },
+    {
       "product_id": "12930024471",
       "file_name": "12930024471.json"
     },
     {
       "product_id": "12967074020",
       "file_name": "12967074020.json"
+    },
+    {
+      "product_id": "12994328918",
+      "file_name": "12994328918.json"
     },
     {
       "product_id": "13018198510",
@@ -277,6 +377,10 @@
     {
       "product_id": "13141389638",
       "file_name": "13141389638.json"
+    },
+    {
+      "product_id": "13153683703",
+      "file_name": "13153683703.json"
     },
     {
       "product_id": "13155984223",
@@ -347,6 +451,10 @@
       "file_name": "13278078404.json"
     },
     {
+      "product_id": "13278964570",
+      "file_name": "13278964570.json"
+    },
+    {
       "product_id": "13279951821",
       "file_name": "13279951821.json"
     },
@@ -363,6 +471,10 @@
       "file_name": "13292099613.json"
     },
     {
+      "product_id": "13292894358",
+      "file_name": "13292894358.json"
+    },
+    {
       "product_id": "13298399358",
       "file_name": "13298399358.json"
     },
@@ -373,6 +485,10 @@
     {
       "product_id": "13359882040",
       "file_name": "13359882040.json"
+    },
+    {
+      "product_id": "13376053350",
+      "file_name": "13376053350.json"
     },
     {
       "product_id": "13376247191",
@@ -459,12 +575,32 @@
       "file_name": "4996533889.json"
     },
     {
+      "product_id": "5002901777",
+      "file_name": "5002901777.json"
+    },
+    {
       "product_id": "5035409673",
       "file_name": "5035409673.json"
     },
     {
       "product_id": "5203381052",
       "file_name": "5203381052.json"
+    },
+    {
+      "product_id": "5210164377",
+      "file_name": "5210164377.json"
+    },
+    {
+      "product_id": "5256847524",
+      "file_name": "5256847524.json"
+    },
+    {
+      "product_id": "5269660116",
+      "file_name": "5269660116.json"
+    },
+    {
+      "product_id": "5279473553",
+      "file_name": "5279473553.json"
     },
     {
       "product_id": "5444099248",
@@ -481,6 +617,10 @@
     {
       "product_id": "5636612081",
       "file_name": "5636612081.json"
+    },
+    {
+      "product_id": "5655026936",
+      "file_name": "5655026936.json"
     },
     {
       "product_id": "574304932",
@@ -503,6 +643,10 @@
       "file_name": "6040856618.json"
     },
     {
+      "product_id": "6345605475",
+      "file_name": "6345605475.json"
+    },
+    {
       "product_id": "6416114804",
       "file_name": "6416114804.json"
     },
@@ -511,12 +655,20 @@
       "file_name": "6420055057.json"
     },
     {
+      "product_id": "6429237091",
+      "file_name": "6429237091.json"
+    },
+    {
       "product_id": "6442751446",
       "file_name": "6442751446.json"
     },
     {
       "product_id": "6459235096",
       "file_name": "6459235096.json"
+    },
+    {
+      "product_id": "6550524474",
+      "file_name": "6550524474.json"
     },
     {
       "product_id": "6571533697",
@@ -547,6 +699,10 @@
       "file_name": "6877277101.json"
     },
     {
+      "product_id": "6969444080",
+      "file_name": "6969444080.json"
+    },
+    {
       "product_id": "7109327784",
       "file_name": "7109327784.json"
     },
@@ -565,6 +721,10 @@
     {
       "product_id": "7587547475",
       "file_name": "7587547475.json"
+    },
+    {
+      "product_id": "7710036529",
+      "file_name": "7710036529.json"
     },
     {
       "product_id": "7982770809",
@@ -587,6 +747,10 @@
       "file_name": "8240845400.json"
     },
     {
+      "product_id": "8253710179",
+      "file_name": "8253710179.json"
+    },
+    {
       "product_id": "8272955002",
       "file_name": "8272955002.json"
     },
@@ -605,6 +769,10 @@
     {
       "product_id": "8363630938",
       "file_name": "8363630938.json"
+    },
+    {
+      "product_id": "8632170897",
+      "file_name": "8632170897.json"
     },
     {
       "product_id": "8723046005",
@@ -641,6 +809,10 @@
     {
       "product_id": "9768755853",
       "file_name": "9768755853.json"
+    },
+    {
+      "product_id": "9811605356",
+      "file_name": "9811605356.json"
     },
     {
       "product_id": "9900926969",

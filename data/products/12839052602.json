@@ -1,0 +1,83 @@
+{
+  "product_id": "12839052602",
+  "deal_type": "스페셜딜",
+  "product_name": "바이탈플랜트 롤팬 차콜 뉴오리지널 자동회전냄비",
+  "brand": "채널500284150",
+  "category": "기타",
+  "first_seen_date": "2026-04-19",
+  "last_seen_date": "2026-04-19",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 115000,
+  "latest_original_price": 200000,
+  "latest_discount_rate": 42,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260114_156/1768381952404zw293_JPEG/922329369153165_238308842.jpg",
+  "latest_rank": 42,
+  "product_url": "https://smartstore.naver.com/main/products/12839052602",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 42.0,
+  "max_discount_rate": 42,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-19",
+      "deal_type": "스페셜딜",
+      "product_id": "12839052602",
+      "product_name": "바이탈플랜트 롤팬 차콜 뉴오리지널 자동회전냄비",
+      "store_id": "500284150",
+      "brand": "채널500284150",
+      "category": "기타",
+      "original_price": 200000,
+      "sale_price": 115000,
+      "discount_rate": 42,
+      "product_url": "https://smartstore.naver.com/main/products/12839052602",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12839052602",
+      "image_url": "https://shop-phinf.pstatic.net/20260114_156/1768381952404zw293_JPEG/922329369153165_238308842.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260114_156/1768381952404zw293_JPEG/922329369153165_238308842.jpg"
+      ],
+      "rank_or_position": 42,
+      "review_score": 4.85,
+      "review_count": 131,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-19.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-19T11:15:03.071721+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-19",
+      "original_price": 200000,
+      "sale_price": 115000,
+      "discount_rate": 42
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-19",
+      "image_url": "https://shop-phinf.pstatic.net/20260114_156/1768381952404zw293_JPEG/922329369153165_238308842.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-19",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

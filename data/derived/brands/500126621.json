@@ -1,6 +1,6 @@
 {
   "brand": "채널500126621",
-  "snapshot_date": "2026-04-18",
+  "snapshot_date": "2026-04-19",
   "window_days": 7,
   "summary": {
     "brand": "채널500126621",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 8500,
       "latest_original_price": 14900,
       "latest_discount_rate": 42,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 8500,
       "latest_original_price": 14900,
       "latest_discount_rate": 42,
