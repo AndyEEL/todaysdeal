@@ -1,0 +1,83 @@
+{
+  "product_id": "13161273678",
+  "deal_type": "스페셜 체험딜",
+  "product_name": "[체험딜] 슈얼리 디지털 임신 테스트기 7개입",
+  "brand": "체험딜",
+  "category": "기타",
+  "first_seen_date": "2026-04-20",
+  "last_seen_date": "2026-04-20",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 10900,
+  "latest_original_price": 23500,
+  "latest_discount_rate": 53,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260122_243/1769057294916cs2W0_JPEG/42044148066764022_1483900089.jpg",
+  "latest_rank": 8,
+  "product_url": "https://smartstore.naver.com/main/products/13161273678",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 53.0,
+  "max_discount_rate": 53,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-20",
+      "deal_type": "스페셜 체험딜",
+      "product_id": "13161273678",
+      "product_name": "[체험딜] 슈얼리 디지털 임신 테스트기 7개입",
+      "store_id": "500235468",
+      "brand": "체험딜",
+      "category": "기타",
+      "original_price": 23500,
+      "sale_price": 10900,
+      "discount_rate": 53,
+      "product_url": "https://smartstore.naver.com/main/products/13161273678",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13161273678",
+      "image_url": "https://shop-phinf.pstatic.net/20260122_243/1769057294916cs2W0_JPEG/42044148066764022_1483900089.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260122_243/1769057294916cs2W0_JPEG/42044148066764022_1483900089.jpg"
+      ],
+      "rank_or_position": 8,
+      "review_score": 0.0,
+      "review_count": 0,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-20.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-20T11:34:41.825984+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-20",
+      "original_price": 23500,
+      "sale_price": 10900,
+      "discount_rate": 53
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-20",
+      "image_url": "https://shop-phinf.pstatic.net/20260122_243/1769057294916cs2W0_JPEG/42044148066764022_1483900089.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-20",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

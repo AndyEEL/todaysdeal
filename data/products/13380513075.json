@@ -1,0 +1,83 @@
+{
+  "product_id": "13380513075",
+  "deal_type": "스페셜딜",
+  "product_name": "[99달걀] 99 백색 구운란 30구 (15구＊2개입)",
+  "brand": "99달걀",
+  "category": "기타",
+  "first_seen_date": "2026-04-20",
+  "last_seen_date": "2026-04-20",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 10990,
+  "latest_original_price": 10990,
+  "latest_discount_rate": 0,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260407_14/1775522459598sf6SC_JPEG/30184842568929312_1968990783.jpg",
+  "latest_rank": 1,
+  "product_url": "https://smartstore.naver.com/main/products/13380513075",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 0.0,
+  "max_discount_rate": 0,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-20",
+      "deal_type": "스페셜딜",
+      "product_id": "13380513075",
+      "product_name": "[99달걀] 99 백색 구운란 30구 (15구＊2개입)",
+      "store_id": "102655931",
+      "brand": "99달걀",
+      "category": "기타",
+      "original_price": 10990,
+      "sale_price": 10990,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/13380513075",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13380513075",
+      "image_url": "https://shop-phinf.pstatic.net/20260407_14/1775522459598sf6SC_JPEG/30184842568929312_1968990783.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260407_14/1775522459598sf6SC_JPEG/30184842568929312_1968990783.jpg"
+      ],
+      "rank_or_position": 1,
+      "review_score": 4.74,
+      "review_count": 114,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-20.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-20T11:34:41.825984+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-20",
+      "original_price": 10990,
+      "sale_price": 10990,
+      "discount_rate": 0
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-20",
+      "image_url": "https://shop-phinf.pstatic.net/20260407_14/1775522459598sf6SC_JPEG/30184842568929312_1968990783.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-20",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

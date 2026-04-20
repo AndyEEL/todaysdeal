@@ -1,0 +1,71 @@
+{
+  "brand": "벚꽃EVENT",
+  "snapshot_date": "2026-04-20",
+  "window_days": 7,
+  "summary": {
+    "brand": "벚꽃EVENT",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 0.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "균형 운영형"
+  },
+  "top_products": [
+    {
+      "product_id": "12990048217",
+      "deal_type": "스페셜딜",
+      "product_name": "[벚꽃EVENT]삼성 공식 갤럭시 S26 울트라 256GB 자급제 SM-S948N AI폰",
+      "brand": "벚꽃EVENT",
+      "category": "기타",
+      "first_seen_date": "2026-04-20",
+      "last_seen_date": "2026-04-20",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 1797320,
+      "latest_original_price": 1797400,
+      "latest_discount_rate": 0,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260226_28/1772111494282cMY32_JPEG/21919741122085266_275818346.jpg",
+      "latest_rank": 41,
+      "product_url": "https://smartstore.naver.com/main/products/12990048217",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 0.0,
+      "max_discount_rate": 0
+    }
+  ],
+  "products": [
+    {
+      "product_id": "12990048217",
+      "deal_type": "스페셜딜",
+      "product_name": "[벚꽃EVENT]삼성 공식 갤럭시 S26 울트라 256GB 자급제 SM-S948N AI폰",
+      "brand": "벚꽃EVENT",
+      "category": "기타",
+      "first_seen_date": "2026-04-20",
+      "last_seen_date": "2026-04-20",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 1797320,
+      "latest_original_price": 1797400,
+      "latest_discount_rate": 0,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260226_28/1772111494282cMY32_JPEG/21919741122085266_275818346.jpg",
+      "latest_rank": 41,
+      "product_url": "https://smartstore.naver.com/main/products/12990048217",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 0.0,
+      "max_discount_rate": 0
+    }
+  ],
+  "slug": "event"
+}

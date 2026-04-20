@@ -1,0 +1,83 @@
+{
+  "product_id": "13136819830",
+  "deal_type": "스페셜딜",
+  "product_name": "[4/20 11시 특가 오픈] 한율 보들은행잎 모공핏 마스크 (8+2) 10매 세트",
+  "brand": "4/20 11시 특가 오픈",
+  "category": "기타",
+  "first_seen_date": "2026-04-20",
+  "last_seen_date": "2026-04-20",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 13800,
+  "latest_original_price": 32000,
+  "latest_discount_rate": 56,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260416_6/1776300659266E91Hu_JPEG/2579468049675229_1249827719.jpg",
+  "latest_rank": 18,
+  "product_url": "https://smartstore.naver.com/main/products/13136819830",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 56.0,
+  "max_discount_rate": 56,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-20",
+      "deal_type": "스페셜딜",
+      "product_id": "13136819830",
+      "product_name": "[4/20 11시 특가 오픈] 한율 보들은행잎 모공핏 마스크 (8+2) 10매 세트",
+      "store_id": "100754913",
+      "brand": "4/20 11시 특가 오픈",
+      "category": "기타",
+      "original_price": 32000,
+      "sale_price": 13800,
+      "discount_rate": 56,
+      "product_url": "https://smartstore.naver.com/main/products/13136819830",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13136819830",
+      "image_url": "https://shop-phinf.pstatic.net/20260416_6/1776300659266E91Hu_JPEG/2579468049675229_1249827719.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260416_6/1776300659266E91Hu_JPEG/2579468049675229_1249827719.jpg"
+      ],
+      "rank_or_position": 18,
+      "review_score": 4.5,
+      "review_count": 2,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-20.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-20T11:34:41.825984+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-20",
+      "original_price": 32000,
+      "sale_price": 13800,
+      "discount_rate": 56
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-20",
+      "image_url": "https://shop-phinf.pstatic.net/20260416_6/1776300659266E91Hu_JPEG/2579468049675229_1249827719.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-20",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

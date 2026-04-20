@@ -1,0 +1,83 @@
+{
+  "product_id": "6257408984",
+  "deal_type": "스페셜딜",
+  "product_name": "멀티비타민 오쏘몰 이뮨 비타민 30일분 2박스 총 60일분 + 2일분 + 쇼핑백 이뮨샷",
+  "brand": "채널101015607",
+  "category": "뷰티/헬스",
+  "first_seen_date": "2026-04-20",
+  "last_seen_date": "2026-04-20",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 197000,
+  "latest_original_price": 258000,
+  "latest_discount_rate": 23,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250430_71/1745995899666A0C3y_JPEG/80128840784646447_1384676777.jpg",
+  "latest_rank": 38,
+  "product_url": "https://smartstore.naver.com/main/products/6257408984",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 23.0,
+  "max_discount_rate": 23,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-20",
+      "deal_type": "스페셜딜",
+      "product_id": "6257408984",
+      "product_name": "멀티비타민 오쏘몰 이뮨 비타민 30일분 2박스 총 60일분 + 2일분 + 쇼핑백 이뮨샷",
+      "store_id": "101015607",
+      "brand": "채널101015607",
+      "category": "뷰티/헬스",
+      "original_price": 258000,
+      "sale_price": 197000,
+      "discount_rate": 23,
+      "product_url": "https://smartstore.naver.com/main/products/6257408984",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/6257408984",
+      "image_url": "https://shop-phinf.pstatic.net/20250430_71/1745995899666A0C3y_JPEG/80128840784646447_1384676777.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250430_71/1745995899666A0C3y_JPEG/80128840784646447_1384676777.jpg"
+      ],
+      "rank_or_position": 38,
+      "review_score": 4.94,
+      "review_count": 11273,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-20.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-20T11:34:41.825984+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-20",
+      "original_price": 258000,
+      "sale_price": 197000,
+      "discount_rate": 23
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-20",
+      "image_url": "https://shop-phinf.pstatic.net/20250430_71/1745995899666A0C3y_JPEG/80128840784646447_1384676777.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-20",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

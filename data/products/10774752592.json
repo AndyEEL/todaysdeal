@@ -1,0 +1,83 @@
+{
+  "product_id": "10774752592",
+  "deal_type": "스페셜딜",
+  "product_name": "[체험팩][3+1/5+2] 국민 분식 쫀득한 찰순대 300g 1팩 돼지부속 외 분식간식",
+  "brand": "체험팩",
+  "category": "기타",
+  "first_seen_date": "2026-04-20",
+  "last_seen_date": "2026-04-20",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 4400,
+  "latest_original_price": 9400,
+  "latest_discount_rate": 53,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20240828_165/1724834582585QTUDX_JPEG/44769558545730079_1977058594.jpg",
+  "latest_rank": 10,
+  "product_url": "https://smartstore.naver.com/main/products/10774752592",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 53.0,
+  "max_discount_rate": 53,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-20",
+      "deal_type": "스페셜딜",
+      "product_id": "10774752592",
+      "product_name": "[체험팩][3+1/5+2] 국민 분식 쫀득한 찰순대 300g 1팩 돼지부속 외 분식간식",
+      "store_id": "100446531",
+      "brand": "체험팩",
+      "category": "기타",
+      "original_price": 9400,
+      "sale_price": 4400,
+      "discount_rate": 53,
+      "product_url": "https://smartstore.naver.com/main/products/10774752592",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10774752592",
+      "image_url": "https://shop-phinf.pstatic.net/20240828_165/1724834582585QTUDX_JPEG/44769558545730079_1977058594.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20240828_165/1724834582585QTUDX_JPEG/44769558545730079_1977058594.jpg"
+      ],
+      "rank_or_position": 10,
+      "review_score": 4.75,
+      "review_count": 79,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-20.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-20T11:34:41.825984+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-20",
+      "original_price": 9400,
+      "sale_price": 4400,
+      "discount_rate": 53
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-20",
+      "image_url": "https://shop-phinf.pstatic.net/20240828_165/1724834582585QTUDX_JPEG/44769558545730079_1977058594.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-20",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

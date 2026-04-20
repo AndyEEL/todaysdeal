@@ -9,7 +9,7 @@
   "active_days": 1,
   "current_status": "exited",
   "appeared_today": false,
-  "disappeared_today": true,
+  "disappeared_today": false,
   "latest_sale_price": 10900,
   "latest_original_price": 16900,
   "latest_discount_rate": 35,

@@ -1,6 +1,6 @@
 {
   "brand": "성경김본사",
-  "snapshot_date": "2026-04-19",
+  "snapshot_date": "2026-04-20",
   "window_days": 7,
   "summary": {
     "brand": "성경김본사",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 16700,
       "latest_original_price": 32000,
       "latest_discount_rate": 47,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 16700,
       "latest_original_price": 32000,
       "latest_discount_rate": 47,

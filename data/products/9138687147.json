@@ -1,0 +1,83 @@
+{
+  "product_id": "9138687147",
+  "deal_type": "스페셜딜",
+  "product_name": "[농협홍삼 한삼인] 대용량 홍삼스틱 진세노사이드 홍삼진 굿데이스틱+쇼핑백 60포, 1개",
+  "brand": "농협홍삼 한삼인",
+  "category": "기타",
+  "first_seen_date": "2026-04-20",
+  "last_seen_date": "2026-04-20",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 30500,
+  "latest_original_price": 59600,
+  "latest_discount_rate": 48,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260210_101/1770687617530Td7By_JPEG/9223585513518539_1475902648.jpg",
+  "latest_rank": 27,
+  "product_url": "https://smartstore.naver.com/main/products/9138687147",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 48.0,
+  "max_discount_rate": 48,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-20",
+      "deal_type": "스페셜딜",
+      "product_id": "9138687147",
+      "product_name": "[농협홍삼 한삼인] 대용량 홍삼스틱 진세노사이드 홍삼진 굿데이스틱+쇼핑백 60포, 1개",
+      "store_id": "500030111",
+      "brand": "농협홍삼 한삼인",
+      "category": "기타",
+      "original_price": 59600,
+      "sale_price": 30500,
+      "discount_rate": 48,
+      "product_url": "https://smartstore.naver.com/main/products/9138687147",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9138687147",
+      "image_url": "https://shop-phinf.pstatic.net/20260210_101/1770687617530Td7By_JPEG/9223585513518539_1475902648.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260210_101/1770687617530Td7By_JPEG/9223585513518539_1475902648.jpg"
+      ],
+      "rank_or_position": 27,
+      "review_score": 4.81,
+      "review_count": 2971,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-20.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-20T11:34:41.825984+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-20",
+      "original_price": 59600,
+      "sale_price": 30500,
+      "discount_rate": 48
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-20",
+      "image_url": "https://shop-phinf.pstatic.net/20260210_101/1770687617530Td7By_JPEG/9223585513518539_1475902648.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-20",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

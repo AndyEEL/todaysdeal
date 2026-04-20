@@ -5,21 +5,21 @@
   "brand": "채널500217683",
   "category": "식품/음료",
   "first_seen_date": "2026-04-17",
-  "last_seen_date": "2026-04-17",
-  "active_days": 1,
-  "current_status": "exited",
+  "last_seen_date": "2026-04-20",
+  "active_days": 2,
+  "current_status": "active",
   "appeared_today": false,
   "disappeared_today": false,
-  "latest_sale_price": 17800,
+  "latest_sale_price": 17900,
   "latest_original_price": 22000,
-  "latest_discount_rate": 19,
+  "latest_discount_rate": 18,
   "latest_image_url": "https://shop-phinf.pstatic.net/20250314_28/1741926427395jIkTz_PNG/28001853186439274_1006461946.png",
-  "latest_rank": 20,
+  "latest_rank": 22,
   "product_url": "https://smartstore.naver.com/main/products/8038993732",
-  "price_change_count": 0,
+  "price_change_count": 1,
   "image_change_count": 0,
-  "deal_cycles": 1,
-  "average_discount_rate": 19.0,
+  "deal_cycles": 2,
+  "average_discount_rate": 18.5,
   "max_discount_rate": 19,
   "timeline": [
     {
@@ -48,6 +48,33 @@
         "selected_tab": "스페셜딜",
         "fetched_at": "2026-04-17T11:15:21.709103+09:00"
       }
+    },
+    {
+      "snapshot_date": "2026-04-20",
+      "deal_type": "스페셜딜",
+      "product_id": "8038993732",
+      "product_name": "(신선) 하림 자연실록 무항생제 IFF 닭가슴살 1kg 2봉",
+      "store_id": "500217683",
+      "brand": "채널500217683",
+      "category": "식품/음료",
+      "original_price": 22000,
+      "sale_price": 17900,
+      "discount_rate": 18,
+      "product_url": "https://smartstore.naver.com/main/products/8038993732",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/8038993732",
+      "image_url": "https://shop-phinf.pstatic.net/20250314_28/1741926427395jIkTz_PNG/28001853186439274_1006461946.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250314_28/1741926427395jIkTz_PNG/28001853186439274_1006461946.png"
+      ],
+      "rank_or_position": 22,
+      "review_score": 4.85,
+      "review_count": 7630,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-20.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-20T11:34:41.825984+09:00"
+      }
     }
   ],
   "price_timeline": [
@@ -56,11 +83,21 @@
       "original_price": 22000,
       "sale_price": 17800,
       "discount_rate": 19
+    },
+    {
+      "date": "2026-04-20",
+      "original_price": 22000,
+      "sale_price": 17900,
+      "discount_rate": 18
     }
   ],
   "image_timeline": [
     {
       "date": "2026-04-17",
+      "image_url": "https://shop-phinf.pstatic.net/20250314_28/1741926427395jIkTz_PNG/28001853186439274_1006461946.png"
+    },
+    {
+      "date": "2026-04-20",
       "image_url": "https://shop-phinf.pstatic.net/20250314_28/1741926427395jIkTz_PNG/28001853186439274_1006461946.png"
     }
   ],
@@ -73,15 +110,34 @@
     {
       "date": "2026-04-17",
       "type": "exited_deal",
-      "summary": "최신 스냅샷 기준 딜에서 이탈했습니다."
+      "summary": "2일 공백 후 이탈로 간주했습니다."
+    },
+    {
+      "date": "2026-04-20",
+      "type": "entered_deal",
+      "summary": "딜에 재진입했습니다."
+    },
+    {
+      "date": "2026-04-20",
+      "type": "price_changed_in_deal",
+      "summary": "딜 노출 중 가격/할인율이 변경되었습니다.",
+      "from_sale_price": 17800,
+      "to_sale_price": 17900
+    },
+    {
+      "date": "2026-04-20",
+      "type": "price_reverted_after_exit",
+      "summary": "재진입 시 판매가가 이전 대비 상승했습니다.",
+      "from_sale_price": 17800,
+      "to_sale_price": 17900
     }
   ],
   "stats": {
-    "price_change_count": 0,
+    "price_change_count": 1,
     "image_change_count": 0,
-    "deal_cycles": 1,
-    "post_exit_observed_count": 0,
-    "post_exit_reverted_count": 0,
+    "deal_cycles": 2,
+    "post_exit_observed_count": 1,
+    "post_exit_reverted_count": 1,
     "post_exit_held_count": 0,
     "replacement_count": 0
   }
