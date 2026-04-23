@@ -1,13 +1,13 @@
 {
   "brand": "벚꽃SET",
-  "snapshot_date": "2026-04-20",
+  "snapshot_date": "2026-04-23",
   "window_days": 7,
   "summary": {
     "brand": "벚꽃SET",
     "product_total": 1,
     "active_products": 0,
-    "entered_last_7d": 1,
-    "exited_last_7d": 1,
+    "entered_last_7d": 0,
+    "exited_last_7d": 0,
     "avg_active_days": 1.0,
     "avg_discount_rate": 52.0,
     "post_exit_observed_count": 0,

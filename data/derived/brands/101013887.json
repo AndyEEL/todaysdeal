@@ -1,6 +1,6 @@
 {
   "brand": "채널101013887",
-  "snapshot_date": "2026-04-20",
+  "snapshot_date": "2026-04-23",
   "window_days": 7,
   "summary": {
     "brand": "채널101013887",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 16400,
       "latest_original_price": 17700,
       "latest_discount_rate": 7,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 16400,
       "latest_original_price": 17700,
       "latest_discount_rate": 7,

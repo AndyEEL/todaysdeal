@@ -1,0 +1,83 @@
+{
+  "product_id": "13331919661",
+  "deal_type": "스페셜딜",
+  "product_name": "[2+2] 틈새싹 초슬림 줄눈 청소솔 욕실 주방용 구석 청소 브러쉬 (총 4P)",
+  "brand": "2+2",
+  "category": "생활/주방",
+  "first_seen_date": "2026-04-23",
+  "last_seen_date": "2026-04-23",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 4900,
+  "latest_original_price": 10900,
+  "latest_discount_rate": 55,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260409_68/1775718040792FO4ir_JPEG/20545133292467335_674570372.jpg",
+  "latest_rank": 7,
+  "product_url": "https://smartstore.naver.com/main/products/13331919661",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 55.0,
+  "max_discount_rate": 55,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-23",
+      "deal_type": "스페셜딜",
+      "product_id": "13331919661",
+      "product_name": "[2+2] 틈새싹 초슬림 줄눈 청소솔 욕실 주방용 구석 청소 브러쉬 (총 4P)",
+      "store_id": "500219602",
+      "brand": "2+2",
+      "category": "생활/주방",
+      "original_price": 10900,
+      "sale_price": 4900,
+      "discount_rate": 55,
+      "product_url": "https://smartstore.naver.com/main/products/13331919661",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13331919661",
+      "image_url": "https://shop-phinf.pstatic.net/20260409_68/1775718040792FO4ir_JPEG/20545133292467335_674570372.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260409_68/1775718040792FO4ir_JPEG/20545133292467335_674570372.jpg"
+      ],
+      "rank_or_position": 7,
+      "review_score": 5.0,
+      "review_count": 1,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-23.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-23T11:15:08.471841+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-23",
+      "original_price": 10900,
+      "sale_price": 4900,
+      "discount_rate": 55
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-23",
+      "image_url": "https://shop-phinf.pstatic.net/20260409_68/1775718040792FO4ir_JPEG/20545133292467335_674570372.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-23",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "brand": "평점 4.93",
+  "snapshot_date": "2026-04-23",
+  "window_days": 7,
+  "summary": {
+    "brand": "평점 4.93",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 74.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "고할인 단기 집중형"
+  },
+  "top_products": [
+    {
+      "product_id": "5432307763",
+      "deal_type": "스페셜딜",
+      "product_name": "[평점 4.93] ++1등급 마장동 투뿔 한우 선물 세트 소고기 구이용 어버이날 가정의달",
+      "brand": "평점 4.93",
+      "category": "기타",
+      "first_seen_date": "2026-04-23",
+      "last_seen_date": "2026-04-23",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 149900,
+      "latest_original_price": 598000,
+      "latest_discount_rate": 74,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260422_283/1776843076148Mr8bP_JPEG/0423_EC8AA4ED8E98EC859CEB949C_ED9994EBA0A4ED959CED959CE.jpg",
+      "latest_rank": 38,
+      "product_url": "https://smartstore.naver.com/main/products/5432307763",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 74.0,
+      "max_discount_rate": 74
+    }
+  ],
+  "products": [
+    {
+      "product_id": "5432307763",
+      "deal_type": "스페셜딜",
+      "product_name": "[평점 4.93] ++1등급 마장동 투뿔 한우 선물 세트 소고기 구이용 어버이날 가정의달",
+      "brand": "평점 4.93",
+      "category": "기타",
+      "first_seen_date": "2026-04-23",
+      "last_seen_date": "2026-04-23",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 149900,
+      "latest_original_price": 598000,
+      "latest_discount_rate": 74,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260422_283/1776843076148Mr8bP_JPEG/0423_EC8AA4ED8E98EC859CEB949C_ED9994EBA0A4ED959CED959CE.jpg",
+      "latest_rank": 38,
+      "product_url": "https://smartstore.naver.com/main/products/5432307763",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 74.0,
+      "max_discount_rate": 74
+    }
+  ],
+  "slug": "4-93"
+}

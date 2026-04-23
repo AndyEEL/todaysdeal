@@ -1,0 +1,83 @@
+{
+  "product_id": "8570473906",
+  "deal_type": "스페셜딜",
+  "product_name": "아이깨끗해 핸드워시 250ml 본품 2개+200ml 리필 4개+100ml 증정",
+  "brand": "채널500240447",
+  "category": "생활/주방",
+  "first_seen_date": "2026-04-23",
+  "last_seen_date": "2026-04-23",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 10900,
+  "latest_original_price": 21900,
+  "latest_discount_rate": 50,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260422_150/1776846433288lAo8G_JPEG/31364425664344694_1765054873.jpg",
+  "latest_rank": 13,
+  "product_url": "https://smartstore.naver.com/main/products/8570473906",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 50.0,
+  "max_discount_rate": 50,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-23",
+      "deal_type": "스페셜딜",
+      "product_id": "8570473906",
+      "product_name": "아이깨끗해 핸드워시 250ml 본품 2개+200ml 리필 4개+100ml 증정",
+      "store_id": "500240447",
+      "brand": "채널500240447",
+      "category": "생활/주방",
+      "original_price": 21900,
+      "sale_price": 10900,
+      "discount_rate": 50,
+      "product_url": "https://smartstore.naver.com/main/products/8570473906",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/8570473906",
+      "image_url": "https://shop-phinf.pstatic.net/20260422_150/1776846433288lAo8G_JPEG/31364425664344694_1765054873.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260422_150/1776846433288lAo8G_JPEG/31364425664344694_1765054873.jpg"
+      ],
+      "rank_or_position": 13,
+      "review_score": 4.88,
+      "review_count": 1760,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-23.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-23T11:15:08.471841+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-23",
+      "original_price": 21900,
+      "sale_price": 10900,
+      "discount_rate": 50
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-23",
+      "image_url": "https://shop-phinf.pstatic.net/20260422_150/1776846433288lAo8G_JPEG/31364425664344694_1765054873.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-23",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "product_id": "9949281398",
+  "deal_type": "스페셜딜",
+  "product_name": "바이브랩 리바이브 테라피 헤어 스칼프 앤 브로우 앰플 두피 탈모 앰플 시트러스, 15ml, 2개",
+  "brand": "채널101236937",
+  "category": "기타",
+  "first_seen_date": "2026-04-23",
+  "last_seen_date": "2026-04-23",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 37900,
+  "latest_original_price": 39900,
+  "latest_discount_rate": 5,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20251230_139/1767074044097oeGt5_JPEG/101206891197020431_975009107.jpg",
+  "latest_rank": 29,
+  "product_url": "https://smartstore.naver.com/main/products/9949281398",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 5.0,
+  "max_discount_rate": 5,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-23",
+      "deal_type": "스페셜딜",
+      "product_id": "9949281398",
+      "product_name": "바이브랩 리바이브 테라피 헤어 스칼프 앤 브로우 앰플 두피 탈모 앰플 시트러스, 15ml, 2개",
+      "store_id": "101236937",
+      "brand": "채널101236937",
+      "category": "기타",
+      "original_price": 39900,
+      "sale_price": 37900,
+      "discount_rate": 5,
+      "product_url": "https://smartstore.naver.com/main/products/9949281398",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9949281398",
+      "image_url": "https://shop-phinf.pstatic.net/20251230_139/1767074044097oeGt5_JPEG/101206891197020431_975009107.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251230_139/1767074044097oeGt5_JPEG/101206891197020431_975009107.jpg"
+      ],
+      "rank_or_position": 29,
+      "review_score": 4.69,
+      "review_count": 1994,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-23.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-23T11:15:08.471841+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-23",
+      "original_price": 39900,
+      "sale_price": 37900,
+      "discount_rate": 5
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-23",
+      "image_url": "https://shop-phinf.pstatic.net/20251230_139/1767074044097oeGt5_JPEG/101206891197020431_975009107.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-23",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}
