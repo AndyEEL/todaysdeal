@@ -1,6 +1,6 @@
 {
   "brand": "N단독구성",
-  "snapshot_date": "2026-04-23",
+  "snapshot_date": "2026-04-25",
   "window_days": 7,
   "summary": {
     "brand": "N단독구성",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 32900,
       "latest_original_price": 49900,
       "latest_discount_rate": 34,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 32900,
       "latest_original_price": 49900,
       "latest_discount_rate": 34,

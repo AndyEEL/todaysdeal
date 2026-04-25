@@ -1,6 +1,6 @@
 {
   "brand": "채널101237859",
-  "snapshot_date": "2026-04-23",
+  "snapshot_date": "2026-04-25",
   "window_days": 7,
   "summary": {
     "brand": "채널101237859",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 5900,
       "latest_original_price": 10900,
       "latest_discount_rate": 45,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 5900,
       "latest_original_price": 10900,
       "latest_discount_rate": 45,

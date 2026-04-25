@@ -1,6 +1,6 @@
 {
   "brand": "불스원",
-  "snapshot_date": "2026-04-23",
+  "snapshot_date": "2026-04-25",
   "window_days": 7,
   "summary": {
     "brand": "불스원",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 25500,
       "latest_original_price": 47400,
       "latest_discount_rate": 46,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 25500,
       "latest_original_price": 47400,
       "latest_discount_rate": 46,

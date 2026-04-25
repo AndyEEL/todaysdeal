@@ -1,0 +1,71 @@
+{
+  "brand": "채널101192951",
+  "snapshot_date": "2026-04-25",
+  "window_days": 7,
+  "summary": {
+    "brand": "채널101192951",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 40.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "고할인 단기 집중형"
+  },
+  "top_products": [
+    {
+      "product_id": "11705429297",
+      "deal_type": "스페셜딜",
+      "product_name": "진주햄 천하장사 The 건강하닭 700g (28gX25개입) X 2개",
+      "brand": "채널101192951",
+      "category": "식품/음료",
+      "first_seen_date": "2026-04-25",
+      "last_seen_date": "2026-04-25",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 17480,
+      "latest_original_price": 29200,
+      "latest_discount_rate": 40,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20250924_77/1758673759635lgpEn_JPEG/42346042755540409_1637945212.jpg",
+      "latest_rank": 15,
+      "product_url": "https://smartstore.naver.com/main/products/11705429297",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 40.0,
+      "max_discount_rate": 40
+    }
+  ],
+  "products": [
+    {
+      "product_id": "11705429297",
+      "deal_type": "스페셜딜",
+      "product_name": "진주햄 천하장사 The 건강하닭 700g (28gX25개입) X 2개",
+      "brand": "채널101192951",
+      "category": "식품/음료",
+      "first_seen_date": "2026-04-25",
+      "last_seen_date": "2026-04-25",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 17480,
+      "latest_original_price": 29200,
+      "latest_discount_rate": 40,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20250924_77/1758673759635lgpEn_JPEG/42346042755540409_1637945212.jpg",
+      "latest_rank": 15,
+      "product_url": "https://smartstore.naver.com/main/products/11705429297",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 40.0,
+      "max_discount_rate": 40
+    }
+  ],
+  "slug": "101192951"
+}

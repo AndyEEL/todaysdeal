@@ -1,0 +1,83 @@
+{
+  "product_id": "11705429297",
+  "deal_type": "스페셜딜",
+  "product_name": "진주햄 천하장사 The 건강하닭 700g (28gX25개입) X 2개",
+  "brand": "채널101192951",
+  "category": "식품/음료",
+  "first_seen_date": "2026-04-25",
+  "last_seen_date": "2026-04-25",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 17480,
+  "latest_original_price": 29200,
+  "latest_discount_rate": 40,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250924_77/1758673759635lgpEn_JPEG/42346042755540409_1637945212.jpg",
+  "latest_rank": 15,
+  "product_url": "https://smartstore.naver.com/main/products/11705429297",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 40.0,
+  "max_discount_rate": 40,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-25",
+      "deal_type": "스페셜딜",
+      "product_id": "11705429297",
+      "product_name": "진주햄 천하장사 The 건강하닭 700g (28gX25개입) X 2개",
+      "store_id": "101192951",
+      "brand": "채널101192951",
+      "category": "식품/음료",
+      "original_price": 29200,
+      "sale_price": 17480,
+      "discount_rate": 40,
+      "product_url": "https://smartstore.naver.com/main/products/11705429297",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11705429297",
+      "image_url": "https://shop-phinf.pstatic.net/20250924_77/1758673759635lgpEn_JPEG/42346042755540409_1637945212.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250924_77/1758673759635lgpEn_JPEG/42346042755540409_1637945212.jpg"
+      ],
+      "rank_or_position": 15,
+      "review_score": 4.94,
+      "review_count": 130,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-25.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-25T13:08:09.908211+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-25",
+      "original_price": 29200,
+      "sale_price": 17480,
+      "discount_rate": 40
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-25",
+      "image_url": "https://shop-phinf.pstatic.net/20250924_77/1758673759635lgpEn_JPEG/42346042755540409_1637945212.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-25",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

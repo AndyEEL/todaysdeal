@@ -1,0 +1,83 @@
+{
+  "product_id": "5027165121",
+  "deal_type": "스페셜딜",
+  "product_name": "[광천김] 3대째 달인 혼합도시락김 (재래김+파래김) 4g, 48개",
+  "brand": "광천김",
+  "category": "기타",
+  "first_seen_date": "2026-04-25",
+  "last_seen_date": "2026-04-25",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 16720,
+  "latest_original_price": 20900,
+  "latest_discount_rate": 20,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20240924_150/1727164037303am0nT_JPEG/8259443196310666_700411941.jpg",
+  "latest_rank": 14,
+  "product_url": "https://smartstore.naver.com/main/products/5027165121",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 20.0,
+  "max_discount_rate": 20,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-25",
+      "deal_type": "스페셜딜",
+      "product_id": "5027165121",
+      "product_name": "[광천김] 3대째 달인 혼합도시락김 (재래김+파래김) 4g, 48개",
+      "store_id": "100102221",
+      "brand": "광천김",
+      "category": "기타",
+      "original_price": 20900,
+      "sale_price": 16720,
+      "discount_rate": 20,
+      "product_url": "https://smartstore.naver.com/main/products/5027165121",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/5027165121",
+      "image_url": "https://shop-phinf.pstatic.net/20240924_150/1727164037303am0nT_JPEG/8259443196310666_700411941.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20240924_150/1727164037303am0nT_JPEG/8259443196310666_700411941.jpg"
+      ],
+      "rank_or_position": 14,
+      "review_score": 4.85,
+      "review_count": 26533,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-25.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-25T13:08:09.908211+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-25",
+      "original_price": 20900,
+      "sale_price": 16720,
+      "discount_rate": 20
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-25",
+      "image_url": "https://shop-phinf.pstatic.net/20240924_150/1727164037303am0nT_JPEG/8259443196310666_700411941.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-25",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

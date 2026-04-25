@@ -1,0 +1,83 @@
+{
+  "product_id": "10763703963",
+  "deal_type": "스페셜딜",
+  "product_name": "[+쇼핑백&로션본품] 밀크바오밥 퍼퓸 샴푸+트리트먼트+바디워시 화이트머스크, 500ml, 3개",
+  "brand": "+쇼핑백&로션본품",
+  "category": "뷰티/헬스",
+  "first_seen_date": "2026-04-25",
+  "last_seen_date": "2026-04-25",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 21400,
+  "latest_original_price": 37700,
+  "latest_discount_rate": 43,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260422_242/1776848330792RTzKm_JPEG/0425_EC8AA4ED8E98EC859CEB949C_EBB080ED81ACEBB094EC98A4E.jpg",
+  "latest_rank": 20,
+  "product_url": "https://smartstore.naver.com/main/products/10763703963",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 43.0,
+  "max_discount_rate": 43,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-25",
+      "deal_type": "스페셜딜",
+      "product_id": "10763703963",
+      "product_name": "[+쇼핑백&로션본품] 밀크바오밥 퍼퓸 샴푸+트리트먼트+바디워시 화이트머스크, 500ml, 3개",
+      "store_id": "500043218",
+      "brand": "+쇼핑백&로션본품",
+      "category": "뷰티/헬스",
+      "original_price": 37700,
+      "sale_price": 21400,
+      "discount_rate": 43,
+      "product_url": "https://smartstore.naver.com/main/products/10763703963",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10763703963",
+      "image_url": "https://shop-phinf.pstatic.net/20260422_242/1776848330792RTzKm_JPEG/0425_EC8AA4ED8E98EC859CEB949C_EBB080ED81ACEBB094EC98A4E.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260422_242/1776848330792RTzKm_JPEG/0425_EC8AA4ED8E98EC859CEB949C_EBB080ED81ACEBB094EC98A4E.jpg"
+      ],
+      "rank_or_position": 20,
+      "review_score": 4.89,
+      "review_count": 290,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-25.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-25T13:08:09.908211+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-25",
+      "original_price": 37700,
+      "sale_price": 21400,
+      "discount_rate": 43
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-25",
+      "image_url": "https://shop-phinf.pstatic.net/20260422_242/1776848330792RTzKm_JPEG/0425_EC8AA4ED8E98EC859CEB949C_EBB080ED81ACEBB094EC98A4E.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-25",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "product_id": "11251868537",
+  "deal_type": "스페셜딜",
+  "product_name": "쪄서가는 냉동 찰옥수수 홍찰 백찰 옥수수 10개",
+  "brand": "채널500255345",
+  "category": "기타",
+  "first_seen_date": "2026-04-25",
+  "last_seen_date": "2026-04-25",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 9900,
+  "latest_original_price": 20000,
+  "latest_discount_rate": 50,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20250226_135/1740547347001fdK7m_JPEG/18739287090363103_993979382.jpg",
+  "latest_rank": 7,
+  "product_url": "https://smartstore.naver.com/main/products/11251868537",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 50.0,
+  "max_discount_rate": 50,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-25",
+      "deal_type": "스페셜딜",
+      "product_id": "11251868537",
+      "product_name": "쪄서가는 냉동 찰옥수수 홍찰 백찰 옥수수 10개",
+      "store_id": "500255345",
+      "brand": "채널500255345",
+      "category": "기타",
+      "original_price": 20000,
+      "sale_price": 9900,
+      "discount_rate": 50,
+      "product_url": "https://smartstore.naver.com/main/products/11251868537",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11251868537",
+      "image_url": "https://shop-phinf.pstatic.net/20250226_135/1740547347001fdK7m_JPEG/18739287090363103_993979382.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20250226_135/1740547347001fdK7m_JPEG/18739287090363103_993979382.jpg"
+      ],
+      "rank_or_position": 7,
+      "review_score": 4.66,
+      "review_count": 2349,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-25.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-25T13:08:09.908211+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-25",
+      "original_price": 20000,
+      "sale_price": 9900,
+      "discount_rate": 50
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-25",
+      "image_url": "https://shop-phinf.pstatic.net/20250226_135/1740547347001fdK7m_JPEG/18739287090363103_993979382.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-25",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

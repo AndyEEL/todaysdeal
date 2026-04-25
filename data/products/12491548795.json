@@ -1,0 +1,83 @@
+{
+  "product_id": "12491548795",
+  "deal_type": "스페셜딜",
+  "product_name": "[N배송] 더자리 항균 솔리드 누빔 고정밴드형 침대패드 SS/Q/K 사계절용",
+  "brand": "N배송",
+  "category": "기타",
+  "first_seen_date": "2026-04-25",
+  "last_seen_date": "2026-04-25",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 13900,
+  "latest_original_price": 74900,
+  "latest_discount_rate": 81,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20251112_51/1762929982866RkD72_JPEG/50128589712035028_1913218371.jpg",
+  "latest_rank": 13,
+  "product_url": "https://smartstore.naver.com/main/products/12491548795",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 81.0,
+  "max_discount_rate": 81,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-25",
+      "deal_type": "스페셜딜",
+      "product_id": "12491548795",
+      "product_name": "[N배송] 더자리 항균 솔리드 누빔 고정밴드형 침대패드 SS/Q/K 사계절용",
+      "store_id": "500016197",
+      "brand": "N배송",
+      "category": "기타",
+      "original_price": 74900,
+      "sale_price": 13900,
+      "discount_rate": 81,
+      "product_url": "https://smartstore.naver.com/main/products/12491548795",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/12491548795",
+      "image_url": "https://shop-phinf.pstatic.net/20251112_51/1762929982866RkD72_JPEG/50128589712035028_1913218371.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251112_51/1762929982866RkD72_JPEG/50128589712035028_1913218371.jpg"
+      ],
+      "rank_or_position": 13,
+      "review_score": 4.72,
+      "review_count": 102,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-25.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-25T13:08:09.908211+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-25",
+      "original_price": 74900,
+      "sale_price": 13900,
+      "discount_rate": 81
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-25",
+      "image_url": "https://shop-phinf.pstatic.net/20251112_51/1762929982866RkD72_JPEG/50128589712035028_1913218371.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-25",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

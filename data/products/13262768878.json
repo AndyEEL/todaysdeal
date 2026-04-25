@@ -1,0 +1,83 @@
+{
+  "product_id": "13262768878",
+  "deal_type": "스페셜딜",
+  "product_name": "만토바 골든 엑스트라버진 올리브오일 냉압착 압착 대용량 공복 먹는 이탈리아 프리미엄 1L",
+  "brand": "채널101331865",
+  "category": "기타",
+  "first_seen_date": "2026-04-25",
+  "last_seen_date": "2026-04-25",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 19900,
+  "latest_original_price": 42980,
+  "latest_discount_rate": 53,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260317_211/1773736121278CzbpI_JPEG/36714648926696148_53246637.jpg",
+  "latest_rank": 18,
+  "product_url": "https://smartstore.naver.com/main/products/13262768878",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 53.0,
+  "max_discount_rate": 53,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-25",
+      "deal_type": "스페셜딜",
+      "product_id": "13262768878",
+      "product_name": "만토바 골든 엑스트라버진 올리브오일 냉압착 압착 대용량 공복 먹는 이탈리아 프리미엄 1L",
+      "store_id": "101331865",
+      "brand": "채널101331865",
+      "category": "기타",
+      "original_price": 42980,
+      "sale_price": 19900,
+      "discount_rate": 53,
+      "product_url": "https://smartstore.naver.com/main/products/13262768878",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13262768878",
+      "image_url": "https://shop-phinf.pstatic.net/20260317_211/1773736121278CzbpI_JPEG/36714648926696148_53246637.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260317_211/1773736121278CzbpI_JPEG/36714648926696148_53246637.jpg"
+      ],
+      "rank_or_position": 18,
+      "review_score": 4.98,
+      "review_count": 42,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-25.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-25T13:08:09.908211+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-25",
+      "original_price": 42980,
+      "sale_price": 19900,
+      "discount_rate": 53
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-25",
+      "image_url": "https://shop-phinf.pstatic.net/20260317_211/1773736121278CzbpI_JPEG/36714648926696148_53246637.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-25",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

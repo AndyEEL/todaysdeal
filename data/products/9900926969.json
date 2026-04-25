@@ -5,20 +5,20 @@
   "brand": "슈퍼적립",
   "category": "기타",
   "first_seen_date": "2026-04-17",
-  "last_seen_date": "2026-04-17",
-  "active_days": 1,
-  "current_status": "exited",
+  "last_seen_date": "2026-04-25",
+  "active_days": 2,
+  "current_status": "active",
   "appeared_today": false,
   "disappeared_today": false,
   "latest_sale_price": 28900,
   "latest_original_price": 69800,
   "latest_discount_rate": 58,
   "latest_image_url": "https://shop-phinf.pstatic.net/20260408_63/1775609160706aMw9P_JPEG/122327480088809503_1457070131.jpg",
-  "latest_rank": 29,
+  "latest_rank": 23,
   "product_url": "https://smartstore.naver.com/main/products/9900926969",
   "price_change_count": 0,
   "image_change_count": 0,
-  "deal_cycles": 1,
+  "deal_cycles": 2,
   "average_discount_rate": 58.0,
   "max_discount_rate": 58,
   "timeline": [
@@ -48,6 +48,33 @@
         "selected_tab": "스페셜딜",
         "fetched_at": "2026-04-17T11:15:21.709103+09:00"
       }
+    },
+    {
+      "snapshot_date": "2026-04-25",
+      "deal_type": "스페셜딜",
+      "product_id": "9900926969",
+      "product_name": "[슈퍼적립] CJ 바이오코어 화사 효소 카무트 곡물콤부 저분자 효소 (한포당 2g) 30포, 3개",
+      "store_id": "101111804",
+      "brand": "슈퍼적립",
+      "category": "기타",
+      "original_price": 69800,
+      "sale_price": 28900,
+      "discount_rate": 58,
+      "product_url": "https://smartstore.naver.com/main/products/9900926969",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9900926969",
+      "image_url": "https://shop-phinf.pstatic.net/20260408_63/1775609160706aMw9P_JPEG/122327480088809503_1457070131.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260408_63/1775609160706aMw9P_JPEG/122327480088809503_1457070131.jpg"
+      ],
+      "rank_or_position": 23,
+      "review_score": 4.82,
+      "review_count": 28595,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-25.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-25T13:08:09.908211+09:00"
+      }
     }
   ],
   "price_timeline": [
@@ -56,11 +83,21 @@
       "original_price": 69800,
       "sale_price": 28900,
       "discount_rate": 58
+    },
+    {
+      "date": "2026-04-25",
+      "original_price": 69800,
+      "sale_price": 28900,
+      "discount_rate": 58
     }
   ],
   "image_timeline": [
     {
       "date": "2026-04-17",
+      "image_url": "https://shop-phinf.pstatic.net/20260408_63/1775609160706aMw9P_JPEG/122327480088809503_1457070131.jpg"
+    },
+    {
+      "date": "2026-04-25",
       "image_url": "https://shop-phinf.pstatic.net/20260408_63/1775609160706aMw9P_JPEG/122327480088809503_1457070131.jpg"
     }
   ],
@@ -73,16 +110,28 @@
     {
       "date": "2026-04-17",
       "type": "exited_deal",
-      "summary": "최신 스냅샷 기준 딜에서 이탈했습니다."
+      "summary": "7일 공백 후 이탈로 간주했습니다."
+    },
+    {
+      "date": "2026-04-25",
+      "type": "entered_deal",
+      "summary": "딜에 재진입했습니다."
+    },
+    {
+      "date": "2026-04-25",
+      "type": "price_held_after_exit",
+      "summary": "재진입 시 판매가가 이전 수준으로 유지/하락했습니다.",
+      "from_sale_price": 28900,
+      "to_sale_price": 28900
     }
   ],
   "stats": {
     "price_change_count": 0,
     "image_change_count": 0,
-    "deal_cycles": 1,
-    "post_exit_observed_count": 0,
+    "deal_cycles": 2,
+    "post_exit_observed_count": 1,
     "post_exit_reverted_count": 0,
-    "post_exit_held_count": 0,
+    "post_exit_held_count": 1,
     "replacement_count": 0
   }
 }

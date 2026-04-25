@@ -1,19 +1,19 @@
 {
   "brand": "네이버단독",
-  "snapshot_date": "2026-04-23",
+  "snapshot_date": "2026-04-25",
   "window_days": 7,
   "summary": {
     "brand": "네이버단독",
     "product_total": 4,
     "active_products": 0,
-    "entered_last_7d": 3,
-    "exited_last_7d": 3,
+    "entered_last_7d": 2,
+    "exited_last_7d": 2,
     "avg_active_days": 1.0,
     "avg_discount_rate": 34.5,
     "post_exit_observed_count": 0,
     "price_reverted_after_exit_ratio": null,
     "price_held_after_exit_ratio": null,
-    "strategy_pattern": "신규 유입 확장형"
+    "strategy_pattern": "균형 운영형"
   },
   "top_products": [
     {
@@ -75,7 +75,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 31900,
       "latest_original_price": 45000,
       "latest_discount_rate": 29,
@@ -173,7 +173,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 31900,
       "latest_original_price": 45000,
       "latest_discount_rate": 29,
