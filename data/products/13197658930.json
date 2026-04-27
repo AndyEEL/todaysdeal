@@ -1,0 +1,83 @@
+{
+  "product_id": "13197658930",
+  "deal_type": "스페셜딜",
+  "product_name": "[네이버단독] 리벤스 엔데일리 엠보싱 아기물티슈 100매, 10개",
+  "brand": "네이버단독",
+  "category": "생활/주방",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 8900,
+  "latest_original_price": 15900,
+  "latest_discount_rate": 44,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260304_73/17726160800414LFJ6_JPEG/2616533126839838_1746768761.jpg",
+  "latest_rank": 10,
+  "product_url": "https://smartstore.naver.com/main/products/13197658930",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 44.0,
+  "max_discount_rate": 44,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜딜",
+      "product_id": "13197658930",
+      "product_name": "[네이버단독] 리벤스 엔데일리 엠보싱 아기물티슈 100매, 10개",
+      "store_id": "500000823",
+      "brand": "네이버단독",
+      "category": "생활/주방",
+      "original_price": 15900,
+      "sale_price": 8900,
+      "discount_rate": 44,
+      "product_url": "https://smartstore.naver.com/main/products/13197658930",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13197658930",
+      "image_url": "https://shop-phinf.pstatic.net/20260304_73/17726160800414LFJ6_JPEG/2616533126839838_1746768761.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260304_73/17726160800414LFJ6_JPEG/2616533126839838_1746768761.jpg"
+      ],
+      "rank_or_position": 10,
+      "review_score": 4.8,
+      "review_count": 1384,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 15900,
+      "sale_price": 8900,
+      "discount_rate": 44
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20260304_73/17726160800414LFJ6_JPEG/2616533126839838_1746768761.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

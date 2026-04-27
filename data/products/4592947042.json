@@ -1,0 +1,83 @@
+{
+  "product_id": "4592947042",
+  "deal_type": "스페셜딜",
+  "product_name": "[슈퍼적립] 이클립스 페퍼민트+워터멜론+피치+스트로베리 4종 각2개 (총 8개입)",
+  "brand": "슈퍼적립",
+  "category": "기타",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 16500,
+  "latest_original_price": 18400,
+  "latest_discount_rate": 10,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260331_196/1774921896984Xa0h7_JPEG/24168164706050423_115770836.jpg",
+  "latest_rank": 15,
+  "product_url": "https://smartstore.naver.com/main/products/4592947042",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 10.0,
+  "max_discount_rate": 10,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜딜",
+      "product_id": "4592947042",
+      "product_name": "[슈퍼적립] 이클립스 페퍼민트+워터멜론+피치+스트로베리 4종 각2개 (총 8개입)",
+      "store_id": "500146800",
+      "brand": "슈퍼적립",
+      "category": "기타",
+      "original_price": 18400,
+      "sale_price": 16500,
+      "discount_rate": 10,
+      "product_url": "https://smartstore.naver.com/main/products/4592947042",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4592947042",
+      "image_url": "https://shop-phinf.pstatic.net/20260331_196/1774921896984Xa0h7_JPEG/24168164706050423_115770836.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260331_196/1774921896984Xa0h7_JPEG/24168164706050423_115770836.jpg"
+      ],
+      "rank_or_position": 15,
+      "review_score": 4.9,
+      "review_count": 42147,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 18400,
+      "sale_price": 16500,
+      "discount_rate": 10
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20260331_196/1774921896984Xa0h7_JPEG/24168164706050423_115770836.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

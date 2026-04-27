@@ -1,0 +1,83 @@
+{
+  "product_id": "13380507716",
+  "deal_type": "스페셜딜",
+  "product_name": "[2개 구매 시 20%][Sea to Table] 간편 손질 오징어링 500g (냉동)",
+  "brand": "2개 구매 시 20%",
+  "category": "기타",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 8200,
+  "latest_original_price": 8200,
+  "latest_discount_rate": 0,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260410_161/1775788650409tjaMT_JPEG/161133631240718_1204083633.jpg",
+  "latest_rank": 4,
+  "product_url": "https://smartstore.naver.com/main/products/13380507716",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 0.0,
+  "max_discount_rate": 0,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜딜",
+      "product_id": "13380507716",
+      "product_name": "[2개 구매 시 20%][Sea to Table] 간편 손질 오징어링 500g (냉동)",
+      "store_id": "102655931",
+      "brand": "2개 구매 시 20%",
+      "category": "기타",
+      "original_price": 8200,
+      "sale_price": 8200,
+      "discount_rate": 0,
+      "product_url": "https://smartstore.naver.com/main/products/13380507716",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13380507716",
+      "image_url": "https://shop-phinf.pstatic.net/20260410_161/1775788650409tjaMT_JPEG/161133631240718_1204083633.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260410_161/1775788650409tjaMT_JPEG/161133631240718_1204083633.jpg"
+      ],
+      "rank_or_position": 4,
+      "review_score": 4.77,
+      "review_count": 52,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 8200,
+      "sale_price": 8200,
+      "discount_rate": 0
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20260410_161/1775788650409tjaMT_JPEG/161133631240718_1204083633.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

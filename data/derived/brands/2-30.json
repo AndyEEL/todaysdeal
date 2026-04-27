@@ -1,6 +1,6 @@
 {
   "brand": "2개 구매 시 30%",
-  "snapshot_date": "2026-04-25",
+  "snapshot_date": "2026-04-27",
   "window_days": 7,
   "summary": {
     "brand": "2개 구매 시 30%",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 8960,
       "latest_original_price": 8960,
       "latest_discount_rate": 0,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 8960,
       "latest_original_price": 8960,
       "latest_discount_rate": 0,

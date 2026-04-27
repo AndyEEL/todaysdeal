@@ -1,0 +1,71 @@
+{
+  "brand": "시크릿",
+  "snapshot_date": "2026-04-27",
+  "window_days": 7,
+  "summary": {
+    "brand": "시크릿",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 4.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "균형 운영형"
+  },
+  "top_products": [
+    {
+      "product_id": "13030417556",
+      "deal_type": "스페셜 멤버십",
+      "product_name": "[시크릿]트레비 무라벨 350ml 40펫 4종",
+      "brand": "시크릿",
+      "category": "육아/반려",
+      "first_seen_date": "2026-04-27",
+      "last_seen_date": "2026-04-27",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 22800,
+      "latest_original_price": 23800,
+      "latest_discount_rate": 4,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20230425_236/1682383961078K1J7H_JPEG/20464818206925391_27249905.jpg",
+      "latest_rank": 3,
+      "product_url": "https://smartstore.naver.com/main/products/13030417556",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 4.0,
+      "max_discount_rate": 4
+    }
+  ],
+  "products": [
+    {
+      "product_id": "13030417556",
+      "deal_type": "스페셜 멤버십",
+      "product_name": "[시크릿]트레비 무라벨 350ml 40펫 4종",
+      "brand": "시크릿",
+      "category": "육아/반려",
+      "first_seen_date": "2026-04-27",
+      "last_seen_date": "2026-04-27",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 22800,
+      "latest_original_price": 23800,
+      "latest_discount_rate": 4,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20230425_236/1682383961078K1J7H_JPEG/20464818206925391_27249905.jpg",
+      "latest_rank": 3,
+      "product_url": "https://smartstore.naver.com/main/products/13030417556",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 4.0,
+      "max_discount_rate": 4
+    }
+  ],
+  "slug": "brand-12b30b7b61"
+}

@@ -1,0 +1,83 @@
+{
+  "product_id": "10285398141",
+  "deal_type": "스페셜딜",
+  "product_name": "[N배송] 더자리 시원한 큐라론 쿨파워 냉감 밴딩형 베개커버 침대패드 세트",
+  "brand": "N배송",
+  "category": "생활/주방",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 45900,
+  "latest_original_price": 65900,
+  "latest_discount_rate": 30,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260327_245/1774574659663wkbUN_JPEG/43234094538912324_1900415570.jpg",
+  "latest_rank": 28,
+  "product_url": "https://smartstore.naver.com/main/products/10285398141",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 30.0,
+  "max_discount_rate": 30,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜딜",
+      "product_id": "10285398141",
+      "product_name": "[N배송] 더자리 시원한 큐라론 쿨파워 냉감 밴딩형 베개커버 침대패드 세트",
+      "store_id": "500016197",
+      "brand": "N배송",
+      "category": "생활/주방",
+      "original_price": 65900,
+      "sale_price": 45900,
+      "discount_rate": 30,
+      "product_url": "https://smartstore.naver.com/main/products/10285398141",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/10285398141",
+      "image_url": "https://shop-phinf.pstatic.net/20260327_245/1774574659663wkbUN_JPEG/43234094538912324_1900415570.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260327_245/1774574659663wkbUN_JPEG/43234094538912324_1900415570.jpg"
+      ],
+      "rank_or_position": 28,
+      "review_score": 4.64,
+      "review_count": 11,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 65900,
+      "sale_price": 45900,
+      "discount_rate": 30
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20260327_245/1774574659663wkbUN_JPEG/43234094538912324_1900415570.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

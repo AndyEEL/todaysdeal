@@ -1,0 +1,83 @@
+{
+  "product_id": "13243679894",
+  "deal_type": "스페셜 체험딜",
+  "product_name": "[쇼핑백 증정] 원씽 나이아신아마이드 글루타치온 미스트 100ml, 1개",
+  "brand": "쇼핑백 증정",
+  "category": "기타",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 1990,
+  "latest_original_price": 24000,
+  "latest_discount_rate": 91,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260331_73/1774944927283meChi_JPEG/20902001084669632_2095854744.jpg",
+  "latest_rank": 7,
+  "product_url": "https://smartstore.naver.com/main/products/13243679894",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 91.0,
+  "max_discount_rate": 91,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜 체험딜",
+      "product_id": "13243679894",
+      "product_name": "[쇼핑백 증정] 원씽 나이아신아마이드 글루타치온 미스트 100ml, 1개",
+      "store_id": "100369232",
+      "brand": "쇼핑백 증정",
+      "category": "기타",
+      "original_price": 24000,
+      "sale_price": 1990,
+      "discount_rate": 91,
+      "product_url": "https://smartstore.naver.com/main/products/13243679894",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13243679894",
+      "image_url": "https://shop-phinf.pstatic.net/20260331_73/1774944927283meChi_JPEG/20902001084669632_2095854744.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260331_73/1774944927283meChi_JPEG/20902001084669632_2095854744.jpg"
+      ],
+      "rank_or_position": 7,
+      "review_score": 5.0,
+      "review_count": 6,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 24000,
+      "sale_price": 1990,
+      "discount_rate": 91
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20260331_73/1774944927283meChi_JPEG/20902001084669632_2095854744.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "product_id": "9560539005",
+  "deal_type": "스페셜딜",
+  "product_name": "HP 오멘 16 게이밍 노트북 LM 인텔 AI 울트라 U5 RTX5060 포토샵 챗GPT",
+  "brand": "채널101424907",
+  "category": "디지털/가전",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 1899000,
+  "latest_original_price": 2349000,
+  "latest_discount_rate": 19,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260205_175/17702592699563QjOB_PNG/17000674036969456_236419663.png",
+  "latest_rank": 39,
+  "product_url": "https://smartstore.naver.com/main/products/9560539005",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 19.0,
+  "max_discount_rate": 19,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜딜",
+      "product_id": "9560539005",
+      "product_name": "HP 오멘 16 게이밍 노트북 LM 인텔 AI 울트라 U5 RTX5060 포토샵 챗GPT",
+      "store_id": "101424907",
+      "brand": "채널101424907",
+      "category": "디지털/가전",
+      "original_price": 2349000,
+      "sale_price": 1899000,
+      "discount_rate": 19,
+      "product_url": "https://smartstore.naver.com/main/products/9560539005",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/9560539005",
+      "image_url": "https://shop-phinf.pstatic.net/20260205_175/17702592699563QjOB_PNG/17000674036969456_236419663.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260205_175/17702592699563QjOB_PNG/17000674036969456_236419663.png"
+      ],
+      "rank_or_position": 39,
+      "review_score": 4.84,
+      "review_count": 424,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 2349000,
+      "sale_price": 1899000,
+      "discount_rate": 19
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20260205_175/17702592699563QjOB_PNG/17000674036969456_236419663.png"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

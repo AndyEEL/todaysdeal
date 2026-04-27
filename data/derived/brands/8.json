@@ -1,6 +1,6 @@
 {
   "brand": "8매",
-  "snapshot_date": "2026-04-25",
+  "snapshot_date": "2026-04-27",
   "window_days": 7,
   "summary": {
     "brand": "8매",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 88000,
       "latest_original_price": 112000,
       "latest_discount_rate": 21,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 88000,
       "latest_original_price": 112000,
       "latest_discount_rate": 21,

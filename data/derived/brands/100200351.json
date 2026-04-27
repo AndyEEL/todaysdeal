@@ -1,0 +1,71 @@
+{
+  "brand": "채널100200351",
+  "snapshot_date": "2026-04-27",
+  "window_days": 7,
+  "summary": {
+    "brand": "채널100200351",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 89.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "고할인 단기 집중형"
+  },
+  "top_products": [
+    {
+      "product_id": "4072544295",
+      "deal_type": "스페셜딜",
+      "product_name": "브레드이발소X닥터바이오 1시간 라이브, ~57% OFFㅣ닥터바이오 가려움개선 고보습 로션,워시,샴푸,크림 등 모음전 특가",
+      "brand": "채널100200351",
+      "category": "뷰티/헬스",
+      "first_seen_date": "2026-04-27",
+      "last_seen_date": "2026-04-27",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 16900,
+      "latest_original_price": 158000,
+      "latest_discount_rate": 89,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260427_50/1777252291123IwSCg_JPEG/57165100990800941_448565709.jpg",
+      "latest_rank": 19,
+      "product_url": "https://smartstore.naver.com/main/products/4072544295",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 89.0,
+      "max_discount_rate": 89
+    }
+  ],
+  "products": [
+    {
+      "product_id": "4072544295",
+      "deal_type": "스페셜딜",
+      "product_name": "브레드이발소X닥터바이오 1시간 라이브, ~57% OFFㅣ닥터바이오 가려움개선 고보습 로션,워시,샴푸,크림 등 모음전 특가",
+      "brand": "채널100200351",
+      "category": "뷰티/헬스",
+      "first_seen_date": "2026-04-27",
+      "last_seen_date": "2026-04-27",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 16900,
+      "latest_original_price": 158000,
+      "latest_discount_rate": 89,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260427_50/1777252291123IwSCg_JPEG/57165100990800941_448565709.jpg",
+      "latest_rank": 19,
+      "product_url": "https://smartstore.naver.com/main/products/4072544295",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 89.0,
+      "max_discount_rate": 89
+    }
+  ],
+  "slug": "100200351"
+}

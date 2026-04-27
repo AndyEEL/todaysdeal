@@ -1,0 +1,83 @@
+{
+  "product_id": "13074658352",
+  "deal_type": "스페셜딜",
+  "product_name": "1996스탠다드 남성용 무지 드라이핏 하프 삭스 10켤레 세트",
+  "brand": "채널1100075478",
+  "category": "기타",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 9900,
+  "latest_original_price": 16900,
+  "latest_discount_rate": 41,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260206_51/1770350867866pfOcq_JPEG/43170922007909951_1533011159.jpg",
+  "latest_rank": 11,
+  "product_url": "https://smartstore.naver.com/main/products/13074658352",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 41.0,
+  "max_discount_rate": 41,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜딜",
+      "product_id": "13074658352",
+      "product_name": "1996스탠다드 남성용 무지 드라이핏 하프 삭스 10켤레 세트",
+      "store_id": "1100075478",
+      "brand": "채널1100075478",
+      "category": "기타",
+      "original_price": 16900,
+      "sale_price": 9900,
+      "discount_rate": 41,
+      "product_url": "https://smartstore.naver.com/main/products/13074658352",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13074658352",
+      "image_url": "https://shop-phinf.pstatic.net/20260206_51/1770350867866pfOcq_JPEG/43170922007909951_1533011159.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260206_51/1770350867866pfOcq_JPEG/43170922007909951_1533011159.jpg"
+      ],
+      "rank_or_position": 11,
+      "review_score": 5.0,
+      "review_count": 2,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 16900,
+      "sale_price": 9900,
+      "discount_rate": 41
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20260206_51/1770350867866pfOcq_JPEG/43170922007909951_1533011159.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

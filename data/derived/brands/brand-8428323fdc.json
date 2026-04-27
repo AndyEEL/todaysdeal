@@ -1,0 +1,71 @@
+{
+  "brand": "대림시장 명물식",
+  "snapshot_date": "2026-04-27",
+  "window_days": 7,
+  "summary": {
+    "brand": "대림시장 명물식",
+    "product_total": 1,
+    "active_products": 1,
+    "entered_last_7d": 1,
+    "exited_last_7d": 0,
+    "avg_active_days": 1.0,
+    "avg_discount_rate": 44.0,
+    "post_exit_observed_count": 0,
+    "price_reverted_after_exit_ratio": null,
+    "price_held_after_exit_ratio": null,
+    "strategy_pattern": "고할인 단기 집중형"
+  },
+  "top_products": [
+    {
+      "product_id": "11725805814",
+      "deal_type": "스페셜딜",
+      "product_name": "[대림시장 명물식] 감자국 거리 명물 착한 응암동 감자탕 괴물용량 5KG",
+      "brand": "대림시장 명물식",
+      "category": "기타",
+      "first_seen_date": "2026-04-27",
+      "last_seen_date": "2026-04-27",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 18900,
+      "latest_original_price": 33900,
+      "latest_discount_rate": 44,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260424_299/17770044688580xWg8_PNG/111137347390789254_769806065.png",
+      "latest_rank": 21,
+      "product_url": "https://smartstore.naver.com/main/products/11725805814",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 44.0,
+      "max_discount_rate": 44
+    }
+  ],
+  "products": [
+    {
+      "product_id": "11725805814",
+      "deal_type": "스페셜딜",
+      "product_name": "[대림시장 명물식] 감자국 거리 명물 착한 응암동 감자탕 괴물용량 5KG",
+      "brand": "대림시장 명물식",
+      "category": "기타",
+      "first_seen_date": "2026-04-27",
+      "last_seen_date": "2026-04-27",
+      "active_days": 1,
+      "current_status": "entering",
+      "appeared_today": true,
+      "disappeared_today": false,
+      "latest_sale_price": 18900,
+      "latest_original_price": 33900,
+      "latest_discount_rate": 44,
+      "latest_image_url": "https://shop-phinf.pstatic.net/20260424_299/17770044688580xWg8_PNG/111137347390789254_769806065.png",
+      "latest_rank": 21,
+      "product_url": "https://smartstore.naver.com/main/products/11725805814",
+      "price_change_count": 0,
+      "image_change_count": 0,
+      "deal_cycles": 1,
+      "average_discount_rate": 44.0,
+      "max_discount_rate": 44
+    }
+  ],
+  "slug": "brand-8428323fdc"
+}

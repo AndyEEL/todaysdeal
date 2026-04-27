@@ -1,6 +1,6 @@
 {
   "brand": "채널500192537",
-  "snapshot_date": "2026-04-25",
+  "snapshot_date": "2026-04-27",
   "window_days": 7,
   "summary": {
     "brand": "채널500192537",
@@ -27,7 +27,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 990,
       "latest_original_price": 3000,
       "latest_discount_rate": 67,
@@ -53,7 +53,7 @@
       "active_days": 1,
       "current_status": "exited",
       "appeared_today": false,
-      "disappeared_today": true,
+      "disappeared_today": false,
       "latest_sale_price": 990,
       "latest_original_price": 3000,
       "latest_discount_rate": 67,

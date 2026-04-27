@@ -1,0 +1,83 @@
+{
+  "product_id": "4072544295",
+  "deal_type": "스페셜딜",
+  "product_name": "브레드이발소X닥터바이오 1시간 라이브, ~57% OFFㅣ닥터바이오 가려움개선 고보습 로션,워시,샴푸,크림 등 모음전 특가",
+  "brand": "채널100200351",
+  "category": "뷰티/헬스",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 16900,
+  "latest_original_price": 158000,
+  "latest_discount_rate": 89,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260427_50/1777252291123IwSCg_JPEG/57165100990800941_448565709.jpg",
+  "latest_rank": 19,
+  "product_url": "https://smartstore.naver.com/main/products/4072544295",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 89.0,
+  "max_discount_rate": 89,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜딜",
+      "product_id": "4072544295",
+      "product_name": "브레드이발소X닥터바이오 1시간 라이브, ~57% OFFㅣ닥터바이오 가려움개선 고보습 로션,워시,샴푸,크림 등 모음전 특가",
+      "store_id": "100200351",
+      "brand": "채널100200351",
+      "category": "뷰티/헬스",
+      "original_price": 158000,
+      "sale_price": 16900,
+      "discount_rate": 89,
+      "product_url": "https://smartstore.naver.com/main/products/4072544295",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/4072544295",
+      "image_url": "https://shop-phinf.pstatic.net/20260427_50/1777252291123IwSCg_JPEG/57165100990800941_448565709.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260427_50/1777252291123IwSCg_JPEG/57165100990800941_448565709.jpg"
+      ],
+      "rank_or_position": 19,
+      "review_score": 4.87,
+      "review_count": 203212,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 158000,
+      "sale_price": 16900,
+      "discount_rate": 89
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20260427_50/1777252291123IwSCg_JPEG/57165100990800941_448565709.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

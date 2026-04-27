@@ -1,0 +1,83 @@
+{
+  "product_id": "5279251727",
+  "deal_type": "스페셜딜",
+  "product_name": "좋은느낌 입는 오버나이트 8매 X 3팩 / 입는생리대",
+  "brand": "채널100997360",
+  "category": "기타",
+  "first_seen_date": "2026-04-27",
+  "last_seen_date": "2026-04-27",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 20000,
+  "latest_original_price": 38100,
+  "latest_discount_rate": 47,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20251002_66/1759380443827WVdgz_JPEG/5337517520662830_516072966.jpg",
+  "latest_rank": 22,
+  "product_url": "https://smartstore.naver.com/main/products/5279251727",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 47.0,
+  "max_discount_rate": 47,
+  "timeline": [
+    {
+      "snapshot_date": "2026-04-27",
+      "deal_type": "스페셜딜",
+      "product_id": "5279251727",
+      "product_name": "좋은느낌 입는 오버나이트 8매 X 3팩 / 입는생리대",
+      "store_id": "100997360",
+      "brand": "채널100997360",
+      "category": "기타",
+      "original_price": 38100,
+      "sale_price": 20000,
+      "discount_rate": 47,
+      "product_url": "https://smartstore.naver.com/main/products/5279251727",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/5279251727",
+      "image_url": "https://shop-phinf.pstatic.net/20251002_66/1759380443827WVdgz_JPEG/5337517520662830_516072966.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20251002_66/1759380443827WVdgz_JPEG/5337517520662830_516072966.jpg"
+      ],
+      "rank_or_position": 22,
+      "review_score": 4.9,
+      "review_count": 40792,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-04-27.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-04-27T11:15:07.463038+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-04-27",
+      "original_price": 38100,
+      "sale_price": 20000,
+      "discount_rate": 47
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-04-27",
+      "image_url": "https://shop-phinf.pstatic.net/20251002_66/1759380443827WVdgz_JPEG/5337517520662830_516072966.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-04-27",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}
