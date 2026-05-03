@@ -1,0 +1,83 @@
+{
+  "product_id": "11437539964",
+  "deal_type": "스페셜딜",
+  "product_name": "스미후루 스위트마운틴 바나나 800g 내외 4개 (베트남)",
+  "brand": "채널500146614",
+  "category": "기타",
+  "first_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-03",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 12400,
+  "latest_original_price": 22900,
+  "latest_discount_rate": 45,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20241226_117/1735200359212SHpiI_JPEG/25936470386817212_801646245.jpg",
+  "latest_rank": 25,
+  "product_url": "https://smartstore.naver.com/main/products/11437539964",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 45.0,
+  "max_discount_rate": 45,
+  "timeline": [
+    {
+      "snapshot_date": "2026-05-03",
+      "deal_type": "스페셜딜",
+      "product_id": "11437539964",
+      "product_name": "스미후루 스위트마운틴 바나나 800g 내외 4개 (베트남)",
+      "store_id": "500146614",
+      "brand": "채널500146614",
+      "category": "기타",
+      "original_price": 22900,
+      "sale_price": 12400,
+      "discount_rate": 45,
+      "product_url": "https://smartstore.naver.com/main/products/11437539964",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11437539964",
+      "image_url": "https://shop-phinf.pstatic.net/20241226_117/1735200359212SHpiI_JPEG/25936470386817212_801646245.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20241226_117/1735200359212SHpiI_JPEG/25936470386817212_801646245.jpg"
+      ],
+      "rank_or_position": 25,
+      "review_score": 4.69,
+      "review_count": 546,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-05-03.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-05-03T11:47:41.492053+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-05-03",
+      "original_price": 22900,
+      "sale_price": 12400,
+      "discount_rate": 45
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-05-03",
+      "image_url": "https://shop-phinf.pstatic.net/20241226_117/1735200359212SHpiI_JPEG/25936470386817212_801646245.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-05-03",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

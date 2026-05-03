@@ -1,0 +1,83 @@
+{
+  "product_id": "11162884380",
+  "deal_type": "스페셜딜",
+  "product_name": "[슈퍼적립] [12+12] 오뚜기 컵누들 참깨라면 12개+매콤한맛 12개 외 14종",
+  "brand": "슈퍼적립",
+  "category": "식품/음료",
+  "first_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-03",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 27900,
+  "latest_original_price": 40560,
+  "latest_discount_rate": 31,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260320_215/1774013395208sulB5_JPEG/108146239334162105_606233396.jpg",
+  "latest_rank": 15,
+  "product_url": "https://smartstore.naver.com/main/products/11162884380",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 31.0,
+  "max_discount_rate": 31,
+  "timeline": [
+    {
+      "snapshot_date": "2026-05-03",
+      "deal_type": "스페셜딜",
+      "product_id": "11162884380",
+      "product_name": "[슈퍼적립] [12+12] 오뚜기 컵누들 참깨라면 12개+매콤한맛 12개 외 14종",
+      "store_id": "101078690",
+      "brand": "슈퍼적립",
+      "category": "식품/음료",
+      "original_price": 40560,
+      "sale_price": 27900,
+      "discount_rate": 31,
+      "product_url": "https://smartstore.naver.com/main/products/11162884380",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11162884380",
+      "image_url": "https://shop-phinf.pstatic.net/20260320_215/1774013395208sulB5_JPEG/108146239334162105_606233396.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260320_215/1774013395208sulB5_JPEG/108146239334162105_606233396.jpg"
+      ],
+      "rank_or_position": 15,
+      "review_score": 4.94,
+      "review_count": 9155,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-05-03.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-05-03T11:47:41.492053+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-05-03",
+      "original_price": 40560,
+      "sale_price": 27900,
+      "discount_rate": 31
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-05-03",
+      "image_url": "https://shop-phinf.pstatic.net/20260320_215/1774013395208sulB5_JPEG/108146239334162105_606233396.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-05-03",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

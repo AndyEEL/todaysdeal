@@ -1,0 +1,83 @@
+{
+  "product_id": "13075048758",
+  "deal_type": "스페셜딜",
+  "product_name": "룰루렐라 국산양말 중목 장목 발목 학생 무지 골지 여자 남자 양말 기획전",
+  "brand": "채널102016670",
+  "category": "패션",
+  "first_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-03",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 7900,
+  "latest_original_price": 13900,
+  "latest_discount_rate": 43,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260206_246/1770353494718BWjkI_JPEG/104486286814911019_814469546.jpg",
+  "latest_rank": 8,
+  "product_url": "https://smartstore.naver.com/main/products/13075048758",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 43.0,
+  "max_discount_rate": 43,
+  "timeline": [
+    {
+      "snapshot_date": "2026-05-03",
+      "deal_type": "스페셜딜",
+      "product_id": "13075048758",
+      "product_name": "룰루렐라 국산양말 중목 장목 발목 학생 무지 골지 여자 남자 양말 기획전",
+      "store_id": "102016670",
+      "brand": "채널102016670",
+      "category": "패션",
+      "original_price": 13900,
+      "sale_price": 7900,
+      "discount_rate": 43,
+      "product_url": "https://smartstore.naver.com/main/products/13075048758",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/13075048758",
+      "image_url": "https://shop-phinf.pstatic.net/20260206_246/1770353494718BWjkI_JPEG/104486286814911019_814469546.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260206_246/1770353494718BWjkI_JPEG/104486286814911019_814469546.jpg"
+      ],
+      "rank_or_position": 8,
+      "review_score": 4.76,
+      "review_count": 502,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-05-03.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-05-03T11:47:41.492053+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-05-03",
+      "original_price": 13900,
+      "sale_price": 7900,
+      "discount_rate": 43
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-05-03",
+      "image_url": "https://shop-phinf.pstatic.net/20260206_246/1770353494718BWjkI_JPEG/104486286814911019_814469546.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-05-03",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

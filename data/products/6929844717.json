@@ -1,0 +1,83 @@
+{
+  "product_id": "6929844717",
+  "deal_type": "스페셜딜",
+  "product_name": "리셀 NEW 100 수압상승 녹물제거 샤워기(필터포함) 1개+필터 3개",
+  "brand": "채널100311756",
+  "category": "기타",
+  "first_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-03",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 3900,
+  "latest_original_price": 30000,
+  "latest_discount_rate": 87,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20240426_241/17140924423884mbhx_PNG/115228341080212839_357952378.png",
+  "latest_rank": 21,
+  "product_url": "https://smartstore.naver.com/main/products/6929844717",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 87.0,
+  "max_discount_rate": 87,
+  "timeline": [
+    {
+      "snapshot_date": "2026-05-03",
+      "deal_type": "스페셜딜",
+      "product_id": "6929844717",
+      "product_name": "리셀 NEW 100 수압상승 녹물제거 샤워기(필터포함) 1개+필터 3개",
+      "store_id": "100311756",
+      "brand": "채널100311756",
+      "category": "기타",
+      "original_price": 30000,
+      "sale_price": 3900,
+      "discount_rate": 87,
+      "product_url": "https://smartstore.naver.com/main/products/6929844717",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/6929844717",
+      "image_url": "https://shop-phinf.pstatic.net/20240426_241/17140924423884mbhx_PNG/115228341080212839_357952378.png",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20240426_241/17140924423884mbhx_PNG/115228341080212839_357952378.png"
+      ],
+      "rank_or_position": 21,
+      "review_score": 4.76,
+      "review_count": 32639,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-05-03.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-05-03T11:47:41.492053+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-05-03",
+      "original_price": 30000,
+      "sale_price": 3900,
+      "discount_rate": 87
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-05-03",
+      "image_url": "https://shop-phinf.pstatic.net/20240426_241/17140924423884mbhx_PNG/115228341080212839_357952378.png"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-05-03",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}

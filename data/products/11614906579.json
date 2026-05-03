@@ -1,0 +1,83 @@
+{
+  "product_id": "11614906579",
+  "deal_type": "스페셜딜",
+  "product_name": "삼성 비스포크 AI콤보 세탁25kg 건조15kg 일체형 1등급 화이트 WD80F25CHW",
+  "brand": "채널500090577",
+  "category": "기타",
+  "first_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-03",
+  "active_days": 1,
+  "current_status": "entering",
+  "appeared_today": true,
+  "disappeared_today": false,
+  "latest_sale_price": 2889000,
+  "latest_original_price": 3049000,
+  "latest_discount_rate": 5,
+  "latest_image_url": "https://shop-phinf.pstatic.net/20260424_63/1776997724133r9WWO_JPEG/1397337927683118_656955901.jpg",
+  "latest_rank": 11,
+  "product_url": "https://smartstore.naver.com/main/products/11614906579",
+  "price_change_count": 0,
+  "image_change_count": 0,
+  "deal_cycles": 1,
+  "average_discount_rate": 5.0,
+  "max_discount_rate": 5,
+  "timeline": [
+    {
+      "snapshot_date": "2026-05-03",
+      "deal_type": "스페셜딜",
+      "product_id": "11614906579",
+      "product_name": "삼성 비스포크 AI콤보 세탁25kg 건조15kg 일체형 1등급 화이트 WD80F25CHW",
+      "store_id": "500090577",
+      "brand": "채널500090577",
+      "category": "기타",
+      "original_price": 3049000,
+      "sale_price": 2889000,
+      "discount_rate": 5,
+      "product_url": "https://smartstore.naver.com/main/products/11614906579",
+      "mobile_product_url": "https://smartstore.naver.com/main/products/11614906579",
+      "image_url": "https://shop-phinf.pstatic.net/20260424_63/1776997724133r9WWO_JPEG/1397337927683118_656955901.jpg",
+      "image_urls": [
+        "https://shop-phinf.pstatic.net/20260424_63/1776997724133r9WWO_JPEG/1397337927683118_656955901.jpg"
+      ],
+      "rank_or_position": 11,
+      "review_score": 4.91,
+      "review_count": 2038,
+      "raw_snapshot_source": {
+        "snapshot_file": "data/daily/2026-05-03.json",
+        "source_url": "https://shopping.naver.com/promotion",
+        "selected_tab": "스페셜딜",
+        "fetched_at": "2026-05-03T11:47:41.492053+09:00"
+      }
+    }
+  ],
+  "price_timeline": [
+    {
+      "date": "2026-05-03",
+      "original_price": 3049000,
+      "sale_price": 2889000,
+      "discount_rate": 5
+    }
+  ],
+  "image_timeline": [
+    {
+      "date": "2026-05-03",
+      "image_url": "https://shop-phinf.pstatic.net/20260424_63/1776997724133r9WWO_JPEG/1397337927683118_656955901.jpg"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "date": "2026-05-03",
+      "type": "entered_deal",
+      "summary": "딜에 처음 진입했습니다."
+    }
+  ],
+  "stats": {
+    "price_change_count": 0,
+    "image_change_count": 0,
+    "deal_cycles": 1,
+    "post_exit_observed_count": 0,
+    "post_exit_reverted_count": 0,
+    "post_exit_held_count": 0,
+    "replacement_count": 0
+  }
+}
